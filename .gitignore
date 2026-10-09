@@ -218,3 +218,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Android Studio / Kotlin
+.gradle/
+.idea/
+**/build/
+local.properties
+*.iml
+.externalNativeBuild/
+.cxx/
+
+# Machine Learning datasets and generated artifacts
+ml/data/
+ml/models/*.keras
+ml/models/*.h5
+ml/models/*.tflite
+ml/models/checkpoints/
+
+# Temporary files
+.DS_Store
+Thumbs.db
