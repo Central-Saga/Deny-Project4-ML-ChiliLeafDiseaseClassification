@@ -239,3 +239,6 @@ ml/models/checkpoints/
 # Temporary files
 .DS_Store
 Thumbs.db
+
+# Allow final TensorFlow Lite model
+!ml/models/mobilenetv2_chili_float32.tflite

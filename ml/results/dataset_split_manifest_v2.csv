@@ -1,0 +1,1549 @@
+relative_path,class,group,split
+Anthracnose/IMG_20250615_160619_644.jpg,Anthracnose,0,train
+Anthracnose/IMG_20250615_160624_405.jpg,Anthracnose,1,train
+Anthracnose/IMG_20250615_160631_931.jpg,Anthracnose,2,train
+Anthracnose/IMG_20250615_160652_664.jpg,Anthracnose,3,train
+Anthracnose/IMG_20250615_160702_152.jpg,Anthracnose,4,train
+Anthracnose/IMG_20250615_160718_891.jpg,Anthracnose,5,train
+Anthracnose/IMG_20250615_160723_323.jpg,Anthracnose,6,train
+Anthracnose/IMG_20250615_160727_992.jpg,Anthracnose,7,test
+Anthracnose/IMG_20250615_160741_688.jpg,Anthracnose,8,train
+Anthracnose/IMG_20250615_160749_376.jpg,Anthracnose,9,train
+Anthracnose/IMG_20250615_160805_071.jpg,Anthracnose,10,train
+Anthracnose/IMG_20250615_160812_369.jpg,Anthracnose,11,train
+Anthracnose/IMG_20250615_160818_590.jpg,Anthracnose,12,train
+Anthracnose/IMG_20250615_160822_844.jpg,Anthracnose,13,train
+Anthracnose/IMG_20250615_160831_923.jpg,Anthracnose,14,test
+Anthracnose/IMG_20250615_160836_630.jpg,Anthracnose,15,val
+Anthracnose/IMG_20250615_160840_184.jpg,Anthracnose,16,train
+Anthracnose/IMG_20250615_160846_262.jpg,Anthracnose,17,train
+Anthracnose/IMG_20250615_160847_809.jpg,Anthracnose,18,train
+Anthracnose/IMG_20250615_160853_933.jpg,Anthracnose,19,test
+Anthracnose/IMG_20250615_160901_338.jpg,Anthracnose,20,train
+Anthracnose/IMG_20250615_160909_247.jpg,Anthracnose,21,val
+Anthracnose/IMG_20250615_160913_178.jpg,Anthracnose,22,val
+Anthracnose/IMG_20250615_160914_144.jpg,Anthracnose,23,train
+Anthracnose/IMG_20250615_160919_012.jpg,Anthracnose,24,train
+Anthracnose/IMG_20250615_160931_319.jpg,Anthracnose,25,train
+Anthracnose/IMG_20250615_160946_355.jpg,Anthracnose,26,train
+Anthracnose/IMG_20250615_160956_409.jpg,Anthracnose,27,train
+Anthracnose/IMG_20250615_161004_065.jpg,Anthracnose,28,train
+Anthracnose/IMG_20250615_161011_674.jpg,Anthracnose,29,train
+Anthracnose/IMG_20250615_161018_687.jpg,Anthracnose,30,val
+Anthracnose/IMG_20250615_161048_494.jpg,Anthracnose,28,train
+Anthracnose/IMG_20250615_161054_822.jpg,Anthracnose,22,val
+Anthracnose/IMG_20250615_161059_295.jpg,Anthracnose,31,train
+Anthracnose/IMG_20250615_161105_592.jpg,Anthracnose,32,train
+Anthracnose/IMG_20250615_161122_773.jpg,Anthracnose,33,train
+Anthracnose/IMG_20250615_161128_465.jpg,Anthracnose,34,test
+Anthracnose/IMG_20250615_161131_551.jpg,Anthracnose,35,train
+Anthracnose/IMG_20250615_161139_044.jpg,Anthracnose,36,train
+Anthracnose/IMG_20250615_161142_039.jpg,Anthracnose,37,test
+Anthracnose/IMG_20250615_161154_853.jpg,Anthracnose,38,train
+Anthracnose/IMG_20250615_161159_766.jpg,Anthracnose,39,train
+Anthracnose/IMG_20250615_161204_312.jpg,Anthracnose,40,train
+Anthracnose/IMG_20250615_161231_420.jpg,Anthracnose,41,train
+Anthracnose/IMG_20250615_161235_251.jpg,Anthracnose,42,val
+Anthracnose/IMG_20250615_161241_260.jpg,Anthracnose,43,train
+Anthracnose/IMG_20250615_161246_187.jpg,Anthracnose,44,train
+Anthracnose/IMG_20250615_161257_997.jpg,Anthracnose,45,train
+Anthracnose/IMG_20250615_161309_001.jpg,Anthracnose,46,train
+Anthracnose/IMG_20250615_161313_786.jpg,Anthracnose,47,train
+Anthracnose/IMG_20250615_161319_900.jpg,Anthracnose,48,train
+Anthracnose/IMG_20250615_161324_636.jpg,Anthracnose,49,test
+Anthracnose/IMG_20250615_161334_240.jpg,Anthracnose,50,train
+Anthracnose/IMG_20250615_161408_552.jpg,Anthracnose,51,val
+Anthracnose/IMG_20250615_161411_559.jpg,Anthracnose,52,train
+Anthracnose/IMG_20250615_161416_025.jpg,Anthracnose,53,train
+Anthracnose/IMG_20250615_161432_775.jpg,Anthracnose,54,val
+Anthracnose/IMG_20250615_161433_095.jpg,Anthracnose,54,val
+Anthracnose/IMG_20250615_161438_789.jpg,Anthracnose,55,train
+Anthracnose/IMG_20250615_161450_893.jpg,Anthracnose,56,test
+Anthracnose/IMG_20250615_161504_553.jpg,Anthracnose,57,train
+Anthracnose/IMG_20250615_161521_506.jpg,Anthracnose,58,train
+Anthracnose/IMG_20250615_161531_999.jpg,Anthracnose,59,train
+Anthracnose/IMG_20250615_161536_149.jpg,Anthracnose,60,train
+Anthracnose/IMG_20250615_161539_571.jpg,Anthracnose,61,train
+Anthracnose/IMG_20250615_161550_272.jpg,Anthracnose,62,train
+Anthracnose/IMG_20250615_161556_497.jpg,Anthracnose,63,train
+Anthracnose/IMG_20250615_161559_850.jpg,Anthracnose,64,train
+Anthracnose/IMG_20250615_161603_769.jpg,Anthracnose,65,test
+Anthracnose/IMG_20250615_161620_626.jpg,Anthracnose,66,train
+Anthracnose/IMG_20250615_161626_340.jpg,Anthracnose,67,train
+Anthracnose/IMG_20250615_161638_836.jpg,Anthracnose,68,val
+Anthracnose/IMG_20250615_161649_381.jpg,Anthracnose,69,train
+Anthracnose/IMG_20250615_161813_249.jpg,Anthracnose,70,train
+Anthracnose/IMG_20250615_161817_909.jpg,Anthracnose,71,train
+Anthracnose/IMG_20250615_161835_483.jpg,Anthracnose,72,train
+Anthracnose/IMG_20250615_161850_983.jpg,Anthracnose,73,train
+Anthracnose/IMG_20250615_161904_367.jpg,Anthracnose,74,train
+Anthracnose/IMG_20250615_161909_394.jpg,Anthracnose,75,val
+Anthracnose/IMG_20250615_161918_187.jpg,Anthracnose,64,train
+Anthracnose/IMG_20250615_161931_012.jpg,Anthracnose,76,train
+Anthracnose/IMG_20250615_161934_325.jpg,Anthracnose,77,train
+Anthracnose/IMG_20250615_161939_241.jpg,Anthracnose,78,train
+Anthracnose/IMG_20250615_161945_793.jpg,Anthracnose,79,val
+Anthracnose/IMG_20250615_161953_879.jpg,Anthracnose,80,train
+Anthracnose/IMG_20250615_162000_999.jpg,Anthracnose,81,train
+Anthracnose/IMG_20250615_162033_573.jpg,Anthracnose,82,train
+Anthracnose/IMG_20250615_162036_744.jpg,Anthracnose,83,train
+Anthracnose/IMG_20250615_162042_642.jpg,Anthracnose,84,test
+Anthracnose/IMG_20250615_162049_342.jpg,Anthracnose,85,train
+Anthracnose/IMG_20250615_162057_889.jpg,Anthracnose,86,test
+Anthracnose/IMG_20250615_162117_548.jpg,Anthracnose,87,train
+Anthracnose/IMG_20250615_162123_050.jpg,Anthracnose,88,train
+Anthracnose/IMG_20250615_162127_188.jpg,Anthracnose,89,val
+Anthracnose/IMG_20250615_162131_580.jpg,Anthracnose,90,test
+Anthracnose/IMG_20250615_162157_686.jpg,Anthracnose,91,train
+Anthracnose/IMG_20250615_162207_725.jpg,Anthracnose,92,train
+Anthracnose/IMG_20250615_162211_497.jpg,Anthracnose,93,train
+Anthracnose/IMG_20250615_162216_642.jpg,Anthracnose,94,train
+Anthracnose/IMG_20250615_162219_556.jpg,Anthracnose,95,train
+Anthracnose/IMG_20250615_162229_429.jpg,Anthracnose,96,train
+Anthracnose/IMG_20250615_162232_559.jpg,Anthracnose,97,train
+Anthracnose/IMG_20250615_162236_658.jpg,Anthracnose,64,train
+Anthracnose/IMG_20250615_162242_185.jpg,Anthracnose,98,train
+Anthracnose/IMG_20250615_162246_707.jpg,Anthracnose,99,train
+Anthracnose/IMG_20250615_162259_172.jpg,Anthracnose,100,train
+Anthracnose/IMG_20250615_162302_802.jpg,Anthracnose,101,train
+Anthracnose/IMG_20250615_162307_957.jpg,Anthracnose,102,val
+Anthracnose/IMG_20250615_162321_031.jpg,Anthracnose,103,train
+Anthracnose/IMG_20250615_162332_215.jpg,Anthracnose,104,val
+Anthracnose/IMG_20250615_162341_982.jpg,Anthracnose,105,train
+Anthracnose/IMG_20250615_162349_916.jpg,Anthracnose,106,test
+Anthracnose/IMG_20250615_162354_862.jpg,Anthracnose,107,train
+Anthracnose/IMG_20250615_162401_002.jpg,Anthracnose,108,train
+Anthracnose/IMG_20250615_162405_958.jpg,Anthracnose,109,train
+Anthracnose/IMG_20250615_162425_296.jpg,Anthracnose,110,train
+Anthracnose/IMG_20250615_162427_858.jpg,Anthracnose,111,train
+Anthracnose/IMG_20250615_162432_386.jpg,Anthracnose,112,train
+Anthracnose/IMG_20250615_162436_252.jpg,Anthracnose,113,train
+Anthracnose/IMG_20250615_162441_202.jpg,Anthracnose,114,val
+Anthracnose/IMG_20250615_162444_944.jpg,Anthracnose,115,train
+Anthracnose/IMG_20250615_162453_901.jpg,Anthracnose,116,test
+Anthracnose/IMG_20250615_162506_908.jpg,Anthracnose,117,train
+Anthracnose/IMG_20250615_162526_423.jpg,Anthracnose,118,train
+Anthracnose/IMG_20250615_162543_244.jpg,Anthracnose,119,train
+Anthracnose/IMG_20250615_162852_005.jpg,Anthracnose,120,train
+Anthracnose/IMG_20250615_162856_128.jpg,Anthracnose,121,train
+Anthracnose/IMG_20250615_162859_785.jpg,Anthracnose,122,train
+Anthracnose/IMG_20250615_162907_098.jpg,Anthracnose,123,test
+Anthracnose/IMG_20250615_162924_211.jpg,Anthracnose,124,test
+Anthracnose/IMG_20250615_162930_381.jpg,Anthracnose,125,train
+Anthracnose/IMG_20250615_162939_408.jpg,Anthracnose,126,train
+Anthracnose/IMG_20250615_162940_903.jpg,Anthracnose,126,train
+Anthracnose/IMG_20250615_162957_482.jpg,Anthracnose,127,test
+Anthracnose/IMG_20250615_163001_489.jpg,Anthracnose,128,train
+Anthracnose/IMG_20250615_163006_306.jpg,Anthracnose,129,test
+Anthracnose/IMG_20250615_163016_521.jpg,Anthracnose,130,train
+Anthracnose/IMG_20250615_163023_571.jpg,Anthracnose,131,train
+Anthracnose/IMG_20250615_163029_091.jpg,Anthracnose,131,train
+Anthracnose/IMG_20250615_163037_605.jpg,Anthracnose,132,train
+Anthracnose/IMG_20250615_163059_741.jpg,Anthracnose,133,train
+Anthracnose/IMG_20250615_163107_430.jpg,Anthracnose,134,val
+Anthracnose/IMG_20250615_163115_153.jpg,Anthracnose,135,val
+Anthracnose/IMG_20250615_163119_271.jpg,Anthracnose,136,train
+Anthracnose/IMG_20250615_163125_756.jpg,Anthracnose,137,train
+Anthracnose/IMG_20250615_163144_610.jpg,Anthracnose,138,train
+Anthracnose/IMG_20250615_163148_066.jpg,Anthracnose,139,train
+Anthracnose/IMG_20250615_163154_293.jpg,Anthracnose,4,train
+Anthracnose/IMG_20250615_163158_893.jpg,Anthracnose,140,train
+Anthracnose/IMG_20250615_163203_997.jpg,Anthracnose,141,train
+Anthracnose/IMG_20250615_163221_146.jpg,Anthracnose,142,train
+Anthracnose/IMG_20250615_163234_438.jpg,Anthracnose,143,train
+Anthracnose/IMG_20250615_163239_552.jpg,Anthracnose,144,val
+Anthracnose/IMG_20250615_163240_922.jpg,Anthracnose,144,val
+Anthracnose/IMG_20250615_163245_674.jpg,Anthracnose,145,train
+Anthracnose/IMG_20250615_163248_860.jpg,Anthracnose,146,train
+Anthracnose/IMG_20250615_163644_031.jpg,Anthracnose,147,val
+Anthracnose/IMG_20250615_163646_360.jpg,Anthracnose,148,test
+Anthracnose/IMG_20250615_163655_448.jpg,Anthracnose,149,train
+Anthracnose/IMG_20250615_163706_240.jpg,Anthracnose,150,val
+Anthracnose/IMG_20250615_163715_807.jpg,Anthracnose,151,train
+Anthracnose/IMG_20250615_163718_719.jpg,Anthracnose,152,train
+Anthracnose/IMG_20250615_163722_388.jpg,Anthracnose,153,train
+Anthracnose/IMG_20250615_163724_800.jpg,Anthracnose,154,train
+Anthracnose/IMG_20250615_163731_327.jpg,Anthracnose,155,test
+Anthracnose/IMG_20250615_163741_770.jpg,Anthracnose,156,train
+Anthracnose/IMG_20250615_163749_982.jpg,Anthracnose,157,train
+Anthracnose/IMG_20250615_163753_291.jpg,Anthracnose,158,train
+Anthracnose/IMG_20250615_163757_742.jpg,Anthracnose,159,train
+Anthracnose/IMG_20250615_163759_773.jpg,Anthracnose,160,train
+Anthracnose/IMG_20250615_163802_579.jpg,Anthracnose,161,train
+Anthracnose/IMG_20250615_163824_637.jpg,Anthracnose,162,train
+Anthracnose/IMG_20250615_163829_799.jpg,Anthracnose,163,train
+Anthracnose/IMG_20250615_163858_075.jpg,Anthracnose,164,train
+Anthracnose/IMG_20250615_163901_392.jpg,Anthracnose,165,train
+Anthracnose/IMG_20250615_163902_804.jpg,Anthracnose,166,train
+Anthracnose/IMG_20250615_163907_603.jpg,Anthracnose,167,test
+Anthracnose/IMG_20250615_163909_786.jpg,Anthracnose,168,val
+Anthracnose/IMG_20250615_163922_035.jpg,Anthracnose,169,train
+Anthracnose/IMG_20250615_163928_145.jpg,Anthracnose,170,train
+Anthracnose/IMG_20250615_163939_132.jpg,Anthracnose,171,train
+Anthracnose/IMG_20250615_163945_123.jpg,Anthracnose,172,train
+Anthracnose/IMG_20250615_164006_616.jpg,Anthracnose,173,train
+Anthracnose/IMG_20250615_164012_506.jpg,Anthracnose,174,train
+Anthracnose/IMG_20250615_164019_500.jpg,Anthracnose,4,train
+Anthracnose/IMG_20250615_164025_605.jpg,Anthracnose,175,train
+Anthracnose/IMG_20250615_164031_850.jpg,Anthracnose,176,train
+Anthracnose/IMG_20250615_164038_817.jpg,Anthracnose,177,train
+Anthracnose/IMG_20250615_164045_029.jpg,Anthracnose,140,train
+Anthracnose/IMG_20250615_164050_647.jpg,Anthracnose,178,test
+Anthracnose/IMG_20250615_164057_394.jpg,Anthracnose,36,train
+Anthracnose/IMG_20250615_164103_069.jpg,Anthracnose,179,test
+Anthracnose/IMG_20250615_164108_742.jpg,Anthracnose,180,train
+Anthracnose/IMG_20250615_164117_057.jpg,Anthracnose,181,val
+Anthracnose/IMG_20250615_164140_404.jpg,Anthracnose,182,train
+Anthracnose/IMG_20250615_164207_567.jpg,Anthracnose,183,train
+Anthracnose/IMG_20250615_164342_194.jpg,Anthracnose,184,test
+Anthracnose/IMG_20250615_164345_563.jpg,Anthracnose,185,train
+Anthracnose/IMG_20250615_164348_322.jpg,Anthracnose,186,test
+Anthracnose/IMG_20250615_164349_492.jpg,Anthracnose,187,train
+Anthracnose/IMG_20250615_164353_481.jpg,Anthracnose,188,train
+Anthracnose/IMG_20250615_164357_172.jpg,Anthracnose,189,train
+Anthracnose/IMG_20250615_164401_549.jpg,Anthracnose,190,train
+Anthracnose/IMG_20250615_164404_436.jpg,Anthracnose,191,train
+Anthracnose/IMG_20250615_164407_482.jpg,Anthracnose,192,train
+Anthracnose/IMG_20250615_164414_367.jpg,Anthracnose,193,train
+Anthracnose/IMG_20250615_164425_021.jpg,Anthracnose,194,train
+Anthracnose/IMG_20250615_164426_122.jpg,Anthracnose,195,train
+Anthracnose/IMG_20250615_164428_378.jpg,Anthracnose,196,val
+Anthracnose/IMG_20250615_164430_715.jpg,Anthracnose,197,val
+Anthracnose/IMG_20250615_164434_509.jpg,Anthracnose,198,train
+Anthracnose/IMG_20250615_164439_415.jpg,Anthracnose,199,val
+Anthracnose/IMG_20250615_164442_049.jpg,Anthracnose,198,train
+Anthracnose/IMG_20250615_164443_834.jpg,Anthracnose,198,train
+Anthracnose/IMG_20250615_164447_927.jpg,Anthracnose,200,train
+Anthracnose/IMG_20250615_164454_631.jpg,Anthracnose,201,train
+Anthracnose/IMG_20250615_164456_757.jpg,Anthracnose,202,train
+Anthracnose/IMG_20250615_164458_934.jpg,Anthracnose,203,train
+Anthracnose/IMG_20250615_164503_597.jpg,Anthracnose,204,train
+Anthracnose/IMG_20250615_164507_291.jpg,Anthracnose,205,train
+Anthracnose/IMG_20250615_164510_272.jpg,Anthracnose,206,test
+Anthracnose/IMG_20250615_164513_464.jpg,Anthracnose,207,train
+Anthracnose/IMG_20250615_164516_887.jpg,Anthracnose,207,train
+Anthracnose/IMG_20250615_164523_256.jpg,Anthracnose,208,test
+Anthracnose/IMG_20250615_164526_315.jpg,Anthracnose,209,train
+Anthracnose/IMG_20250615_164529_687.jpg,Anthracnose,210,train
+Anthracnose/IMG_20250615_164532_674.jpg,Anthracnose,211,train
+Anthracnose/IMG_20250615_164537_770.jpg,Anthracnose,212,train
+Anthracnose/IMG_20250615_164541_677.jpg,Anthracnose,213,train
+Anthracnose/IMG_20250615_164544_352.jpg,Anthracnose,214,train
+Anthracnose/IMG_20250615_164546_797.jpg,Anthracnose,215,train
+Anthracnose/IMG_20250615_164549_271.jpg,Anthracnose,216,val
+Anthracnose/IMG_20250615_164553_185.jpg,Anthracnose,217,val
+Anthracnose/IMG_20250615_164600_838.jpg,Anthracnose,218,train
+Anthracnose/IMG_20250615_164613_985.jpg,Anthracnose,219,train
+Anthracnose/IMG_20250615_164617_120.jpg,Anthracnose,220,val
+Anthracnose/IMG_20250615_164619_180.jpg,Anthracnose,221,test
+Anthracnose/IMG_20250615_164622_264.jpg,Anthracnose,222,test
+Anthracnose/IMG_20250615_164628_450.jpg,Anthracnose,223,train
+Anthracnose/IMG_20250615_164633_744.jpg,Anthracnose,224,train
+Anthracnose/IMG_20250615_164639_612.jpg,Anthracnose,225,val
+Anthracnose/IMG_20250615_164649_508.jpg,Anthracnose,226,train
+Anthracnose/IMG_20250615_164653_810.jpg,Anthracnose,227,train
+Anthracnose/IMG_20250615_164702_986.jpg,Anthracnose,228,train
+Anthracnose/IMG_20250615_164705_700.jpg,Anthracnose,229,val
+Anthracnose/IMG_20250615_164708_939.jpg,Anthracnose,230,train
+Anthracnose/IMG_20250615_164716_134.jpg,Anthracnose,231,train
+Anthracnose/IMG_20250615_164718_680.jpg,Anthracnose,232,train
+Anthracnose/IMG_20250615_164742_153.jpg,Anthracnose,233,train
+Anthracnose/IMG_20250615_164745_517.jpg,Anthracnose,234,train
+Anthracnose/IMG_20250615_164750_076.jpg,Anthracnose,235,train
+Anthracnose/IMG_20250615_165005_319.jpg,Anthracnose,4,train
+Anthracnose/IMG_20250615_165008_446.jpg,Anthracnose,236,train
+Anthracnose/IMG_20250615_165010_435.jpg,Anthracnose,237,val
+Anthracnose/IMG_20250615_165014_369.jpg,Anthracnose,238,train
+Anthracnose/IMG_20250615_165024_563.jpg,Anthracnose,68,val
+Anthracnose/IMG_20250615_165026_694.jpg,Anthracnose,239,train
+Anthracnose/IMG_20250615_165034_595.jpg,Anthracnose,240,train
+Anthracnose/IMG_20250615_165121472_BURST0001_COVER.jpg,Anthracnose,64,train
+Anthracnose/IMG_20250615_165121472_BURST0002.jpg,Anthracnose,64,train
+Anthracnose/IMG_20250615_165121472_BURST0003.jpg,Anthracnose,64,train
+Anthracnose/IMG_20250615_165121472_BURST0004.jpg,Anthracnose,64,train
+Anthracnose/IMG_20250615_165121472_BURST0005.jpg,Anthracnose,64,train
+Anthracnose/IMG_20250615_165121472_BURST0006.jpg,Anthracnose,64,train
+Anthracnose/IMG_20250615_165121472_BURST0007.jpg,Anthracnose,64,train
+Anthracnose/IMG_20250615_165121472_BURST0008.jpg,Anthracnose,64,train
+Anthracnose/IMG_20250615_165121472_BURST0009.jpg,Anthracnose,64,train
+Anthracnose/IMG_20250615_165121472_BURST0010.jpg,Anthracnose,64,train
+Anthracnose/IMG_20250615_165121472_BURST0011.jpg,Anthracnose,64,train
+Anthracnose/IMG_20250615_165121472_BURST0012.jpg,Anthracnose,64,train
+Anthracnose/IMG_20250615_165121472_BURST0013.jpg,Anthracnose,64,train
+Anthracnose/IMG_20250615_165121472_BURST0014.jpg,Anthracnose,64,train
+Anthracnose/IMG_20250615_165121472_BURST0015.jpg,Anthracnose,64,train
+Anthracnose/IMG_20250615_165121472_BURST0016.jpg,Anthracnose,64,train
+Anthracnose/IMG_20250615_165121472_BURST0017.jpg,Anthracnose,64,train
+Anthracnose/IMG_20250615_165121472_BURST0018.jpg,Anthracnose,64,train
+Anthracnose/IMG_20250615_165121472_BURST0019.jpg,Anthracnose,64,train
+Anthracnose/IMG_20250615_165121472_BURST0020.jpg,Anthracnose,64,train
+Anthracnose/IMG_20250615_165226_416.jpg,Anthracnose,241,test
+Anthracnose/IMG_20250615_165228_782.jpg,Anthracnose,242,train
+Anthracnose/IMG_20250615_165231_918.jpg,Anthracnose,243,test
+Anthracnose/IMG_20250615_165248_975.jpg,Anthracnose,60,train
+Anthracnose/IMG_20250615_165302_334.jpg,Anthracnose,244,train
+Anthracnose/IMG_20250615_165307_782.jpg,Anthracnose,245,train
+Anthracnose/IMG_20250615_165309_913.jpg,Anthracnose,246,train
+Anthracnose/IMG_20250615_165313_028.jpg,Anthracnose,247,train
+Anthracnose/IMG_20250615_165316_797.jpg,Anthracnose,248,train
+Anthracnose/IMG_20250615_165322_702.jpg,Anthracnose,249,train
+Anthracnose/IMG_20250615_165328_354.jpg,Anthracnose,250,train
+Anthracnose/IMG_20250615_165332_988.jpg,Anthracnose,251,val
+Anthracnose/IMG_20250615_165340_329.jpg,Anthracnose,252,val
+Anthracnose/IMG_20250615_165344_080.jpg,Anthracnose,253,train
+Anthracnose/IMG_20250615_165345_904.jpg,Anthracnose,254,train
+Anthracnose/IMG_20250615_165351_982.jpg,Anthracnose,255,train
+Anthracnose/IMG_20250615_165357_021.jpg,Anthracnose,256,train
+Anthracnose/IMG_20250615_165402_226.jpg,Anthracnose,257,train
+Anthracnose/IMG_20250615_165407_883.jpg,Anthracnose,258,train
+Anthracnose/IMG_20250615_165411_662.jpg,Anthracnose,259,test
+Anthracnose/IMG_20250615_165415_735.jpg,Anthracnose,260,val
+Anthracnose/IMG_20250615_165417_864.jpg,Anthracnose,261,train
+Anthracnose/IMG_20250615_165425_400.jpg,Anthracnose,262,test
+Anthracnose/IMG_20250615_165429_201.jpg,Anthracnose,263,train
+Anthracnose/IMG_20250615_165430_947.jpg,Anthracnose,264,train
+Anthracnose/IMG_20250615_165432_010.jpg,Anthracnose,265,train
+Anthracnose/IMG_20250615_165435_763.jpg,Anthracnose,266,train
+Anthracnose/IMG_20250615_165440_935.jpg,Anthracnose,267,train
+Anthracnose/IMG_20250615_165458_295.jpg,Anthracnose,268,train
+Anthracnose/IMG_20250615_165458_475.jpg,Anthracnose,268,train
+Anthracnose/IMG_20250615_165500_728.jpg,Anthracnose,269,train
+Anthracnose/IMG_20250615_165500_923.jpg,Anthracnose,269,train
+Anthracnose/IMG_20250615_165541_266.jpg,Anthracnose,270,train
+Anthracnose/IMG_20250615_165543_558.jpg,Anthracnose,271,train
+Anthracnose/IMG_20250615_165545_477.jpg,Anthracnose,272,test
+Anthracnose/IMG_20250615_165549_865.jpg,Anthracnose,273,val
+Anthracnose/IMG_20250615_165553_412.jpg,Anthracnose,274,train
+Anthracnose/IMG_20250615_165601_248.jpg,Anthracnose,275,train
+Anthracnose/IMG_20250615_165607_824.jpg,Anthracnose,276,train
+Anthracnose/IMG_20250615_165614_694.jpg,Anthracnose,277,train
+Anthracnose/IMG_20250615_165617_974.jpg,Anthracnose,278,train
+Anthracnose/IMG_20250615_165712_564.jpg,Anthracnose,279,train
+Anthracnose/IMG_20250615_165716_137.jpg,Anthracnose,280,train
+Anthracnose/IMG_20250615_165720_149.jpg,Anthracnose,281,test
+Anthracnose/IMG_20250615_165722_358.jpg,Anthracnose,282,train
+Anthracnose/IMG_20250615_165727_240.jpg,Anthracnose,283,train
+Anthracnose/IMG_20250615_165733_387.jpg,Anthracnose,284,train
+Anthracnose/IMG_20250615_165753_680.jpg,Anthracnose,285,val
+Anthracnose/IMG_20250615_165820_035.jpg,Anthracnose,286,train
+Anthracnose/IMG_20250615_165822_815.jpg,Anthracnose,287,train
+Anthracnose/IMG_20250615_165823_061.jpg,Anthracnose,287,train
+Anthracnose/IMG_20250615_165824_673.jpg,Anthracnose,288,val
+Anthracnose/IMG_20250615_165824_878.jpg,Anthracnose,288,val
+Anthracnose/IMG_20250615_165825_048.jpg,Anthracnose,288,val
+Anthracnose/IMG_20250615_165826_605.jpg,Anthracnose,289,train
+Anthracnose/IMG_20250615_165826_737.jpg,Anthracnose,289,train
+Anthracnose/IMG_20250615_165829_580.jpg,Anthracnose,290,train
+Anthracnose/IMG_20250615_165829_847.jpg,Anthracnose,290,train
+Anthracnose/IMG_20250615_165832_846.jpg,Anthracnose,291,val
+Anthracnose/IMG_20250615_165833_243.jpg,Anthracnose,291,val
+Anthracnose/IMG_20250615_165836_875.jpg,Anthracnose,292,test
+Anthracnose/IMG_20250615_165837_124.jpg,Anthracnose,292,test
+Anthracnose/IMG_20250615_165837_309.jpg,Anthracnose,292,test
+Anthracnose/IMG_20250615_165840_517.jpg,Anthracnose,293,train
+Anthracnose/IMG_20250615_165846_197.jpg,Anthracnose,294,train
+Anthracnose/IMG_20250615_165850_408.jpg,Anthracnose,295,train
+Anthracnose/IMG_20250615_165856_285.jpg,Anthracnose,296,train
+Anthracnose/IMG_20250615_165902_825.jpg,Anthracnose,297,train
+Anthracnose/IMG_20250615_165917_081.jpg,Anthracnose,298,train
+Anthracnose/IMG_20250615_165919_814.jpg,Anthracnose,299,test
+Anthracnose/IMG_20250615_165922_382.jpg,Anthracnose,300,test
+Anthracnose/IMG_20250615_165926_163.jpg,Anthracnose,301,train
+Anthracnose/IMG_20250615_165929_228.jpg,Anthracnose,302,train
+Anthracnose/IMG_20250615_165931_191.jpg,Anthracnose,302,train
+Cercospora Leaf Spot/IMG_20250615_154636.jpg,Cercospora Leaf Spot,303,train
+Cercospora Leaf Spot/IMG_20250615_154718.jpg,Cercospora Leaf Spot,304,train
+Cercospora Leaf Spot/IMG_20250615_154729.jpg,Cercospora Leaf Spot,305,train
+Cercospora Leaf Spot/IMG_20250615_154735.jpg,Cercospora Leaf Spot,306,train
+Cercospora Leaf Spot/IMG_20250615_154745.jpg,Cercospora Leaf Spot,307,train
+Cercospora Leaf Spot/IMG_20250615_154755.jpg,Cercospora Leaf Spot,308,train
+Cercospora Leaf Spot/IMG_20250615_154816.jpg,Cercospora Leaf Spot,309,train
+Cercospora Leaf Spot/IMG_20250615_154838.jpg,Cercospora Leaf Spot,310,train
+Cercospora Leaf Spot/IMG_20250615_154852.jpg,Cercospora Leaf Spot,311,train
+Cercospora Leaf Spot/IMG_20250615_154859.jpg,Cercospora Leaf Spot,312,val
+Cercospora Leaf Spot/IMG_20250615_154906.jpg,Cercospora Leaf Spot,313,train
+Cercospora Leaf Spot/IMG_20250615_154913.jpg,Cercospora Leaf Spot,314,val
+Cercospora Leaf Spot/IMG_20250615_154922.jpg,Cercospora Leaf Spot,315,train
+Cercospora Leaf Spot/IMG_20250615_154934.jpg,Cercospora Leaf Spot,316,train
+Cercospora Leaf Spot/IMG_20250615_154939.jpg,Cercospora Leaf Spot,317,train
+Cercospora Leaf Spot/IMG_20250615_154946.jpg,Cercospora Leaf Spot,318,test
+Cercospora Leaf Spot/IMG_20250615_154956.jpg,Cercospora Leaf Spot,319,test
+Cercospora Leaf Spot/IMG_20250615_155010.jpg,Cercospora Leaf Spot,320,train
+Cercospora Leaf Spot/IMG_20250615_155749.jpg,Cercospora Leaf Spot,321,train
+Cercospora Leaf Spot/IMG_20250615_155757.jpg,Cercospora Leaf Spot,322,train
+Cercospora Leaf Spot/IMG_20250615_155828.jpg,Cercospora Leaf Spot,323,train
+Cercospora Leaf Spot/IMG_20250615_155913.jpg,Cercospora Leaf Spot,324,train
+Cercospora Leaf Spot/IMG_20250615_155951.jpg,Cercospora Leaf Spot,325,train
+Cercospora Leaf Spot/IMG_20250615_160001.jpg,Cercospora Leaf Spot,326,val
+Cercospora Leaf Spot/IMG_20250615_160112.jpg,Cercospora Leaf Spot,327,train
+Cercospora Leaf Spot/IMG_20250615_160121.jpg,Cercospora Leaf Spot,328,train
+Cercospora Leaf Spot/IMG_20250615_160129.jpg,Cercospora Leaf Spot,329,train
+Cercospora Leaf Spot/IMG_20250615_160136.jpg,Cercospora Leaf Spot,330,val
+Cercospora Leaf Spot/IMG_20250615_160144.jpg,Cercospora Leaf Spot,331,train
+Cercospora Leaf Spot/IMG_20250615_160201.jpg,Cercospora Leaf Spot,332,train
+Cercospora Leaf Spot/IMG_20250615_160227.jpg,Cercospora Leaf Spot,333,train
+Cercospora Leaf Spot/IMG_20250615_160233.jpg,Cercospora Leaf Spot,334,train
+Cercospora Leaf Spot/IMG_20250615_160237.jpg,Cercospora Leaf Spot,335,train
+Cercospora Leaf Spot/IMG_20250615_160246.jpg,Cercospora Leaf Spot,336,train
+Cercospora Leaf Spot/IMG_20250615_160249.jpg,Cercospora Leaf Spot,337,train
+Cercospora Leaf Spot/IMG_20250615_160255.jpg,Cercospora Leaf Spot,338,train
+Cercospora Leaf Spot/IMG_20250615_160258.jpg,Cercospora Leaf Spot,339,test
+Cercospora Leaf Spot/IMG_20250615_160327.jpg,Cercospora Leaf Spot,340,val
+Cercospora Leaf Spot/IMG_20250615_160334.jpg,Cercospora Leaf Spot,341,train
+Cercospora Leaf Spot/IMG_20250615_160341.jpg,Cercospora Leaf Spot,342,train
+Cercospora Leaf Spot/IMG_20250615_160343.jpg,Cercospora Leaf Spot,343,train
+Cercospora Leaf Spot/IMG_20250615_160347.jpg,Cercospora Leaf Spot,344,test
+Cercospora Leaf Spot/IMG_20250615_160351.jpg,Cercospora Leaf Spot,345,train
+Cercospora Leaf Spot/IMG_20250615_160357.jpg,Cercospora Leaf Spot,346,train
+Cercospora Leaf Spot/IMG_20250615_160620.jpg,Cercospora Leaf Spot,347,train
+Cercospora Leaf Spot/IMG_20250615_160625.jpg,Cercospora Leaf Spot,348,test
+Cercospora Leaf Spot/IMG_20250615_160627.jpg,Cercospora Leaf Spot,349,train
+Cercospora Leaf Spot/IMG_20250615_160632.jpg,Cercospora Leaf Spot,350,train
+Cercospora Leaf Spot/IMG_20250615_160636.jpg,Cercospora Leaf Spot,351,train
+Cercospora Leaf Spot/IMG_20250615_160643.jpg,Cercospora Leaf Spot,352,train
+Cercospora Leaf Spot/IMG_20250615_160648.jpg,Cercospora Leaf Spot,353,val
+Cercospora Leaf Spot/IMG_20250615_160655.jpg,Cercospora Leaf Spot,354,train
+Cercospora Leaf Spot/IMG_20250615_160700.jpg,Cercospora Leaf Spot,355,train
+Cercospora Leaf Spot/IMG_20250615_160716.jpg,Cercospora Leaf Spot,356,train
+Cercospora Leaf Spot/IMG_20250615_160723.jpg,Cercospora Leaf Spot,357,val
+Cercospora Leaf Spot/IMG_20250615_160726.jpg,Cercospora Leaf Spot,358,train
+Cercospora Leaf Spot/IMG_20250615_160728.jpg,Cercospora Leaf Spot,359,test
+Cercospora Leaf Spot/IMG_20250615_160731.jpg,Cercospora Leaf Spot,360,train
+Cercospora Leaf Spot/IMG_20250615_160735.jpg,Cercospora Leaf Spot,361,train
+Cercospora Leaf Spot/IMG_20250615_160738.jpg,Cercospora Leaf Spot,362,train
+Cercospora Leaf Spot/IMG_20250615_160740.jpg,Cercospora Leaf Spot,363,train
+Cercospora Leaf Spot/IMG_20250615_160743.jpg,Cercospora Leaf Spot,364,train
+Cercospora Leaf Spot/IMG_20250615_160916.jpg,Cercospora Leaf Spot,365,train
+Cercospora Leaf Spot/IMG_20250615_160922.jpg,Cercospora Leaf Spot,366,train
+Cercospora Leaf Spot/IMG_20250615_160926.jpg,Cercospora Leaf Spot,367,train
+Cercospora Leaf Spot/IMG_20250615_160928.jpg,Cercospora Leaf Spot,368,train
+Cercospora Leaf Spot/IMG_20250615_160933.jpg,Cercospora Leaf Spot,369,train
+Cercospora Leaf Spot/IMG_20250615_160936.jpg,Cercospora Leaf Spot,370,train
+Cercospora Leaf Spot/IMG_20250615_160942.jpg,Cercospora Leaf Spot,371,val
+Cercospora Leaf Spot/IMG_20250615_160945.jpg,Cercospora Leaf Spot,372,train
+Cercospora Leaf Spot/IMG_20250615_161020.jpg,Cercospora Leaf Spot,373,train
+Cercospora Leaf Spot/IMG_20250615_161024.jpg,Cercospora Leaf Spot,374,train
+Cercospora Leaf Spot/IMG_20250615_161030.jpg,Cercospora Leaf Spot,375,train
+Cercospora Leaf Spot/IMG_20250615_161032.jpg,Cercospora Leaf Spot,376,val
+Cercospora Leaf Spot/IMG_20250615_161046.jpg,Cercospora Leaf Spot,377,test
+Cercospora Leaf Spot/IMG_20250615_161051.jpg,Cercospora Leaf Spot,333,train
+Cercospora Leaf Spot/IMG_20250615_161056.jpg,Cercospora Leaf Spot,378,train
+Cercospora Leaf Spot/IMG_20250615_161059.jpg,Cercospora Leaf Spot,379,train
+Cercospora Leaf Spot/IMG_20250615_161105.jpg,Cercospora Leaf Spot,380,train
+Cercospora Leaf Spot/IMG_20250615_161117.jpg,Cercospora Leaf Spot,381,test
+Cercospora Leaf Spot/IMG_20250615_161126.jpg,Cercospora Leaf Spot,382,test
+Cercospora Leaf Spot/IMG_20250615_161127.jpg,Cercospora Leaf Spot,383,train
+Cercospora Leaf Spot/IMG_20250615_161131.jpg,Cercospora Leaf Spot,384,val
+Cercospora Leaf Spot/IMG_20250615_161138.jpg,Cercospora Leaf Spot,385,train
+Cercospora Leaf Spot/IMG_20250615_161152.jpg,Cercospora Leaf Spot,386,train
+Cercospora Leaf Spot/IMG_20250615_161158.jpg,Cercospora Leaf Spot,387,train
+Cercospora Leaf Spot/IMG_20250615_161207.jpg,Cercospora Leaf Spot,388,train
+Cercospora Leaf Spot/IMG_20250615_161221.jpg,Cercospora Leaf Spot,389,train
+Cercospora Leaf Spot/IMG_20250615_161228.jpg,Cercospora Leaf Spot,390,train
+Cercospora Leaf Spot/IMG_20250615_161231.jpg,Cercospora Leaf Spot,391,train
+Cercospora Leaf Spot/IMG_20250615_161243.jpg,Cercospora Leaf Spot,392,val
+Cercospora Leaf Spot/IMG_20250615_161246.jpg,Cercospora Leaf Spot,393,test
+Cercospora Leaf Spot/IMG_20250615_161251.jpg,Cercospora Leaf Spot,394,train
+Cercospora Leaf Spot/IMG_20250615_161256.jpg,Cercospora Leaf Spot,395,train
+Cercospora Leaf Spot/IMG_20250615_161259.jpg,Cercospora Leaf Spot,396,train
+Cercospora Leaf Spot/IMG_20250615_161303.jpg,Cercospora Leaf Spot,397,train
+Cercospora Leaf Spot/IMG_20250615_161307.jpg,Cercospora Leaf Spot,398,train
+Cercospora Leaf Spot/IMG_20250615_161319.jpg,Cercospora Leaf Spot,399,val
+Cercospora Leaf Spot/IMG_20250615_161748.jpg,Cercospora Leaf Spot,400,train
+Cercospora Leaf Spot/IMG_20250615_161750.jpg,Cercospora Leaf Spot,401,train
+Cercospora Leaf Spot/IMG_20250615_161908.jpg,Cercospora Leaf Spot,402,train
+Cercospora Leaf Spot/IMG_20250615_161911.jpg,Cercospora Leaf Spot,403,train
+Cercospora Leaf Spot/IMG_20250615_161914.jpg,Cercospora Leaf Spot,404,train
+Cercospora Leaf Spot/IMG_20250615_161917.jpg,Cercospora Leaf Spot,405,train
+Cercospora Leaf Spot/IMG_20250615_161920.jpg,Cercospora Leaf Spot,406,train
+Cercospora Leaf Spot/IMG_20250615_161923.jpg,Cercospora Leaf Spot,407,val
+Cercospora Leaf Spot/IMG_20250615_161926.jpg,Cercospora Leaf Spot,408,train
+Cercospora Leaf Spot/IMG_20250615_161935.jpg,Cercospora Leaf Spot,409,test
+Cercospora Leaf Spot/IMG_20250615_161937.jpg,Cercospora Leaf Spot,410,train
+Cercospora Leaf Spot/IMG_20250615_161939.jpg,Cercospora Leaf Spot,411,train
+Cercospora Leaf Spot/IMG_20250615_161942.jpg,Cercospora Leaf Spot,412,test
+Cercospora Leaf Spot/IMG_20250615_161948.jpg,Cercospora Leaf Spot,413,train
+Cercospora Leaf Spot/IMG_20250615_161951.jpg,Cercospora Leaf Spot,414,train
+Cercospora Leaf Spot/IMG_20250615_161953.jpg,Cercospora Leaf Spot,415,val
+Cercospora Leaf Spot/IMG_20250615_161958.jpg,Cercospora Leaf Spot,416,train
+Cercospora Leaf Spot/IMG_20250615_162001.jpg,Cercospora Leaf Spot,417,train
+Cercospora Leaf Spot/IMG_20250615_162006.jpg,Cercospora Leaf Spot,418,train
+Cercospora Leaf Spot/IMG_20250615_162025.jpg,Cercospora Leaf Spot,419,train
+Cercospora Leaf Spot/IMG_20250615_162029.jpg,Cercospora Leaf Spot,420,train
+Cercospora Leaf Spot/IMG_20250615_162033.jpg,Cercospora Leaf Spot,421,train
+Cercospora Leaf Spot/IMG_20250615_162037.jpg,Cercospora Leaf Spot,422,train
+Cercospora Leaf Spot/IMG_20250615_162043.jpg,Cercospora Leaf Spot,423,val
+Cercospora Leaf Spot/IMG_20250615_162047.jpg,Cercospora Leaf Spot,424,test
+Cercospora Leaf Spot/IMG_20250615_162051.jpg,Cercospora Leaf Spot,425,train
+Cercospora Leaf Spot/IMG_20250615_162054.jpg,Cercospora Leaf Spot,426,test
+Cercospora Leaf Spot/IMG_20250615_162057.jpg,Cercospora Leaf Spot,427,train
+Cercospora Leaf Spot/IMG_20250615_162102.jpg,Cercospora Leaf Spot,428,train
+Cercospora Leaf Spot/IMG_20250615_162105.jpg,Cercospora Leaf Spot,429,train
+Cercospora Leaf Spot/IMG_20250615_162130.jpg,Cercospora Leaf Spot,430,train
+Cercospora Leaf Spot/IMG_20250615_162233.jpg,Cercospora Leaf Spot,431,val
+Cercospora Leaf Spot/IMG_20250615_162236.jpg,Cercospora Leaf Spot,432,train
+Cercospora Leaf Spot/IMG_20250615_162241.jpg,Cercospora Leaf Spot,433,train
+Cercospora Leaf Spot/IMG_20250615_162244.jpg,Cercospora Leaf Spot,434,train
+Cercospora Leaf Spot/IMG_20250615_162246.jpg,Cercospora Leaf Spot,435,train
+Cercospora Leaf Spot/IMG_20250615_162249.jpg,Cercospora Leaf Spot,436,train
+Cercospora Leaf Spot/IMG_20250615_162254.jpg,Cercospora Leaf Spot,437,test
+Cercospora Leaf Spot/IMG_20250615_162256.jpg,Cercospora Leaf Spot,438,train
+Cercospora Leaf Spot/IMG_20250615_162258.jpg,Cercospora Leaf Spot,439,train
+Cercospora Leaf Spot/IMG_20250615_162301.jpg,Cercospora Leaf Spot,440,val
+Cercospora Leaf Spot/IMG_20250615_162347.jpg,Cercospora Leaf Spot,441,train
+Cercospora Leaf Spot/IMG_20250615_162350.jpg,Cercospora Leaf Spot,442,train
+Cercospora Leaf Spot/IMG_20250615_162357.jpg,Cercospora Leaf Spot,443,train
+Cercospora Leaf Spot/IMG_20250615_162359.jpg,Cercospora Leaf Spot,444,test
+Cercospora Leaf Spot/IMG_20250615_162402.jpg,Cercospora Leaf Spot,445,train
+Cercospora Leaf Spot/IMG_20250615_162404.jpg,Cercospora Leaf Spot,446,train
+Cercospora Leaf Spot/IMG_20250615_162408.jpg,Cercospora Leaf Spot,447,test
+Cercospora Leaf Spot/IMG_20250615_162416.jpg,Cercospora Leaf Spot,448,train
+Cercospora Leaf Spot/IMG_20250615_162418.jpg,Cercospora Leaf Spot,449,train
+Cercospora Leaf Spot/IMG_20250615_162419.jpg,Cercospora Leaf Spot,450,val
+Cercospora Leaf Spot/IMG_20250615_162422.jpg,Cercospora Leaf Spot,451,train
+Cercospora Leaf Spot/IMG_20250615_162429.jpg,Cercospora Leaf Spot,452,train
+Cercospora Leaf Spot/IMG_20250615_162431.jpg,Cercospora Leaf Spot,453,val
+Cercospora Leaf Spot/IMG_20250615_162500.jpg,Cercospora Leaf Spot,454,train
+Cercospora Leaf Spot/IMG_20250615_162503.jpg,Cercospora Leaf Spot,455,train
+Cercospora Leaf Spot/IMG_20250615_162506.jpg,Cercospora Leaf Spot,456,train
+Cercospora Leaf Spot/IMG_20250615_162510.jpg,Cercospora Leaf Spot,457,test
+Cercospora Leaf Spot/IMG_20250615_162512.jpg,Cercospora Leaf Spot,458,train
+Cercospora Leaf Spot/IMG_20250615_162518.jpg,Cercospora Leaf Spot,459,train
+Cercospora Leaf Spot/IMG_20250615_162520.jpg,Cercospora Leaf Spot,349,train
+Cercospora Leaf Spot/IMG_20250615_162523.jpg,Cercospora Leaf Spot,460,val
+Cercospora Leaf Spot/IMG_20250615_162527.jpg,Cercospora Leaf Spot,461,train
+Cercospora Leaf Spot/IMG_20250615_162530.jpg,Cercospora Leaf Spot,381,test
+Cercospora Leaf Spot/IMG_20250615_162532.jpg,Cercospora Leaf Spot,462,train
+Cercospora Leaf Spot/IMG_20250615_162535.jpg,Cercospora Leaf Spot,463,test
+Cercospora Leaf Spot/IMG_20250615_162543.jpg,Cercospora Leaf Spot,464,train
+Cercospora Leaf Spot/IMG_20250615_162545.jpg,Cercospora Leaf Spot,465,train
+Cercospora Leaf Spot/IMG_20250615_162617.jpg,Cercospora Leaf Spot,466,train
+Cercospora Leaf Spot/IMG_20250615_162619.jpg,Cercospora Leaf Spot,352,train
+Cercospora Leaf Spot/IMG_20250615_162624.jpg,Cercospora Leaf Spot,467,train
+Cercospora Leaf Spot/IMG_20250615_162637.jpg,Cercospora Leaf Spot,468,train
+Cercospora Leaf Spot/IMG_20250615_162641.jpg,Cercospora Leaf Spot,351,train
+Cercospora Leaf Spot/IMG_20250615_162648.jpg,Cercospora Leaf Spot,469,val
+Cercospora Leaf Spot/IMG_20250615_162650.jpg,Cercospora Leaf Spot,470,train
+Cercospora Leaf Spot/IMG_20250615_162654.jpg,Cercospora Leaf Spot,471,train
+Cercospora Leaf Spot/IMG_20250615_162659.jpg,Cercospora Leaf Spot,472,val
+Cercospora Leaf Spot/IMG_20250615_162702.jpg,Cercospora Leaf Spot,473,train
+Cercospora Leaf Spot/IMG_20250615_162705.jpg,Cercospora Leaf Spot,474,train
+Cercospora Leaf Spot/IMG_20250615_162707.jpg,Cercospora Leaf Spot,475,train
+Cercospora Leaf Spot/IMG_20250615_162713.jpg,Cercospora Leaf Spot,476,test
+Cercospora Leaf Spot/IMG_20250615_162715.jpg,Cercospora Leaf Spot,477,train
+Cercospora Leaf Spot/IMG_20250615_162718.jpg,Cercospora Leaf Spot,478,train
+Cercospora Leaf Spot/IMG_20250615_162720.jpg,Cercospora Leaf Spot,479,train
+Cercospora Leaf Spot/IMG_20250615_162723.jpg,Cercospora Leaf Spot,480,test
+Cercospora Leaf Spot/IMG_20250615_162750.jpg,Cercospora Leaf Spot,481,val
+Cercospora Leaf Spot/IMG_20250615_162753.jpg,Cercospora Leaf Spot,482,train
+Cercospora Leaf Spot/IMG_20250615_162808.jpg,Cercospora Leaf Spot,483,test
+Cercospora Leaf Spot/IMG_20250615_162821.jpg,Cercospora Leaf Spot,484,train
+Cercospora Leaf Spot/IMG_20250615_162823.jpg,Cercospora Leaf Spot,485,val
+Cercospora Leaf Spot/IMG_20250615_162831.jpg,Cercospora Leaf Spot,486,train
+Cercospora Leaf Spot/IMG_20250615_162901.jpg,Cercospora Leaf Spot,487,train
+Cercospora Leaf Spot/IMG_20250615_162903.jpg,Cercospora Leaf Spot,488,train
+Cercospora Leaf Spot/IMG_20250615_162905.jpg,Cercospora Leaf Spot,489,test
+Cercospora Leaf Spot/IMG_20250615_162908.jpg,Cercospora Leaf Spot,490,val
+Cercospora Leaf Spot/IMG_20250615_162939.jpg,Cercospora Leaf Spot,491,train
+Cercospora Leaf Spot/IMG_20250615_162942.jpg,Cercospora Leaf Spot,492,train
+Cercospora Leaf Spot/IMG_20250615_162946.jpg,Cercospora Leaf Spot,493,train
+Cercospora Leaf Spot/IMG_20250615_162949.jpg,Cercospora Leaf Spot,488,train
+Cercospora Leaf Spot/IMG_20250615_162956.jpg,Cercospora Leaf Spot,494,train
+Cercospora Leaf Spot/IMG_20250615_162959.jpg,Cercospora Leaf Spot,495,train
+Cercospora Leaf Spot/IMG_20250615_163002.jpg,Cercospora Leaf Spot,496,val
+Cercospora Leaf Spot/IMG_20250615_163004.jpg,Cercospora Leaf Spot,497,train
+Cercospora Leaf Spot/IMG_20250615_163007.jpg,Cercospora Leaf Spot,498,train
+Cercospora Leaf Spot/IMG_20250615_163014.jpg,Cercospora Leaf Spot,499,test
+Cercospora Leaf Spot/IMG_20250615_163020.jpg,Cercospora Leaf Spot,500,train
+Cercospora Leaf Spot/IMG_20250615_163022.jpg,Cercospora Leaf Spot,501,train
+Cercospora Leaf Spot/IMG_20250615_163025.jpg,Cercospora Leaf Spot,502,train
+Cercospora Leaf Spot/IMG_20250615_163027.jpg,Cercospora Leaf Spot,503,train
+Cercospora Leaf Spot/IMG_20250615_163030.jpg,Cercospora Leaf Spot,504,train
+Cercospora Leaf Spot/IMG_20250615_163032.jpg,Cercospora Leaf Spot,505,train
+Cercospora Leaf Spot/IMG_20250615_163035.jpg,Cercospora Leaf Spot,502,train
+Cercospora Leaf Spot/IMG_20250615_163036.jpg,Cercospora Leaf Spot,506,train
+Cercospora Leaf Spot/IMG_20250615_163104.jpg,Cercospora Leaf Spot,507,test
+Cercospora Leaf Spot/IMG_20250615_163107.jpg,Cercospora Leaf Spot,381,test
+Cercospora Leaf Spot/IMG_20250615_163110.jpg,Cercospora Leaf Spot,429,train
+Cercospora Leaf Spot/IMG_20250615_163115.jpg,Cercospora Leaf Spot,508,train
+Cercospora Leaf Spot/IMG_20250615_163117.jpg,Cercospora Leaf Spot,509,val
+Cercospora Leaf Spot/IMG_20250615_163121.jpg,Cercospora Leaf Spot,510,train
+Cercospora Leaf Spot/IMG_20250615_163123.jpg,Cercospora Leaf Spot,511,val
+Cercospora Leaf Spot/IMG_20250615_163128.jpg,Cercospora Leaf Spot,512,test
+Cercospora Leaf Spot/IMG_20250615_163130.jpg,Cercospora Leaf Spot,513,train
+Cercospora Leaf Spot/IMG_20250615_163133.jpg,Cercospora Leaf Spot,514,train
+Cercospora Leaf Spot/IMG_20250615_163143.jpg,Cercospora Leaf Spot,515,train
+Cercospora Leaf Spot/IMG_20250615_163148.jpg,Cercospora Leaf Spot,516,train
+Cercospora Leaf Spot/IMG_20250615_163152.jpg,Cercospora Leaf Spot,517,train
+Cercospora Leaf Spot/IMG_20250615_163154.jpg,Cercospora Leaf Spot,518,val
+Cercospora Leaf Spot/IMG_20250615_163157.jpg,Cercospora Leaf Spot,519,train
+Cercospora Leaf Spot/IMG_20250615_163200.jpg,Cercospora Leaf Spot,520,train
+Cercospora Leaf Spot/IMG_20250615_163212.jpg,Cercospora Leaf Spot,521,test
+Cercospora Leaf Spot/IMG_20250615_163217.jpg,Cercospora Leaf Spot,522,train
+Cercospora Leaf Spot/IMG_20250615_163220.jpg,Cercospora Leaf Spot,523,train
+Cercospora Leaf Spot/IMG_20250615_163224.jpg,Cercospora Leaf Spot,524,train
+Cercospora Leaf Spot/IMG_20250615_163230.jpg,Cercospora Leaf Spot,525,val
+Cercospora Leaf Spot/IMG_20250615_163233.jpg,Cercospora Leaf Spot,464,train
+Cercospora Leaf Spot/IMG_20250615_163236.jpg,Cercospora Leaf Spot,526,train
+Cercospora Leaf Spot/IMG_20250615_163239.jpg,Cercospora Leaf Spot,527,test
+Cercospora Leaf Spot/IMG_20250615_163241.jpg,Cercospora Leaf Spot,528,train
+Cercospora Leaf Spot/IMG_20250615_163759.jpg,Cercospora Leaf Spot,529,train
+Cercospora Leaf Spot/IMG_20250615_163801.jpg,Cercospora Leaf Spot,488,train
+Cercospora Leaf Spot/IMG_20250615_163803.jpg,Cercospora Leaf Spot,333,train
+Cercospora Leaf Spot/IMG_20250615_163805.jpg,Cercospora Leaf Spot,530,train
+Cercospora Leaf Spot/IMG_20250615_163810.jpg,Cercospora Leaf Spot,531,train
+Cercospora Leaf Spot/IMG_20250615_163812.jpg,Cercospora Leaf Spot,532,train
+Cercospora Leaf Spot/IMG_20250615_163815.jpg,Cercospora Leaf Spot,533,train
+Cercospora Leaf Spot/IMG_20250615_163819.jpg,Cercospora Leaf Spot,534,val
+Cercospora Leaf Spot/IMG_20250615_163821.jpg,Cercospora Leaf Spot,535,train
+Cercospora Leaf Spot/IMG_20250615_163823.jpg,Cercospora Leaf Spot,536,test
+Cercospora Leaf Spot/IMG_20250615_163825.jpg,Cercospora Leaf Spot,537,train
+Cercospora Leaf Spot/IMG_20250615_163828.jpg,Cercospora Leaf Spot,538,train
+Cercospora Leaf Spot/IMG_20250615_163833.jpg,Cercospora Leaf Spot,488,train
+Cercospora Leaf Spot/IMG_20250615_163839.jpg,Cercospora Leaf Spot,539,val
+Cercospora Leaf Spot/IMG_20250615_163842.jpg,Cercospora Leaf Spot,540,train
+Cercospora Leaf Spot/IMG_20250615_163844.jpg,Cercospora Leaf Spot,541,train
+Cercospora Leaf Spot/IMG_20250615_163848.jpg,Cercospora Leaf Spot,521,test
+Cercospora Leaf Spot/IMG_20250615_163850.jpg,Cercospora Leaf Spot,542,train
+Cercospora Leaf Spot/IMG_20250615_163856.jpg,Cercospora Leaf Spot,543,test
+Cercospora Leaf Spot/IMG_20250615_163920.jpg,Cercospora Leaf Spot,544,train
+Cercospora Leaf Spot/IMG_20250615_163923.jpg,Cercospora Leaf Spot,545,train
+Cercospora Leaf Spot/IMG_20250615_163925.jpg,Cercospora Leaf Spot,521,test
+Cercospora Leaf Spot/IMG_20250615_163927.jpg,Cercospora Leaf Spot,546,val
+Cercospora Leaf Spot/IMG_20250615_163934.jpg,Cercospora Leaf Spot,547,train
+Cercospora Leaf Spot/IMG_20250615_164023.jpg,Cercospora Leaf Spot,548,train
+Cercospora Leaf Spot/IMG_20250615_164027.jpg,Cercospora Leaf Spot,507,test
+Cercospora Leaf Spot/IMG_20250615_164029.jpg,Cercospora Leaf Spot,549,test
+Cercospora Leaf Spot/IMG_20250615_164031.jpg,Cercospora Leaf Spot,550,train
+Cercospora Leaf Spot/IMG_20250615_164033.jpg,Cercospora Leaf Spot,421,train
+Cercospora Leaf Spot/IMG_20250615_164037.jpg,Cercospora Leaf Spot,551,train
+Cercospora Leaf Spot/IMG_20250615_164041.jpg,Cercospora Leaf Spot,464,train
+Cercospora Leaf Spot/IMG_20250615_164047.jpg,Cercospora Leaf Spot,552,train
+Cercospora Leaf Spot/IMG_20250615_164052.jpg,Cercospora Leaf Spot,553,train
+Cercospora Leaf Spot/IMG_20250615_164112.jpg,Cercospora Leaf Spot,554,train
+Cercospora Leaf Spot/IMG_20250615_164115.jpg,Cercospora Leaf Spot,555,val
+Cercospora Leaf Spot/IMG_20250615_164118.jpg,Cercospora Leaf Spot,556,test
+Cercospora Leaf Spot/IMG_20250615_164121.jpg,Cercospora Leaf Spot,557,val
+Cercospora Leaf Spot/IMG_20250615_164123.jpg,Cercospora Leaf Spot,558,train
+Cercospora Leaf Spot/IMG_20250615_164125.jpg,Cercospora Leaf Spot,396,train
+Cercospora Leaf Spot/IMG_20250615_164127.jpg,Cercospora Leaf Spot,559,train
+Cercospora Leaf Spot/IMG_20250615_164129.jpg,Cercospora Leaf Spot,560,train
+Cercospora Leaf Spot/IMG_20250615_164133.jpg,Cercospora Leaf Spot,561,train
+Cercospora Leaf Spot/IMG_20250615_164135.jpg,Cercospora Leaf Spot,562,val
+Cercospora Leaf Spot/IMG_20250615_164136.jpg,Cercospora Leaf Spot,563,train
+Cercospora Leaf Spot/IMG_20250615_164138.jpg,Cercospora Leaf Spot,564,train
+Cercospora Leaf Spot/IMG_20250615_164145.jpg,Cercospora Leaf Spot,565,train
+Cercospora Leaf Spot/IMG_20250615_164207.jpg,Cercospora Leaf Spot,566,test
+Cercospora Leaf Spot/IMG_20250615_164210.jpg,Cercospora Leaf Spot,567,train
+Cercospora Leaf Spot/IMG_20250615_164213.jpg,Cercospora Leaf Spot,568,train
+Cercospora Leaf Spot/IMG_20250615_164235.jpg,Cercospora Leaf Spot,569,train
+Cercospora Leaf Spot/IMG_20250615_164239.jpg,Cercospora Leaf Spot,570,val
+Cercospora Leaf Spot/IMG_20250615_164240.jpg,Cercospora Leaf Spot,571,test
+Cercospora Leaf Spot/IMG_20250615_164243.jpg,Cercospora Leaf Spot,572,train
+Cercospora Leaf Spot/IMG_20250615_164247.jpg,Cercospora Leaf Spot,573,train
+Cercospora Leaf Spot/IMG_20250615_164250.jpg,Cercospora Leaf Spot,574,train
+Cercospora Leaf Spot/IMG_20250615_164253.jpg,Cercospora Leaf Spot,575,train
+Cercospora Leaf Spot/IMG_20250615_164256.jpg,Cercospora Leaf Spot,576,val
+Cercospora Leaf Spot/IMG_20250615_164302.jpg,Cercospora Leaf Spot,577,test
+Cercospora Leaf Spot/IMG_20250615_164305.jpg,Cercospora Leaf Spot,578,train
+Cercospora Leaf Spot/IMG_20250615_164307.jpg,Cercospora Leaf Spot,579,train
+Cercospora Leaf Spot/IMG_20250615_164311.jpg,Cercospora Leaf Spot,580,train
+Cercospora Leaf Spot/IMG_20250615_164316.jpg,Cercospora Leaf Spot,581,train
+Cercospora Leaf Spot/IMG_20250615_164319.jpg,Cercospora Leaf Spot,582,train
+Cercospora Leaf Spot/IMG_20250615_164345.jpg,Cercospora Leaf Spot,583,train
+Cercospora Leaf Spot/IMG_20250615_164346.jpg,Cercospora Leaf Spot,584,train
+Cercospora Leaf Spot/IMG_20250615_164347.jpg,Cercospora Leaf Spot,585,test
+Cercospora Leaf Spot/IMG_20250615_164349.jpg,Cercospora Leaf Spot,586,val
+Cercospora Leaf Spot/IMG_20250615_164351.jpg,Cercospora Leaf Spot,587,train
+Cercospora Leaf Spot/IMG_20250615_164353.jpg,Cercospora Leaf Spot,588,train
+Cercospora Leaf Spot/IMG_20250615_164355.jpg,Cercospora Leaf Spot,589,train
+Cercospora Leaf Spot/IMG_20250615_164358.jpg,Cercospora Leaf Spot,590,train
+Cercospora Leaf Spot/IMG_20250615_164400.jpg,Cercospora Leaf Spot,591,train
+Cercospora Leaf Spot/IMG_20250615_164403.jpg,Cercospora Leaf Spot,592,val
+Cercospora Leaf Spot/IMG_20250615_164406.jpg,Cercospora Leaf Spot,593,test
+Cercospora Leaf Spot/IMG_20250615_164410.jpg,Cercospora Leaf Spot,588,train
+Cercospora Leaf Spot/IMG_20250615_164413.jpg,Cercospora Leaf Spot,594,train
+Cercospora Leaf Spot/IMG_20250615_164418.jpg,Cercospora Leaf Spot,595,train
+Cercospora Leaf Spot/IMG_20250615_164420.jpg,Cercospora Leaf Spot,596,train
+Cercospora Leaf Spot/IMG_20250615_164422.jpg,Cercospora Leaf Spot,597,val
+Cercospora Leaf Spot/IMG_20250615_164424.jpg,Cercospora Leaf Spot,598,train
+Cercospora Leaf Spot/IMG_20250615_164427.jpg,Cercospora Leaf Spot,371,val
+Cercospora Leaf Spot/IMG_20250615_164430.jpg,Cercospora Leaf Spot,599,train
+Cercospora Leaf Spot/IMG_20250615_164435.jpg,Cercospora Leaf Spot,600,test
+Cercospora Leaf Spot/IMG_20250615_164437.jpg,Cercospora Leaf Spot,601,train
+Cercospora Leaf Spot/IMG_20250615_164439.jpg,Cercospora Leaf Spot,602,train
+Cercospora Leaf Spot/IMG_20250615_164445.jpg,Cercospora Leaf Spot,603,train
+Cercospora Leaf Spot/IMG_20250615_164447.jpg,Cercospora Leaf Spot,604,val
+Cercospora Leaf Spot/IMG_20250615_164449.jpg,Cercospora Leaf Spot,605,train
+Cercospora Leaf Spot/IMG_20250615_164450.jpg,Cercospora Leaf Spot,606,train
+Cercospora Leaf Spot/IMG_20250615_164454.jpg,Cercospora Leaf Spot,607,train
+Cercospora Leaf Spot/IMG_20250615_164456.jpg,Cercospora Leaf Spot,584,train
+Cercospora Leaf Spot/IMG_20250615_164458.jpg,Cercospora Leaf Spot,608,test
+Cercospora Leaf Spot/IMG_20250615_164500.jpg,Cercospora Leaf Spot,609,train
+Cercospora Leaf Spot/IMG_20250615_164504.jpg,Cercospora Leaf Spot,610,train
+Cercospora Leaf Spot/IMG_20250615_164509.jpg,Cercospora Leaf Spot,611,val
+Cercospora Leaf Spot/IMG_20250615_164511.jpg,Cercospora Leaf Spot,612,train
+Cercospora Leaf Spot/IMG_20250615_164513.jpg,Cercospora Leaf Spot,613,train
+Cercospora Leaf Spot/IMG_20250615_164515.jpg,Cercospora Leaf Spot,614,train
+Cercospora Leaf Spot/IMG_20250615_164517.jpg,Cercospora Leaf Spot,615,test
+Cercospora Leaf Spot/IMG_20250615_164529.jpg,Cercospora Leaf Spot,616,train
+Cercospora Leaf Spot/IMG_20250615_164533.jpg,Cercospora Leaf Spot,617,train
+Cercospora Leaf Spot/IMG_20250615_164535.jpg,Cercospora Leaf Spot,618,train
+Cercospora Leaf Spot/IMG_20250615_164539.jpg,Cercospora Leaf Spot,619,val
+Cercospora Leaf Spot/IMG_20250615_164542.jpg,Cercospora Leaf Spot,620,train
+Cercospora Leaf Spot/IMG_20250615_164544.jpg,Cercospora Leaf Spot,621,train
+Cercospora Leaf Spot/IMG_20250615_164547.jpg,Cercospora Leaf Spot,622,train
+Cercospora Leaf Spot/IMG_20250615_164550.jpg,Cercospora Leaf Spot,623,test
+Cercospora Leaf Spot/IMG_20250615_164552.jpg,Cercospora Leaf Spot,624,train
+Cercospora Leaf Spot/IMG_20250615_164556.jpg,Cercospora Leaf Spot,625,train
+Cercospora Leaf Spot/IMG_20250615_164558.jpg,Cercospora Leaf Spot,626,val
+Cercospora Leaf Spot/IMG_20250615_164601.jpg,Cercospora Leaf Spot,627,train
+Cercospora Leaf Spot/IMG_20250615_164605.jpg,Cercospora Leaf Spot,628,train
+Cercospora Leaf Spot/IMG_20250615_164608.jpg,Cercospora Leaf Spot,629,train
+Cercospora Leaf Spot/IMG_20250615_164636.jpg,Cercospora Leaf Spot,630,train
+Cercospora Leaf Spot/IMG_20250615_164640.jpg,Cercospora Leaf Spot,631,test
+Cercospora Leaf Spot/IMG_20250615_164646.jpg,Cercospora Leaf Spot,632,train
+Cercospora Leaf Spot/IMG_20250615_164649.jpg,Cercospora Leaf Spot,633,val
+Cercospora Leaf Spot/IMG_20250615_164702.jpg,Cercospora Leaf Spot,634,train
+Cercospora Leaf Spot/IMG_20250615_164704.jpg,Cercospora Leaf Spot,635,train
+Cercospora Leaf Spot/IMG_20250615_164706.jpg,Cercospora Leaf Spot,636,test
+Cercospora Leaf Spot/IMG_20250615_164711.jpg,Cercospora Leaf Spot,637,train
+Cercospora Leaf Spot/IMG_20250615_164715.jpg,Cercospora Leaf Spot,638,train
+Cercospora Leaf Spot/IMG_20250615_164718.jpg,Cercospora Leaf Spot,639,train
+Cercospora Leaf Spot/IMG_20250615_164722.jpg,Cercospora Leaf Spot,640,train
+Cercospora Leaf Spot/IMG_20250615_164726.jpg,Cercospora Leaf Spot,523,train
+Cercospora Leaf Spot/IMG_20250615_164730.jpg,Cercospora Leaf Spot,483,test
+Cercospora Leaf Spot/IMG_20250615_164733.jpg,Cercospora Leaf Spot,641,val
+Cercospora Leaf Spot/IMG_20250615_164735.jpg,Cercospora Leaf Spot,642,train
+Cercospora Leaf Spot/IMG_20250615_164738.jpg,Cercospora Leaf Spot,626,val
+Cercospora Leaf Spot/IMG_20250615_164954.jpg,Cercospora Leaf Spot,643,train
+Cercospora Leaf Spot/IMG_20250615_164956.jpg,Cercospora Leaf Spot,644,train
+Cercospora Leaf Spot/IMG_20250615_164959.jpg,Cercospora Leaf Spot,373,train
+Cercospora Leaf Spot/IMG_20250615_165003.jpg,Cercospora Leaf Spot,645,test
+Cercospora Leaf Spot/IMG_20250615_165007.jpg,Cercospora Leaf Spot,646,train
+Cercospora Leaf Spot/IMG_20250615_165013.jpg,Cercospora Leaf Spot,647,train
+Cercospora Leaf Spot/IMG_20250615_165017.jpg,Cercospora Leaf Spot,648,train
+Fresh Leaf/IMG_20250615_165126.jpg,Fresh Leaf,649,val
+Fresh Leaf/IMG_20250615_165131.jpg,Fresh Leaf,650,test
+Fresh Leaf/IMG_20250615_165134.jpg,Fresh Leaf,651,train
+Fresh Leaf/IMG_20250615_165140.jpg,Fresh Leaf,652,train
+Fresh Leaf/IMG_20250615_165143.jpg,Fresh Leaf,653,train
+Fresh Leaf/IMG_20250615_165148.jpg,Fresh Leaf,654,val
+Fresh Leaf/IMG_20250615_165155.jpg,Fresh Leaf,655,train
+Fresh Leaf/IMG_20250615_165201.jpg,Fresh Leaf,656,train
+Fresh Leaf/IMG_20250615_165206.jpg,Fresh Leaf,657,train
+Fresh Leaf/IMG_20250615_165209.jpg,Fresh Leaf,658,val
+Fresh Leaf/IMG_20250615_165214.jpg,Fresh Leaf,659,train
+Fresh Leaf/IMG_20250615_165218.jpg,Fresh Leaf,660,test
+Fresh Leaf/IMG_20250615_165232.jpg,Fresh Leaf,661,train
+Fresh Leaf/IMG_20250615_165235.jpg,Fresh Leaf,662,train
+Fresh Leaf/IMG_20250615_165240.jpg,Fresh Leaf,661,train
+Fresh Leaf/IMG_20250615_165245.jpg,Fresh Leaf,663,train
+Fresh Leaf/IMG_20250615_165250.jpg,Fresh Leaf,664,train
+Fresh Leaf/IMG_20250615_165254.jpg,Fresh Leaf,665,train
+Fresh Leaf/IMG_20250615_165259.jpg,Fresh Leaf,666,train
+Fresh Leaf/IMG_20250615_165304.jpg,Fresh Leaf,667,train
+Fresh Leaf/IMG_20250615_165307.jpg,Fresh Leaf,668,test
+Fresh Leaf/IMG_20250615_165318.jpg,Fresh Leaf,669,train
+Fresh Leaf/IMG_20250615_165321.jpg,Fresh Leaf,670,train
+Fresh Leaf/IMG_20250615_165322.jpg,Fresh Leaf,670,train
+Fresh Leaf/IMG_20250615_165326.jpg,Fresh Leaf,671,val
+Fresh Leaf/IMG_20250615_165329.jpg,Fresh Leaf,672,val
+Fresh Leaf/IMG_20250615_165336.jpg,Fresh Leaf,673,train
+Fresh Leaf/IMG_20250615_165339.jpg,Fresh Leaf,674,train
+Fresh Leaf/IMG_20250615_165343.jpg,Fresh Leaf,675,test
+Fresh Leaf/IMG_20250615_165348.jpg,Fresh Leaf,676,train
+Fresh Leaf/IMG_20250615_165355.jpg,Fresh Leaf,677,train
+Fresh Leaf/IMG_20250615_165404.jpg,Fresh Leaf,678,train
+Fresh Leaf/IMG_20250615_165407.jpg,Fresh Leaf,679,val
+Fresh Leaf/IMG_20250615_165408.jpg,Fresh Leaf,680,train
+Fresh Leaf/IMG_20250615_165410.jpg,Fresh Leaf,681,train
+Fresh Leaf/IMG_20250615_165411.jpg,Fresh Leaf,682,test
+Fresh Leaf/IMG_20250615_165414.jpg,Fresh Leaf,683,train
+Fresh Leaf/IMG_20250615_165416.jpg,Fresh Leaf,684,train
+Fresh Leaf/IMG_20250615_165419.jpg,Fresh Leaf,685,train
+Fresh Leaf/IMG_20250615_165420.jpg,Fresh Leaf,686,train
+Fresh Leaf/IMG_20250615_165422.jpg,Fresh Leaf,686,train
+Fresh Leaf/IMG_20250615_165423.jpg,Fresh Leaf,687,train
+Fresh Leaf/IMG_20250615_165427.jpg,Fresh Leaf,688,test
+Fresh Leaf/IMG_20250615_165431.jpg,Fresh Leaf,689,train
+Fresh Leaf/IMG_20250615_165434.jpg,Fresh Leaf,690,train
+Fresh Leaf/IMG_20250615_165437.jpg,Fresh Leaf,691,val
+Fresh Leaf/IMG_20250615_165440.jpg,Fresh Leaf,692,train
+Fresh Leaf/IMG_20250615_165446.jpg,Fresh Leaf,693,val
+Fresh Leaf/IMG_20250615_165447.jpg,Fresh Leaf,694,test
+Fresh Leaf/IMG_20250615_165454.jpg,Fresh Leaf,695,train
+Fresh Leaf/IMG_20250615_165609.jpg,Fresh Leaf,696,train
+Fresh Leaf/IMG_20250615_165613.jpg,Fresh Leaf,697,train
+Fresh Leaf/IMG_20250615_165615.jpg,Fresh Leaf,698,train
+Fresh Leaf/IMG_20250615_165629.jpg,Fresh Leaf,699,train
+Fresh Leaf/IMG_20250615_165634.jpg,Fresh Leaf,700,train
+Fresh Leaf/IMG_20250615_165641.jpg,Fresh Leaf,701,val
+Fresh Leaf/IMG_20250615_165647.jpg,Fresh Leaf,702,train
+Fresh Leaf/IMG_20250615_165649.jpg,Fresh Leaf,703,test
+Fresh Leaf/IMG_20250615_165653.jpg,Fresh Leaf,704,train
+Fresh Leaf/IMG_20250615_165700.jpg,Fresh Leaf,705,train
+Fresh Leaf/IMG_20250615_165716.jpg,Fresh Leaf,813,train
+Fresh Leaf/IMG_20250615_165718.jpg,Fresh Leaf,706,val
+Fresh Leaf/IMG_20250615_165728.jpg,Fresh Leaf,707,train
+Fresh Leaf/IMG_20250615_165729.jpg,Fresh Leaf,708,train
+Fresh Leaf/IMG_20250615_165738.jpg,Fresh Leaf,709,train
+Fresh Leaf/IMG_20250615_165806.jpg,Fresh Leaf,710,test
+Fresh Leaf/IMG_20250615_165809.jpg,Fresh Leaf,711,train
+Fresh Leaf/IMG_20250615_165812.jpg,Fresh Leaf,712,train
+Fresh Leaf/IMG_20250615_165815.jpg,Fresh Leaf,713,train
+Fresh Leaf/IMG_20250615_165822.jpg,Fresh Leaf,714,train
+Fresh Leaf/IMG_20250615_165839.jpg,Fresh Leaf,715,val
+Fresh Leaf/IMG_20250615_165846.jpg,Fresh Leaf,716,train
+Fresh Leaf/IMG_20250615_165906.jpg,Fresh Leaf,717,train
+Fresh Leaf/IMG_20250615_165908.jpg,Fresh Leaf,718,train
+Fresh Leaf/IMG_20250615_165911.jpg,Fresh Leaf,719,train
+Fresh Leaf/IMG_20250615_165916.jpg,Fresh Leaf,720,test
+Fresh Leaf/IMG_20250615_165918.jpg,Fresh Leaf,721,train
+Fresh Leaf/IMG_20250615_165923.jpg,Fresh Leaf,722,val
+Fresh Leaf/IMG_20250615_165925.jpg,Fresh Leaf,723,train
+Fresh Leaf/IMG_20250615_165927.jpg,Fresh Leaf,724,train
+Fresh Leaf/IMG_20250615_165950.jpg,Fresh Leaf,725,train
+Fresh Leaf/IMG_20250615_170004.jpg,Fresh Leaf,726,test
+Fresh Leaf/IMG_20250615_170008.jpg,Fresh Leaf,813,train
+Fresh Leaf/IMG_20250615_170014.jpg,Fresh Leaf,727,train
+Fresh Leaf/IMG_20250615_170016.jpg,Fresh Leaf,728,train
+Fresh Leaf/IMG_20250615_170017.jpg,Fresh Leaf,729,val
+Fresh Leaf/IMG_20250615_170020.jpg,Fresh Leaf,730,train
+Fresh Leaf/IMG_20250615_170025.jpg,Fresh Leaf,731,train
+Fresh Leaf/IMG_20250615_170028.jpg,Fresh Leaf,732,test
+Fresh Leaf/IMG_20250615_170030.jpg,Fresh Leaf,733,train
+Fresh Leaf/IMG_20250615_170031.jpg,Fresh Leaf,734,train
+Fresh Leaf/IMG_20250615_170043.jpg,Fresh Leaf,735,val
+Fresh Leaf/IMG_20250615_170045.jpg,Fresh Leaf,655,train
+Fresh Leaf/IMG_20250615_170047.jpg,Fresh Leaf,736,train
+Fresh Leaf/IMG_20250615_170050.jpg,Fresh Leaf,737,train
+Fresh Leaf/IMG_20250615_170105.jpg,Fresh Leaf,738,train
+Fresh Leaf/IMG_20250615_170110.jpg,Fresh Leaf,739,train
+Fresh Leaf/IMG_20250615_170115.jpg,Fresh Leaf,740,test
+Fresh Leaf/IMG_20250615_170118.jpg,Fresh Leaf,741,train
+Fresh Leaf/IMG_20250615_170123.jpg,Fresh Leaf,742,train
+Fresh Leaf/IMG_20250615_170125.jpg,Fresh Leaf,743,train
+Fresh Leaf/IMG_20250615_170130.jpg,Fresh Leaf,813,train
+Fresh Leaf/IMG_20250615_170132.jpg,Fresh Leaf,744,val
+Fresh Leaf/IMG_20250615_170151.jpg,Fresh Leaf,813,train
+Fresh Leaf/IMG_20250615_170153.jpg,Fresh Leaf,745,train
+Fresh Leaf/IMG_20250615_170155.jpg,Fresh Leaf,746,train
+Fresh Leaf/IMG_20250615_170158.jpg,Fresh Leaf,747,test
+Fresh Leaf/IMG_20250615_170211.jpg,Fresh Leaf,748,train
+Fresh Leaf/IMG_20250615_170215.jpg,Fresh Leaf,749,train
+Fresh Leaf/IMG_20250615_170250.jpg,Fresh Leaf,838,train
+Fresh Leaf/IMG_20250615_170255.jpg,Fresh Leaf,750,val
+Fresh Leaf/IMG_20250615_170303.jpg,Fresh Leaf,751,train
+Fresh Leaf/IMG_20250615_170305.jpg,Fresh Leaf,752,train
+Fresh Leaf/IMG_20250615_170317.jpg,Fresh Leaf,753,train
+Fresh Leaf/IMG_20250615_170322.jpg,Fresh Leaf,754,train
+Fresh Leaf/IMG_20250615_170328.jpg,Fresh Leaf,755,val
+Fresh Leaf/IMG_20250615_170339.jpg,Fresh Leaf,756,train
+Fresh Leaf/IMG_20250615_170453.jpg,Fresh Leaf,757,train
+Fresh Leaf/IMG_20250615_170456.jpg,Fresh Leaf,758,train
+Fresh Leaf/IMG_20250615_170459.jpg,Fresh Leaf,759,test
+Fresh Leaf/IMG_20250615_170505.jpg,Fresh Leaf,760,test
+Fresh Leaf/IMG_20250615_170509.jpg,Fresh Leaf,761,train
+Fresh Leaf/IMG_20250615_170512.jpg,Fresh Leaf,762,train
+Fresh Leaf/IMG_20250615_170514.jpg,Fresh Leaf,763,train
+Fresh Leaf/IMG_20250615_170517.jpg,Fresh Leaf,764,train
+Fresh Leaf/IMG_20250615_170520.jpg,Fresh Leaf,765,train
+Fresh Leaf/IMG_20250615_170523.jpg,Fresh Leaf,766,val
+Fresh Leaf/IMG_20250615_170529.jpg,Fresh Leaf,767,train
+Fresh Leaf/IMG_20250615_170534.jpg,Fresh Leaf,768,train
+Fresh Leaf/IMG_20250615_170537.jpg,Fresh Leaf,769,train
+Fresh Leaf/IMG_20250615_170539.jpg,Fresh Leaf,770,test
+Fresh Leaf/IMG_20250615_170547.jpg,Fresh Leaf,771,train
+Fresh Leaf/IMG_20250615_170552.jpg,Fresh Leaf,772,train
+Fresh Leaf/IMG_20250615_170556.jpg,Fresh Leaf,773,val
+Fresh Leaf/IMG_20250615_170602.jpg,Fresh Leaf,774,train
+Fresh Leaf/IMG_20250615_170607.jpg,Fresh Leaf,775,train
+Fresh Leaf/IMG_20250615_170610.jpg,Fresh Leaf,776,train
+Fresh Leaf/IMG_20250615_170613.jpg,Fresh Leaf,777,train
+Fresh Leaf/IMG_20250615_170615.jpg,Fresh Leaf,778,test
+Fresh Leaf/IMG_20250615_170619.jpg,Fresh Leaf,779,train
+Fresh Leaf/IMG_20250615_170622.jpg,Fresh Leaf,780,val
+Fresh Leaf/IMG_20250615_170625.jpg,Fresh Leaf,781,train
+Fresh Leaf/IMG_20250615_170628.jpg,Fresh Leaf,782,train
+Fresh Leaf/IMG_20250615_170631.jpg,Fresh Leaf,783,train
+Fresh Leaf/IMG_20250615_170637.jpg,Fresh Leaf,784,train
+Fresh Leaf/IMG_20250615_170701.jpg,Fresh Leaf,785,test
+Fresh Leaf/IMG_20250615_170704.jpg,Fresh Leaf,786,train
+Fresh Leaf/IMG_20250615_170707.jpg,Fresh Leaf,787,val
+Fresh Leaf/IMG_20250615_170710.jpg,Fresh Leaf,788,train
+Fresh Leaf/IMG_20250615_170713.jpg,Fresh Leaf,789,train
+Fresh Leaf/IMG_20250615_170717.jpg,Fresh Leaf,790,train
+Fresh Leaf/IMG_20250615_170720.jpg,Fresh Leaf,791,train
+Fresh Leaf/IMG_20250615_170722.jpg,Fresh Leaf,792,test
+Fresh Leaf/IMG_20250615_170726.jpg,Fresh Leaf,793,train
+Fresh Leaf/IMG_20250615_170731.jpg,Fresh Leaf,794,val
+Fresh Leaf/IMG_20250615_170739.jpg,Fresh Leaf,795,train
+Fresh Leaf/IMG_20250615_170742.jpg,Fresh Leaf,796,train
+Fresh Leaf/IMG_20250615_170744.jpg,Fresh Leaf,813,train
+Fresh Leaf/IMG_20250615_170747.jpg,Fresh Leaf,838,train
+Fresh Leaf/IMG_20250615_170751.jpg,Fresh Leaf,797,train
+Fresh Leaf/IMG_20250615_170753.jpg,Fresh Leaf,693,val
+Fresh Leaf/IMG_20250615_170756.jpg,Fresh Leaf,798,test
+Fresh Leaf/IMG_20250615_170759.jpg,Fresh Leaf,799,train
+Fresh Leaf/IMG_20250615_170807.jpg,Fresh Leaf,800,val
+Fresh Leaf/IMG_20250615_170817.jpg,Fresh Leaf,801,test
+Fresh Leaf/IMG_20250615_170840.jpg,Fresh Leaf,802,train
+Fresh Leaf/IMG_20250615_170843.jpg,Fresh Leaf,803,train
+Fresh Leaf/IMG_20250615_170848.jpg,Fresh Leaf,804,train
+Fresh Leaf/IMG_20250615_170851.jpg,Fresh Leaf,805,train
+Fresh Leaf/IMG_20250615_170855.jpg,Fresh Leaf,806,train
+Fresh Leaf/IMG_20250615_170857.jpg,Fresh Leaf,807,train
+Fresh Leaf/IMG_20250615_170859.jpg,Fresh Leaf,808,val
+Fresh Leaf/IMG_20250615_170902.jpg,Fresh Leaf,809,train
+Fresh Leaf/IMG_20250615_170906.jpg,Fresh Leaf,717,train
+Fresh Leaf/IMG_20250615_170912.jpg,Fresh Leaf,810,train
+Fresh Leaf/IMG_20250615_170919.jpg,Fresh Leaf,811,test
+Fresh Leaf/IMG_20250615_170924.jpg,Fresh Leaf,812,train
+Fresh Leaf/IMG_20250615_170936.jpg,Fresh Leaf,813,train
+Fresh Leaf/IMG_20250615_170939.jpg,Fresh Leaf,814,train
+Fresh Leaf/IMG_20250615_170942.jpg,Fresh Leaf,815,train
+Fresh Leaf/IMG_20250615_170950.jpg,Fresh Leaf,816,val
+Fresh Leaf/IMG_20250615_170954.jpg,Fresh Leaf,817,train
+Fresh Leaf/IMG_20250615_170958.jpg,Fresh Leaf,818,train
+Fresh Leaf/IMG_20250615_171001.jpg,Fresh Leaf,819,test
+Fresh Leaf/IMG_20250615_171007.jpg,Fresh Leaf,820,train
+Fresh Leaf/IMG_20250615_171011.jpg,Fresh Leaf,821,train
+Fresh Leaf/IMG_20250615_171020.jpg,Fresh Leaf,822,train
+Fresh Leaf/IMG_20250615_171024.jpg,Fresh Leaf,823,train
+Fresh Leaf/IMG_20250615_171030.jpg,Fresh Leaf,824,train
+Fresh Leaf/IMG_20250615_171046.jpg,Fresh Leaf,825,train
+Fresh Leaf/IMG_20250615_171052.jpg,Fresh Leaf,826,val
+Fresh Leaf/IMG_20250615_171104.jpg,Fresh Leaf,827,test
+Fresh Leaf/IMG_20250615_171106.jpg,Fresh Leaf,729,val
+Fresh Leaf/IMG_20250615_171107.jpg,Fresh Leaf,828,train
+Fresh Leaf/IMG_20250615_171109.jpg,Fresh Leaf,829,train
+Fresh Leaf/IMG_20250615_171112.jpg,Fresh Leaf,830,train
+Fresh Leaf/IMG_20250615_171115.jpg,Fresh Leaf,831,test
+Fresh Leaf/IMG_20250615_171119.jpg,Fresh Leaf,832,train
+Fresh Leaf/IMG_20250615_171121.jpg,Fresh Leaf,833,val
+Fresh Leaf/IMG_20250615_171144.jpg,Fresh Leaf,834,train
+Fresh Leaf/IMG_20250615_171154.jpg,Fresh Leaf,835,test
+Fresh Leaf/IMG_20250615_171209.jpg,Fresh Leaf,836,train
+Fresh Leaf/IMG_20250615_171216.jpg,Fresh Leaf,837,val
+Fresh Leaf/IMG_20250615_171221.jpg,Fresh Leaf,838,train
+Fresh Leaf/IMG_20250615_171233.jpg,Fresh Leaf,839,train
+Fresh Leaf/IMG_20250615_171237.jpg,Fresh Leaf,840,train
+Fresh Leaf/IMG_20250615_171254.jpg,Fresh Leaf,841,train
+Fresh Leaf/IMG_20250615_171256.jpg,Fresh Leaf,842,train
+Fresh Leaf/IMG_20250615_171303.jpg,Fresh Leaf,843,train
+Fresh Leaf/IMG_20250615_171306.jpg,Fresh Leaf,844,test
+Fresh Leaf/IMG_20250615_171310.jpg,Fresh Leaf,838,train
+Fresh Leaf/IMG_20250615_171313.jpg,Fresh Leaf,845,train
+Fresh Leaf/IMG_20250615_171329.jpg,Fresh Leaf,846,train
+Fresh Leaf/IMG_20250615_171335.jpg,Fresh Leaf,847,test
+Fresh Leaf/IMG_20250615_171337.jpg,Fresh Leaf,848,val
+Fresh Leaf/IMG_20250615_171341.jpg,Fresh Leaf,849,train
+Fresh Leaf/IMG_20250615_171342.jpg,Fresh Leaf,850,train
+Fresh Leaf/IMG_20250615_171344.jpg,Fresh Leaf,851,train
+Fresh Leaf/IMG_20250615_171346.jpg,Fresh Leaf,852,train
+Fresh Leaf/IMG_20250615_171349.jpg,Fresh Leaf,853,val
+Fresh Leaf/IMG_20250615_171354.jpg,Fresh Leaf,854,train
+Fresh Leaf/IMG_20250615_171356.jpg,Fresh Leaf,855,train
+Fresh Leaf/IMG_20250615_171358.jpg,Fresh Leaf,856,train
+Fresh Leaf/IMG_20250615_171400.jpg,Fresh Leaf,857,test
+Fresh Leaf/IMG_20250615_171401.jpg,Fresh Leaf,858,train
+Fresh Leaf/IMG_20250615_171402.jpg,Fresh Leaf,859,train
+Fresh Leaf/IMG_20250615_171404.jpg,Fresh Leaf,860,train
+Fresh Leaf/IMG_20250615_171406.jpg,Fresh Leaf,861,test
+Fresh Leaf/IMG_20250615_171408.jpg,Fresh Leaf,862,val
+Fresh Leaf/IMG_20250615_171409.jpg,Fresh Leaf,863,train
+Fresh Leaf/IMG_20250615_171410.jpg,Fresh Leaf,864,train
+Fresh Leaf/IMG_20250615_171413.jpg,Fresh Leaf,865,train
+Fresh Leaf/IMG_20250615_171418.jpg,Fresh Leaf,866,train
+Fresh Leaf/IMG_20250615_171422.jpg,Fresh Leaf,867,train
+Fresh Leaf/IMG_20250615_171424.jpg,Fresh Leaf,716,train
+Fresh Leaf/IMG_20250615_171426.jpg,Fresh Leaf,868,val
+Fresh Leaf/IMG_20250615_171427.jpg,Fresh Leaf,869,train
+Fresh Leaf/IMG_20250615_171429.jpg,Fresh Leaf,870,train
+Fresh Leaf/IMG_20250615_171433.jpg,Fresh Leaf,871,train
+Fresh Leaf/IMG_20250615_171435.jpg,Fresh Leaf,872,train
+Fresh Leaf/IMG_20250615_171437.jpg,Fresh Leaf,873,test
+Fresh Leaf/IMG_20250615_171439.jpg,Fresh Leaf,874,train
+Fresh Leaf/IMG_20250615_171442.jpg,Fresh Leaf,875,val
+Fresh Leaf/IMG_20250615_171443.jpg,Fresh Leaf,876,train
+Fresh Leaf/IMG_20250615_171445.jpg,Fresh Leaf,877,train
+Fresh Leaf/IMG_20250615_171447.jpg,Fresh Leaf,878,train
+Fresh Leaf/IMG_20250615_171449.jpg,Fresh Leaf,879,train
+Fresh Leaf/IMG_20250615_171450.jpg,Fresh Leaf,880,test
+Fresh Leaf/IMG_20250615_171452.jpg,Fresh Leaf,881,train
+Fresh Leaf/IMG_20250615_171453.jpg,Fresh Leaf,882,train
+Fresh Leaf/IMG_20250615_171455.jpg,Fresh Leaf,883,train
+Fresh Leaf/IMG_20250615_171456.jpg,Fresh Leaf,884,val
+Fresh Leaf/IMG_20250615_171458.jpg,Fresh Leaf,885,train
+Fresh Leaf/IMG_20250615_171501.jpg,Fresh Leaf,886,train
+Fresh Leaf/IMG_20250615_171508.jpg,Fresh Leaf,887,train
+Fresh Leaf/IMG_20250615_171509.jpg,Fresh Leaf,888,train
+Fresh Leaf/IMG_20250615_171510.jpg,Fresh Leaf,889,test
+Fresh Leaf/IMG_20250615_171511.jpg,Fresh Leaf,890,train
+Fresh Leaf/IMG_20250615_171512.jpg,Fresh Leaf,891,val
+Fresh Leaf/IMG_20250615_171515.jpg,Fresh Leaf,892,train
+Fresh Leaf/IMG_20250615_171517.jpg,Fresh Leaf,893,train
+Fresh Leaf/IMG_20250615_171518.jpg,Fresh Leaf,894,train
+Fresh Leaf/IMG_20250615_171519.jpg,Fresh Leaf,895,test
+Fresh Leaf/IMG_20250615_171520.jpg,Fresh Leaf,896,val
+Fresh Leaf/IMG_20250615_171522.jpg,Fresh Leaf,849,train
+Fresh Leaf/IMG_20250615_171523.jpg,Fresh Leaf,897,train
+Fresh Leaf/IMG_20250615_171525.jpg,Fresh Leaf,898,train
+Fresh Leaf/IMG_20250615_171528.jpg,Fresh Leaf,899,train
+Fresh Leaf/IMG_20250615_171542.jpg,Fresh Leaf,900,train
+Fresh Leaf/IMG_20250615_171546.jpg,Fresh Leaf,901,val
+Fresh Leaf/IMG_20250615_171547.jpg,Fresh Leaf,902,test
+Fresh Leaf/IMG_20250615_171552.jpg,Fresh Leaf,903,train
+Fresh Leaf/IMG_20250615_171555.jpg,Fresh Leaf,904,train
+Fresh Leaf/IMG_20250615_171558.jpg,Fresh Leaf,905,train
+Fresh Leaf/IMG_20250615_171600.jpg,Fresh Leaf,906,train
+Fresh Leaf/IMG_20250615_171603.jpg,Fresh Leaf,907,train
+Fresh Leaf/IMG_20250615_171605.jpg,Fresh Leaf,907,train
+Fresh Leaf/IMG_20250615_171607.jpg,Fresh Leaf,908,test
+Fresh Leaf/IMG_20250615_171610.jpg,Fresh Leaf,909,train
+Fresh Leaf/IMG_20250615_171611.jpg,Fresh Leaf,910,val
+Fresh Leaf/IMG_20250615_171616.jpg,Fresh Leaf,911,train
+Fresh Leaf/IMG_20250615_171622.jpg,Fresh Leaf,912,train
+Fresh Leaf/IMG_20250615_171625.jpg,Fresh Leaf,913,train
+Fresh Leaf/IMG_20250615_171632.jpg,Fresh Leaf,914,test
+Fresh Leaf/IMG_20250615_171633.jpg,Fresh Leaf,915,train
+Fresh Leaf/IMG_20250615_171635.jpg,Fresh Leaf,916,train
+Fresh Leaf/IMG_20250615_171637.jpg,Fresh Leaf,917,train
+Fresh Leaf/IMG_20250615_171639.jpg,Fresh Leaf,918,train
+Fresh Leaf/IMG_20250615_171640.jpg,Fresh Leaf,919,train
+Fresh Leaf/IMG_20250615_171645.jpg,Fresh Leaf,651,train
+Fresh Leaf/IMG_20250615_171659.jpg,Fresh Leaf,920,train
+Fresh Leaf/IMG_20250615_171700.jpg,Fresh Leaf,921,train
+Fresh Leaf/IMG_20250615_171702.jpg,Fresh Leaf,922,val
+Fresh Leaf/IMG_20250615_171703.jpg,Fresh Leaf,923,train
+Fresh Leaf/IMG_20250615_171704.jpg,Fresh Leaf,924,test
+Fresh Leaf/IMG_20250615_171707.jpg,Fresh Leaf,925,val
+Fresh Leaf/IMG_20250615_171708.jpg,Fresh Leaf,926,train
+Fresh Leaf/IMG_20250615_171712.jpg,Fresh Leaf,927,train
+Fresh Leaf/IMG_20250615_171719.jpg,Fresh Leaf,928,train
+Fresh Leaf/IMG_20250615_171720.jpg,Fresh Leaf,929,train
+Fresh Leaf/IMG_20250615_171723.jpg,Fresh Leaf,930,test
+Fresh Leaf/IMG_20250615_171725.jpg,Fresh Leaf,931,train
+Fresh Leaf/IMG_20250615_171730.jpg,Fresh Leaf,932,val
+Fresh Leaf/IMG_20250615_171732.jpg,Fresh Leaf,933,test
+Fresh Leaf/IMG_20250615_171733.jpg,Fresh Leaf,934,train
+Fresh Leaf/IMG_20250615_171734.jpg,Fresh Leaf,935,train
+Fresh Leaf/IMG_20250615_171735.jpg,Fresh Leaf,936,train
+Fresh Leaf/IMG_20250615_171736.jpg,Fresh Leaf,937,train
+Fresh Leaf/IMG_20250615_171737.jpg,Fresh Leaf,938,train
+Fresh Leaf/IMG_20250615_171740.jpg,Fresh Leaf,939,train
+Fresh Leaf/IMG_20250615_171742.jpg,Fresh Leaf,940,val
+Fresh Leaf/IMG_20250615_171743.jpg,Fresh Leaf,941,train
+Fresh Leaf/IMG_20250615_171745.jpg,Fresh Leaf,942,test
+Fresh Leaf/IMG_20250615_171747.jpg,Fresh Leaf,943,train
+Fresh Leaf/IMG_20250615_171749.jpg,Fresh Leaf,944,train
+Fresh Leaf/IMG_20250615_171752.jpg,Fresh Leaf,945,train
+Fresh Leaf/IMG_20250615_171758.jpg,Fresh Leaf,946,val
+Fresh Leaf/IMG_20250615_171800.jpg,Fresh Leaf,947,test
+Fresh Leaf/IMG_20250615_171802.jpg,Fresh Leaf,838,train
+Fresh Leaf/IMG_20250615_171804.jpg,Fresh Leaf,948,train
+Fresh Leaf/IMG_20250615_171806.jpg,Fresh Leaf,791,train
+Fresh Leaf/IMG_20250615_171807.jpg,Fresh Leaf,949,train
+Fresh Leaf/IMG_20250615_171808.jpg,Fresh Leaf,950,train
+Fresh Leaf/IMG_20250615_171810.jpg,Fresh Leaf,872,train
+Fresh Leaf/IMG_20250615_171812.jpg,Fresh Leaf,951,train
+Fresh Leaf/IMG_20250615_171814.jpg,Fresh Leaf,952,val
+Fresh Leaf/IMG_20250615_171815.jpg,Fresh Leaf,813,train
+Fresh Leaf/IMG_20250615_171816.jpg,Fresh Leaf,953,train
+Fresh Leaf/IMG_20250615_171818.jpg,Fresh Leaf,954,train
+Fresh Leaf/IMG_20250615_171819.jpg,Fresh Leaf,955,test
+Fresh Leaf/IMG_20250615_171820.jpg,Fresh Leaf,956,train
+Fresh Leaf/IMG_20250615_171821.jpg,Fresh Leaf,957,train
+Fresh Leaf/IMG_20250615_171822.jpg,Fresh Leaf,958,train
+Fresh Leaf/IMG_20250615_171823.jpg,Fresh Leaf,959,train
+Fresh Leaf/IMG_20250615_171824.jpg,Fresh Leaf,960,val
+Fresh Leaf/IMG_20250615_171827.jpg,Fresh Leaf,961,test
+Fresh Leaf/IMG_20250615_171829.jpg,Fresh Leaf,962,train
+Fresh Leaf/IMG_20250615_171830.jpg,Fresh Leaf,963,train
+Fresh Leaf/IMG_20250615_171831.jpg,Fresh Leaf,964,train
+Fresh Leaf/IMG_20250615_171834.jpg,Fresh Leaf,965,train
+Fresh Leaf/IMG_20250615_171839.jpg,Fresh Leaf,966,train
+Fresh Leaf/IMG_20250615_171851.jpg,Fresh Leaf,967,val
+Fresh Leaf/IMG_20250615_171853.jpg,Fresh Leaf,968,train
+Fresh Leaf/IMG_20250615_171855.jpg,Fresh Leaf,969,test
+Fresh Leaf/IMG_20250615_171856.jpg,Fresh Leaf,813,train
+Fresh Leaf/IMG_20250615_171859.jpg,Fresh Leaf,970,train
+Fresh Leaf/IMG_20250615_171900.jpg,Fresh Leaf,971,train
+Fresh Leaf/IMG_20250615_171902.jpg,Fresh Leaf,972,train
+Fresh Leaf/IMG_20250615_171905.jpg,Fresh Leaf,973,train
+Fresh Leaf/IMG_20250615_171908.jpg,Fresh Leaf,974,train
+Fresh Leaf/IMG_20250615_171911.jpg,Fresh Leaf,975,val
+Fresh Leaf/IMG_20250615_171912.jpg,Fresh Leaf,976,train
+Fresh Leaf/IMG_20250615_171913.jpg,Fresh Leaf,977,test
+Fresh Leaf/IMG_20250615_171915.jpg,Fresh Leaf,978,train
+Fresh Leaf/IMG_20250615_171918.jpg,Fresh Leaf,979,train
+Fresh Leaf/IMG_20250615_171920.jpg,Fresh Leaf,980,train
+Fresh Leaf/IMG_20250615_171923.jpg,Fresh Leaf,981,train
+Fresh Leaf/IMG_20250615_171925.jpg,Fresh Leaf,982,val
+Fresh Leaf/IMG_20250615_171926.jpg,Fresh Leaf,983,test
+Fresh Leaf/IMG_20250615_171928.jpg,Fresh Leaf,984,train
+Fresh Leaf/IMG_20250615_171931.jpg,Fresh Leaf,985,train
+Fresh Leaf/IMG_20250615_171932.jpg,Fresh Leaf,986,train
+Fresh Leaf/IMG_20250615_171933.jpg,Fresh Leaf,987,train
+Fresh Leaf/IMG_20250615_171935.jpg,Fresh Leaf,988,train
+Fresh Leaf/IMG_20250615_171936.jpg,Fresh Leaf,989,train
+Fresh Leaf/IMG_20250615_171939.jpg,Fresh Leaf,990,val
+Fresh Leaf/IMG_20250615_171941.jpg,Fresh Leaf,991,test
+Fresh Leaf/IMG_20250615_171943.jpg,Fresh Leaf,992,train
+Fresh Leaf/IMG_20250615_171944.jpg,Fresh Leaf,993,train
+Fresh Leaf/IMG_20250615_171946.jpg,Fresh Leaf,994,train
+Fresh Leaf/IMG_20250615_171947.jpg,Fresh Leaf,995,train
+Fresh Leaf/IMG_20250615_171948.jpg,Fresh Leaf,996,train
+Fresh Leaf/IMG_20250615_171950.jpg,Fresh Leaf,997,val
+Fresh Leaf/IMG_20250615_171952.jpg,Fresh Leaf,998,test
+Fresh Leaf/IMG_20250615_171954.jpg,Fresh Leaf,999,train
+Fresh Leaf/IMG_20250615_171955.jpg,Fresh Leaf,1000,train
+Fresh Leaf/IMG_20250615_171957.jpg,Fresh Leaf,1001,train
+Fresh Leaf/IMG_20250615_171958.jpg,Fresh Leaf,1002,train
+Fresh Leaf/IMG_20250615_172002.jpg,Fresh Leaf,1003,train
+Fresh Leaf/IMG_20250615_172003.jpg,Fresh Leaf,1004,train
+Fresh Leaf/IMG_20250615_172006.jpg,Fresh Leaf,1005,test
+Fresh Leaf/IMG_20250615_172007.jpg,Fresh Leaf,1006,val
+Fresh Leaf/IMG_20250615_172008.jpg,Fresh Leaf,1007,train
+Fresh Leaf/IMG_20250615_172009.jpg,Fresh Leaf,1008,train
+Fresh Leaf/IMG_20250615_172011.jpg,Fresh Leaf,1009,train
+Fresh Leaf/IMG_20250615_172012.jpg,Fresh Leaf,998,test
+Fresh Leaf/IMG_20250615_172014.jpg,Fresh Leaf,1010,train
+Fresh Leaf/IMG_20250615_172018.jpg,Fresh Leaf,1011,train
+Fresh Leaf/IMG_20250615_172020.jpg,Fresh Leaf,1012,val
+Fresh Leaf/IMG_20250615_172021.jpg,Fresh Leaf,1013,test
+Fresh Leaf/IMG_20250615_172023.jpg,Fresh Leaf,1014,train
+Fresh Leaf/IMG_20250615_172024.jpg,Fresh Leaf,1015,train
+Fresh Leaf/IMG_20250615_172025.jpg,Fresh Leaf,1016,train
+Fresh Leaf/IMG_20250615_172026.jpg,Fresh Leaf,1017,train
+Fresh Leaf/IMG_20250615_172028.jpg,Fresh Leaf,1018,train
+Fresh Leaf/IMG_20250615_172031.jpg,Fresh Leaf,1019,test
+Fresh Leaf/IMG_20250615_172032.jpg,Fresh Leaf,1020,val
+Fresh Leaf/IMG_20250615_172033.jpg,Fresh Leaf,1021,train
+Fresh Leaf/IMG_20250615_172035.jpg,Fresh Leaf,1022,train
+Fresh Leaf/IMG_20250615_172036.jpg,Fresh Leaf,1023,val
+Fresh Leaf/IMG_20250615_172038.jpg,Fresh Leaf,827,test
+Fresh Leaf/IMG_20250615_172039.jpg,Fresh Leaf,756,train
+Fresh Leaf/IMG_20250615_172041.jpg,Fresh Leaf,1024,train
+Fresh Leaf/IMG_20250615_172043.jpg,Fresh Leaf,1025,train
+Fresh Leaf/IMG_20250615_172046.jpg,Fresh Leaf,1026,test
+Fresh Leaf/IMG_20250615_172048.jpg,Fresh Leaf,1027,train
+Fresh Leaf/IMG_20250615_172050.jpg,Fresh Leaf,860,train
+Fresh Leaf/IMG_20250615_172052.jpg,Fresh Leaf,1028,train
+Fresh Leaf/IMG_20250615_172053.jpg,Fresh Leaf,1029,train
+Fresh Leaf/IMG_20250615_172055.jpg,Fresh Leaf,1030,train
+Fresh Leaf/IMG_20250615_172056.jpg,Fresh Leaf,1031,val
+Fresh Leaf/IMG_20250615_172058.jpg,Fresh Leaf,1032,train
+Fresh Leaf/IMG_20250615_172101.jpg,Fresh Leaf,1033,test
+Fresh Leaf/IMG_20250615_172102.jpg,Fresh Leaf,1034,train
+Fresh Leaf/IMG_20250615_172103.jpg,Fresh Leaf,1035,train
+Fresh Leaf/IMG_20250615_172105.jpg,Fresh Leaf,1036,train
+Fresh Leaf/IMG_20250615_172110.jpg,Fresh Leaf,740,test
+Fresh Leaf/IMG_20250615_172114.jpg,Fresh Leaf,1037,val
+Fresh Leaf/IMG_20250615_172118.jpg,Fresh Leaf,1038,train
+Fresh Leaf/IMG_20250615_172120.jpg,Fresh Leaf,1039,train
+Fresh Leaf/IMG_20250615_172123.jpg,Fresh Leaf,1040,train
+Fresh Leaf/IMG_20250615_172125.jpg,Fresh Leaf,1041,train
+Fresh Leaf/IMG_20250615_172130.jpg,Fresh Leaf,1042,test
+Fresh Leaf/IMG_20250615_172133.jpg,Fresh Leaf,1043,train
+Fresh Leaf/IMG_20250615_172135.jpg,Fresh Leaf,1044,val
+Fresh Leaf/IMG_20250615_172139.jpg,Fresh Leaf,1045,train
+Fresh Leaf/IMG_20250615_172141.jpg,Fresh Leaf,1046,train
+Fresh Leaf/IMG_20250615_172146.jpg,Fresh Leaf,1047,train
+Fresh Leaf/IMG_20250615_172147.jpg,Fresh Leaf,1048,train
+Fresh Leaf/IMG_20250615_172149.jpg,Fresh Leaf,1049,val
+Fresh Leaf/IMG_20250615_172151.jpg,Fresh Leaf,1050,train
+Fresh Leaf/IMG_20250615_172153.jpg,Fresh Leaf,1051,test
+Fresh Leaf/IMG_20250615_172155.jpg,Fresh Leaf,1052,train
+Fresh Leaf/IMG_20250615_172201.jpg,Fresh Leaf,1053,train
+Fresh Leaf/IMG_20250615_172203.jpg,Fresh Leaf,1054,train
+Fresh Leaf/IMG_20250615_172205.jpg,Fresh Leaf,1055,train
+Fresh Leaf/IMG_20250615_172207.jpg,Fresh Leaf,1056,test
+Fresh Leaf/IMG_20250615_172210.jpg,Fresh Leaf,1057,train
+Fresh Leaf/IMG_20250615_172212.jpg,Fresh Leaf,1058,test
+Fresh Leaf/IMG_20250615_172216.jpg,Fresh Leaf,1059,val
+Leaf Curl Disease/IMG_20250620_143057.jpg,Leaf Curl Disease,1060,train
+Leaf Curl Disease/IMG_20250620_143109.jpg,Leaf Curl Disease,1061,train
+Leaf Curl Disease/IMG_20250620_143115.jpg,Leaf Curl Disease,1062,train
+Leaf Curl Disease/IMG_20250620_143119.jpg,Leaf Curl Disease,1063,train
+Leaf Curl Disease/IMG_20250620_143131.jpg,Leaf Curl Disease,1064,train
+Leaf Curl Disease/IMG_20250620_143135.jpg,Leaf Curl Disease,1065,train
+Leaf Curl Disease/IMG_20250620_143138.jpg,Leaf Curl Disease,1066,val
+Leaf Curl Disease/IMG_20250620_143141.jpg,Leaf Curl Disease,1067,train
+Leaf Curl Disease/IMG_20250620_143151.jpg,Leaf Curl Disease,1068,train
+Leaf Curl Disease/IMG_20250620_143206.jpg,Leaf Curl Disease,1069,train
+Leaf Curl Disease/IMG_20250620_143211.jpg,Leaf Curl Disease,1070,train
+Leaf Curl Disease/IMG_20250620_143220.jpg,Leaf Curl Disease,1071,val
+Leaf Curl Disease/IMG_20250620_143228.jpg,Leaf Curl Disease,1072,train
+Leaf Curl Disease/IMG_20250620_143232.jpg,Leaf Curl Disease,1073,test
+Leaf Curl Disease/IMG_20250620_143234.jpg,Leaf Curl Disease,1074,train
+Leaf Curl Disease/IMG_20250620_143238.jpg,Leaf Curl Disease,1075,test
+Leaf Curl Disease/IMG_20250620_143248.jpg,Leaf Curl Disease,1076,train
+Leaf Curl Disease/IMG_20250620_143304.jpg,Leaf Curl Disease,1077,train
+Leaf Curl Disease/IMG_20250620_143307.jpg,Leaf Curl Disease,1078,train
+Leaf Curl Disease/IMG_20250620_143315.jpg,Leaf Curl Disease,1079,train
+Leaf Curl Disease/IMG_20250620_143322.jpg,Leaf Curl Disease,1080,train
+Leaf Curl Disease/IMG_20250620_143325.jpg,Leaf Curl Disease,1081,val
+Leaf Curl Disease/IMG_20250620_143341.jpg,Leaf Curl Disease,1082,train
+Leaf Curl Disease/IMG_20250620_143344.jpg,Leaf Curl Disease,1083,train
+Leaf Curl Disease/IMG_20250620_143348.jpg,Leaf Curl Disease,1084,train
+Leaf Curl Disease/IMG_20250620_143355.jpg,Leaf Curl Disease,1085,train
+Leaf Curl Disease/IMG_20250620_143358.jpg,Leaf Curl Disease,1086,train
+Leaf Curl Disease/IMG_20250620_143406.jpg,Leaf Curl Disease,1087,test
+Leaf Curl Disease/IMG_20250620_143414.jpg,Leaf Curl Disease,1088,train
+Leaf Curl Disease/IMG_20250620_143421.jpg,Leaf Curl Disease,1089,train
+Leaf Curl Disease/IMG_20250620_143427.jpg,Leaf Curl Disease,1090,val
+Leaf Curl Disease/IMG_20250620_143430.jpg,Leaf Curl Disease,1091,train
+Leaf Curl Disease/IMG_20250620_143433.jpg,Leaf Curl Disease,1092,train
+Leaf Curl Disease/IMG_20250620_143436.jpg,Leaf Curl Disease,1093,train
+Leaf Curl Disease/IMG_20250620_143439.jpg,Leaf Curl Disease,1094,train
+Leaf Curl Disease/IMG_20250620_143441.jpg,Leaf Curl Disease,1095,train
+Leaf Curl Disease/IMG_20250620_143442.jpg,Leaf Curl Disease,1096,val
+Leaf Curl Disease/IMG_20250620_143444.jpg,Leaf Curl Disease,1097,test
+Leaf Curl Disease/IMG_20250620_143446.jpg,Leaf Curl Disease,1098,train
+Leaf Curl Disease/IMG_20250620_143450.jpg,Leaf Curl Disease,1099,train
+Leaf Curl Disease/IMG_20250620_143459.jpg,Leaf Curl Disease,1100,train
+Leaf Curl Disease/IMG_20250620_143510.jpg,Leaf Curl Disease,1101,train
+Leaf Curl Disease/IMG_20250620_143516.jpg,Leaf Curl Disease,1102,test
+Leaf Curl Disease/IMG_20250620_143521.jpg,Leaf Curl Disease,1103,val
+Leaf Curl Disease/IMG_20250620_143527.jpg,Leaf Curl Disease,1104,train
+Leaf Curl Disease/IMG_20250620_143530.jpg,Leaf Curl Disease,1105,train
+Leaf Curl Disease/IMG_20250620_143534.jpg,Leaf Curl Disease,1106,train
+Leaf Curl Disease/IMG_20250620_143539.jpg,Leaf Curl Disease,1107,train
+Leaf Curl Disease/IMG_20250620_143541.jpg,Leaf Curl Disease,1108,train
+Leaf Curl Disease/IMG_20250620_143549.jpg,Leaf Curl Disease,1109,val
+Leaf Curl Disease/IMG_20250620_143554.jpg,Leaf Curl Disease,1110,train
+Leaf Curl Disease/IMG_20250620_143558.jpg,Leaf Curl Disease,1111,train
+Leaf Curl Disease/IMG_20250620_143601.jpg,Leaf Curl Disease,1112,train
+Leaf Curl Disease/IMG_20250620_143603.jpg,Leaf Curl Disease,1113,test
+Leaf Curl Disease/IMG_20250620_143610.jpg,Leaf Curl Disease,1114,train
+Leaf Curl Disease/IMG_20250620_143613.jpg,Leaf Curl Disease,1115,train
+Leaf Curl Disease/IMG_20250620_143617.jpg,Leaf Curl Disease,1116,train
+Leaf Curl Disease/IMG_20250620_143620.jpg,Leaf Curl Disease,1117,train
+Leaf Curl Disease/IMG_20250620_143622.jpg,Leaf Curl Disease,1118,train
+Leaf Curl Disease/IMG_20250620_143630.jpg,Leaf Curl Disease,1119,val
+Leaf Curl Disease/IMG_20250620_143652.jpg,Leaf Curl Disease,1120,test
+Leaf Curl Disease/IMG_20250620_143658.jpg,Leaf Curl Disease,1121,train
+Leaf Curl Disease/IMG_20250620_143702.jpg,Leaf Curl Disease,1122,test
+Leaf Curl Disease/IMG_20250620_143713.jpg,Leaf Curl Disease,1123,train
+Leaf Curl Disease/IMG_20250620_143715.jpg,Leaf Curl Disease,1124,train
+Leaf Curl Disease/IMG_20250620_143718.jpg,Leaf Curl Disease,1125,train
+Leaf Curl Disease/IMG_20250620_143725.jpg,Leaf Curl Disease,1126,train
+Leaf Curl Disease/IMG_20250620_143728.jpg,Leaf Curl Disease,1127,train
+Leaf Curl Disease/IMG_20250620_143731.jpg,Leaf Curl Disease,1128,train
+Leaf Curl Disease/IMG_20250620_143736.jpg,Leaf Curl Disease,1129,train
+Leaf Curl Disease/IMG_20250620_143738.jpg,Leaf Curl Disease,1130,test
+Leaf Curl Disease/IMG_20250620_143741.jpg,Leaf Curl Disease,1131,val
+Leaf Curl Disease/IMG_20250620_143744.jpg,Leaf Curl Disease,1132,train
+Leaf Curl Disease/IMG_20250620_143745.jpg,Leaf Curl Disease,1133,train
+Leaf Curl Disease/IMG_20250620_143749.jpg,Leaf Curl Disease,1134,train
+Leaf Curl Disease/IMG_20250620_143753.jpg,Leaf Curl Disease,1135,val
+Leaf Curl Disease/IMG_20250620_143756.jpg,Leaf Curl Disease,1136,train
+Leaf Curl Disease/IMG_20250620_143802.jpg,Leaf Curl Disease,1137,train
+Leaf Curl Disease/IMG_20250620_143804.jpg,Leaf Curl Disease,1138,train
+Leaf Curl Disease/IMG_20250620_143807.jpg,Leaf Curl Disease,1139,test
+Leaf Curl Disease/IMG_20250620_143844.jpg,Leaf Curl Disease,1140,train
+Leaf Curl Disease/IMG_20250620_143848.jpg,Leaf Curl Disease,1141,train
+Leaf Curl Disease/IMG_20250620_143901.jpg,Leaf Curl Disease,1142,val
+Leaf Curl Disease/IMG_20250620_143903.jpg,Leaf Curl Disease,1143,train
+Leaf Curl Disease/IMG_20250620_143912.jpg,Leaf Curl Disease,1144,train
+Leaf Curl Disease/IMG_20250620_143917.jpg,Leaf Curl Disease,1145,train
+Leaf Curl Disease/IMG_20250620_143921.jpg,Leaf Curl Disease,1146,test
+Leaf Curl Disease/IMG_20250620_143925.jpg,Leaf Curl Disease,1147,train
+Leaf Curl Disease/IMG_20250620_143929.jpg,Leaf Curl Disease,1148,train
+Leaf Curl Disease/IMG_20250620_143933.jpg,Leaf Curl Disease,1149,train
+Leaf Curl Disease/IMG_20250620_143944.jpg,Leaf Curl Disease,1150,val
+Leaf Curl Disease/IMG_20250620_144014.jpg,Leaf Curl Disease,1151,train
+Leaf Curl Disease/IMG_20250620_144018.jpg,Leaf Curl Disease,1152,test
+Leaf Curl Disease/IMG_20250620_144022.jpg,Leaf Curl Disease,1153,train
+Leaf Curl Disease/IMG_20250620_144029.jpg,Leaf Curl Disease,1154,train
+Leaf Curl Disease/IMG_20250620_144036.jpg,Leaf Curl Disease,1155,train
+Leaf Curl Disease/IMG_20250620_144038.jpg,Leaf Curl Disease,1156,val
+Leaf Curl Disease/IMG_20250620_144041.jpg,Leaf Curl Disease,1157,train
+Leaf Curl Disease/IMG_20250620_144044.jpg,Leaf Curl Disease,1158,train
+Leaf Curl Disease/IMG_20250620_144051.jpg,Leaf Curl Disease,1159,test
+Leaf Curl Disease/IMG_20250620_144056.jpg,Leaf Curl Disease,1160,train
+Leaf Curl Disease/IMG_20250620_144107.jpg,Leaf Curl Disease,1161,train
+Leaf Curl Disease/IMG_20250620_144111.jpg,Leaf Curl Disease,1162,train
+Leaf Curl Disease/IMG_20250620_144113.jpg,Leaf Curl Disease,1163,train
+Leaf Curl Disease/IMG_20250620_144116.jpg,Leaf Curl Disease,1164,val
+Leaf Curl Disease/IMG_20250620_144121.jpg,Leaf Curl Disease,1165,train
+Leaf Curl Disease/IMG_20250620_144123.jpg,Leaf Curl Disease,1166,train
+Leaf Curl Disease/IMG_20250620_144126.jpg,Leaf Curl Disease,1167,train
+Leaf Curl Disease/IMG_20250620_144129.jpg,Leaf Curl Disease,1168,test
+Leaf Curl Disease/IMG_20250620_144131.jpg,Leaf Curl Disease,1169,val
+Leaf Curl Disease/IMG_20250620_144134.jpg,Leaf Curl Disease,1170,train
+Leaf Curl Disease/IMG_20250620_144156.jpg,Leaf Curl Disease,1171,train
+Leaf Curl Disease/IMG_20250620_144200.jpg,Leaf Curl Disease,1172,train
+Leaf Curl Disease/IMG_20250620_144205.jpg,Leaf Curl Disease,1173,train
+Leaf Curl Disease/IMG_20250620_144211.jpg,Leaf Curl Disease,1174,test
+Leaf Curl Disease/IMG_20250620_144213.jpg,Leaf Curl Disease,1175,val
+Leaf Curl Disease/IMG_20250620_144215.jpg,Leaf Curl Disease,1176,train
+Leaf Curl Disease/IMG_20250620_144218.jpg,Leaf Curl Disease,1177,train
+Leaf Curl Disease/IMG_20250620_144222.jpg,Leaf Curl Disease,1178,train
+Leaf Curl Disease/IMG_20250620_144231.jpg,Leaf Curl Disease,1179,train
+Leaf Curl Disease/IMG_20250620_144233.jpg,Leaf Curl Disease,1180,train
+Leaf Curl Disease/IMG_20250620_144234.jpg,Leaf Curl Disease,1181,train
+Leaf Curl Disease/IMG_20250620_144241.jpg,Leaf Curl Disease,1182,test
+Leaf Curl Disease/IMG_20250620_144245.jpg,Leaf Curl Disease,1183,val
+Leaf Curl Disease/IMG_20250620_144251.jpg,Leaf Curl Disease,1184,train
+Leaf Curl Disease/IMG_20250620_144253.jpg,Leaf Curl Disease,1185,train
+Leaf Curl Disease/IMG_20250620_144256.jpg,Leaf Curl Disease,1186,train
+Leaf Curl Disease/IMG_20250620_144309.jpg,Leaf Curl Disease,1187,train
+Leaf Curl Disease/IMG_20250620_144315.jpg,Leaf Curl Disease,1188,train
+Leaf Curl Disease/IMG_20250620_144318.jpg,Leaf Curl Disease,1189,train
+Leaf Curl Disease/IMG_20250620_144321.jpg,Leaf Curl Disease,1190,test
+Leaf Curl Disease/IMG_20250620_144323.jpg,Leaf Curl Disease,1191,test
+Leaf Curl Disease/IMG_20250620_144355.jpg,Leaf Curl Disease,1192,val
+Leaf Curl Disease/IMG_20250620_144357.jpg,Leaf Curl Disease,1193,train
+Leaf Curl Disease/IMG_20250620_144400.jpg,Leaf Curl Disease,1194,train
+Leaf Curl Disease/IMG_20250620_144403.jpg,Leaf Curl Disease,1195,train
+Leaf Curl Disease/IMG_20250620_144406.jpg,Leaf Curl Disease,1196,train
+Leaf Curl Disease/IMG_20250620_144411.jpg,Leaf Curl Disease,1197,train
+Leaf Curl Disease/IMG_20250620_144415.jpg,Leaf Curl Disease,1198,val
+Leaf Curl Disease/IMG_20250620_144421.jpg,Leaf Curl Disease,1199,train
+Leaf Curl Disease/IMG_20250620_144423.jpg,Leaf Curl Disease,1200,train
+Leaf Curl Disease/IMG_20250620_144426.jpg,Leaf Curl Disease,1201,train
+Leaf Curl Disease/IMG_20250620_144428.jpg,Leaf Curl Disease,1202,train
+Leaf Curl Disease/IMG_20250620_144435.jpg,Leaf Curl Disease,1203,val
+Leaf Curl Disease/IMG_20250620_144437.jpg,Leaf Curl Disease,1204,test
+Leaf Curl Disease/IMG_20250620_144442.jpg,Leaf Curl Disease,1205,train
+Leaf Curl Disease/IMG_20250620_144451.jpg,Leaf Curl Disease,1206,train
+Leaf Curl Disease/IMG_20250620_144454.jpg,Leaf Curl Disease,1207,train
+Leaf Curl Disease/IMG_20250620_144456.jpg,Leaf Curl Disease,1208,train
+Leaf Curl Disease/IMG_20250620_144459.jpg,Leaf Curl Disease,1209,test
+Leaf Curl Disease/IMG_20250620_144502.jpg,Leaf Curl Disease,1210,val
+Leaf Curl Disease/IMG_20250620_144505.jpg,Leaf Curl Disease,1211,train
+Leaf Curl Disease/IMG_20250620_144510.jpg,Leaf Curl Disease,1212,train
+Leaf Curl Disease/IMG_20250620_144513.jpg,Leaf Curl Disease,1213,train
+Leaf Curl Disease/IMG_20250620_144516.jpg,Leaf Curl Disease,1214,train
+Leaf Curl Disease/IMG_20250620_144518.jpg,Leaf Curl Disease,1215,train
+Leaf Curl Disease/IMG_20250620_144630.jpg,Leaf Curl Disease,1216,train
+Leaf Curl Disease/IMG_20250620_144632.jpg,Leaf Curl Disease,1217,train
+Leaf Curl Disease/IMG_20250620_144636.jpg,Leaf Curl Disease,1218,test
+Leaf Curl Disease/IMG_20250620_144641.jpg,Leaf Curl Disease,1219,train
+Leaf Curl Disease/IMG_20250620_144645.jpg,Leaf Curl Disease,1220,val
+Leaf Curl Disease/IMG_20250620_144647.jpg,Leaf Curl Disease,1221,train
+Leaf Curl Disease/IMG_20250620_144650.jpg,Leaf Curl Disease,1222,train
+Leaf Curl Disease/IMG_20250620_144652.jpg,Leaf Curl Disease,1223,train
+Leaf Curl Disease/IMG_20250620_144654.jpg,Leaf Curl Disease,1224,train
+Leaf Curl Disease/IMG_20250620_144658.jpg,Leaf Curl Disease,1225,test
+Leaf Curl Disease/IMG_20250620_144705.jpg,Leaf Curl Disease,1226,val
+Leaf Curl Disease/IMG_20250620_144710.jpg,Leaf Curl Disease,1227,train
+Leaf Curl Disease/IMG_20250620_144713.jpg,Leaf Curl Disease,1228,train
+Leaf Curl Disease/IMG_20250620_144716.jpg,Leaf Curl Disease,1229,train
+Leaf Curl Disease/IMG_20250620_144721.jpg,Leaf Curl Disease,1230,test
+Leaf Curl Disease/IMG_20250620_144723.jpg,Leaf Curl Disease,1231,train
+Leaf Curl Disease/IMG_20250620_144726.jpg,Leaf Curl Disease,1232,train
+Leaf Curl Disease/IMG_20250620_144728.jpg,Leaf Curl Disease,1233,val
+Leaf Curl Disease/IMG_20250620_144808.jpg,Leaf Curl Disease,1234,train
+Leaf Curl Disease/IMG_20250620_144810.jpg,Leaf Curl Disease,1235,train
+Leaf Curl Disease/IMG_20250620_144815.jpg,Leaf Curl Disease,1236,train
+Leaf Curl Disease/IMG_20250620_144818.jpg,Leaf Curl Disease,1237,test
+Leaf Curl Disease/IMG_20250620_144821.jpg,Leaf Curl Disease,1238,train
+Leaf Curl Disease/IMG_20250620_144825.jpg,Leaf Curl Disease,1239,train
+Leaf Curl Disease/IMG_20250620_144828.jpg,Leaf Curl Disease,1240,val
+Leaf Curl Disease/IMG_20250620_144833.jpg,Leaf Curl Disease,1241,train
+Leaf Curl Disease/IMG_20250620_144835.jpg,Leaf Curl Disease,1242,train
+Leaf Curl Disease/IMG_20250620_144839.jpg,Leaf Curl Disease,1243,train
+Leaf Curl Disease/IMG_20250620_144847.jpg,Leaf Curl Disease,1244,train
+Leaf Curl Disease/IMG_20250620_144851.jpg,Leaf Curl Disease,1245,test
+Leaf Curl Disease/IMG_20250620_144856.jpg,Leaf Curl Disease,1246,train
+Leaf Curl Disease/IMG_20250620_144901.jpg,Leaf Curl Disease,1247,train
+Leaf Curl Disease/IMG_20250620_144905.jpg,Leaf Curl Disease,1248,train
+Leaf Curl Disease/IMG_20250620_144908.jpg,Leaf Curl Disease,1249,val
+Leaf Curl Disease/IMG_20250620_144910.jpg,Leaf Curl Disease,1250,train
+Leaf Curl Disease/IMG_20250620_144914.jpg,Leaf Curl Disease,1251,train
+Leaf Curl Disease/IMG_20250620_144917.jpg,Leaf Curl Disease,1252,train
+Leaf Curl Disease/IMG_20250620_144920.jpg,Leaf Curl Disease,1253,test
+Leaf Curl Disease/IMG_20250620_144933.jpg,Leaf Curl Disease,1254,train
+Leaf Curl Disease/IMG_20250620_144938.jpg,Leaf Curl Disease,1255,train
+Leaf Curl Disease/IMG_20250620_144943.jpg,Leaf Curl Disease,1256,val
+Leaf Curl Disease/IMG_20250620_144954.jpg,Leaf Curl Disease,1257,train
+Leaf Curl Disease/IMG_20250620_144957.jpg,Leaf Curl Disease,1258,train
+Leaf Curl Disease/IMG_20250620_145007.jpg,Leaf Curl Disease,1259,test
+Leaf Curl Disease/IMG_20250620_145015.jpg,Leaf Curl Disease,1260,train
+Leaf Curl Disease/IMG_20250620_145021.jpg,Leaf Curl Disease,1261,train
+Leaf Curl Disease/IMG_20250620_145024.jpg,Leaf Curl Disease,1262,train
+Leaf Curl Disease/IMG_20250620_145027.jpg,Leaf Curl Disease,1263,train
+Leaf Curl Disease/IMG_20250620_145031.jpg,Leaf Curl Disease,1264,train
+Leaf Curl Disease/IMG_20250620_145035.jpg,Leaf Curl Disease,1265,test
+Leaf Curl Disease/IMG_20250620_145036.jpg,Leaf Curl Disease,1265,test
+Leaf Curl Disease/IMG_20250620_145040.jpg,Leaf Curl Disease,1266,train
+Leaf Curl Disease/IMG_20250620_145052.jpg,Leaf Curl Disease,1267,val
+Leaf Curl Disease/IMG_20250620_145100.jpg,Leaf Curl Disease,1268,train
+Leaf Curl Disease/IMG_20250620_145103.jpg,Leaf Curl Disease,1269,train
+Leaf Curl Disease/IMG_20250620_145106.jpg,Leaf Curl Disease,1270,train
+Leaf Curl Disease/IMG_20250620_145108.jpg,Leaf Curl Disease,1271,val
+Leaf Curl Disease/IMG_20250620_145114.jpg,Leaf Curl Disease,1272,train
+Leaf Curl Disease/IMG_20250620_145116.jpg,Leaf Curl Disease,1273,train
+Leaf Curl Disease/IMG_20250620_145120.jpg,Leaf Curl Disease,1274,train
+Leaf Curl Disease/IMG_20250620_145124.jpg,Leaf Curl Disease,1275,test
+Leaf Curl Disease/IMG_20250620_145127.jpg,Leaf Curl Disease,1276,train
+Leaf Curl Disease/IMG_20250620_145130.jpg,Leaf Curl Disease,1277,train
+Leaf Curl Disease/IMG_20250620_145134.jpg,Leaf Curl Disease,1278,val
+Leaf Curl Disease/IMG_20250620_145140.jpg,Leaf Curl Disease,1279,train
+Leaf Curl Disease/IMG_20250620_145151.jpg,Leaf Curl Disease,1280,train
+Leaf Curl Disease/IMG_20250620_145157.jpg,Leaf Curl Disease,1281,test
+Leaf Curl Disease/IMG_20250620_145201.jpg,Leaf Curl Disease,1282,train
+Leaf Curl Disease/IMG_20250620_145205.jpg,Leaf Curl Disease,1283,train
+Leaf Curl Disease/IMG_20250620_145210.jpg,Leaf Curl Disease,1284,val
+Leaf Curl Disease/IMG_20250620_145213.jpg,Leaf Curl Disease,1285,train
+Leaf Curl Disease/IMG_20250620_145216.jpg,Leaf Curl Disease,1286,train
+Leaf Curl Disease/IMG_20250620_145218.jpg,Leaf Curl Disease,1287,train
+Leaf Curl Disease/IMG_20250620_145222.jpg,Leaf Curl Disease,1288,val
+Leaf Curl Disease/IMG_20250620_145226.jpg,Leaf Curl Disease,1289,test
+Leaf Curl Disease/IMG_20250620_145228.jpg,Leaf Curl Disease,1290,train
+Leaf Curl Disease/IMG_20250620_145231.jpg,Leaf Curl Disease,1291,train
+Leaf Curl Disease/IMG_20250620_145235.jpg,Leaf Curl Disease,1292,train
+Leaf Curl Disease/IMG_20250620_145451.jpg,Leaf Curl Disease,1293,test
+Leaf Curl Disease/IMG_20250620_145500.jpg,Leaf Curl Disease,1294,train
+Leaf Curl Disease/IMG_20250620_145755.jpg,Leaf Curl Disease,1295,train
+Leaf Curl Disease/IMG_20250620_145801.jpg,Leaf Curl Disease,1296,train
+Leaf Curl Disease/IMG_20250620_145805.jpg,Leaf Curl Disease,1297,train
+Leaf Curl Disease/IMG_20250620_145812.jpg,Leaf Curl Disease,1298,train
+Leaf Curl Disease/IMG_20250620_145818.jpg,Leaf Curl Disease,1299,train
+Leaf Curl Disease/IMG_20250620_145824.jpg,Leaf Curl Disease,1300,val
+Leaf Curl Disease/IMG_20250620_145829.jpg,Leaf Curl Disease,1301,train
+Leaf Curl Disease/IMG_20250620_145835.jpg,Leaf Curl Disease,1302,train
+Leaf Curl Disease/IMG_20250620_145842.jpg,Leaf Curl Disease,1303,test
+Leaf Curl Disease/IMG_20250620_145845.jpg,Leaf Curl Disease,1304,train
+Leaf Curl Disease/IMG_20250620_145850.jpg,Leaf Curl Disease,1305,train
+Leaf Curl Disease/IMG_20250620_145853.jpg,Leaf Curl Disease,1306,train
+Leaf Curl Disease/IMG_20250620_145858.jpg,Leaf Curl Disease,1307,train
+Leaf Curl Disease/IMG_20250620_145902.jpg,Leaf Curl Disease,1308,test
+Leaf Curl Disease/IMG_20250620_145904.jpg,Leaf Curl Disease,1309,val
+Leaf Curl Disease/IMG_20250620_145907.jpg,Leaf Curl Disease,1310,train
+Leaf Curl Disease/IMG_20250620_145909.jpg,Leaf Curl Disease,1311,train
+Leaf Curl Disease/IMG_20250620_145914.jpg,Leaf Curl Disease,1312,val
+Leaf Curl Disease/IMG_20250620_145916.jpg,Leaf Curl Disease,1313,train
+Leaf Curl Disease/IMG_20250620_145922.jpg,Leaf Curl Disease,1314,train
+Leaf Curl Disease/IMG_20250620_145924.jpg,Leaf Curl Disease,1315,train
+Leaf Curl Disease/IMG_20250620_145929.jpg,Leaf Curl Disease,1316,test
+Leaf Curl Disease/IMG_20250620_145933.jpg,Leaf Curl Disease,1317,train
+Leaf Curl Disease/IMG_20250620_145938.jpg,Leaf Curl Disease,1318,train
+Leaf Curl Disease/IMG_20250620_145943.jpg,Leaf Curl Disease,1319,train
+Leaf Curl Disease/IMG_20250620_145948.jpg,Leaf Curl Disease,1320,train
+Leaf Curl Disease/IMG_20250620_145953.jpg,Leaf Curl Disease,1321,train
+Leaf Curl Disease/IMG_20250620_145957.jpg,Leaf Curl Disease,1322,test
+Leaf Curl Disease/IMG_20250620_145959.jpg,Leaf Curl Disease,1323,val
+Leaf Curl Disease/IMG_20250620_150001.jpg,Leaf Curl Disease,1324,train
+Leaf Curl Disease/IMG_20250620_150002.jpg,Leaf Curl Disease,1325,train
+Leaf Curl Disease/IMG_20250620_150006.jpg,Leaf Curl Disease,1326,train
+Leaf Curl Disease/IMG_20250620_150020.jpg,Leaf Curl Disease,1327,train
+Leaf Curl Disease/IMG_20250620_150028.jpg,Leaf Curl Disease,1328,train
+Leaf Curl Disease/IMG_20250620_150033.jpg,Leaf Curl Disease,1329,val
+Leaf Curl Disease/IMG_20250620_150039.jpg,Leaf Curl Disease,1330,train
+Leaf Curl Disease/IMG_20250620_150043.jpg,Leaf Curl Disease,1331,train
+Leaf Curl Disease/IMG_20250620_150046.jpg,Leaf Curl Disease,1332,test
+Leaf Curl Disease/IMG_20250620_150050.jpg,Leaf Curl Disease,1333,train
+Leaf Curl Disease/IMG_20250620_150053.jpg,Leaf Curl Disease,1334,val
+Leaf Curl Disease/IMG_20250620_150056.jpg,Leaf Curl Disease,1335,train
+Leaf Curl Disease/IMG_20250620_150100.jpg,Leaf Curl Disease,1336,train
+Leaf Curl Disease/IMG_20250620_150103.jpg,Leaf Curl Disease,1337,test
+Leaf Curl Disease/IMG_20250620_150105.jpg,Leaf Curl Disease,1338,train
+Leaf Curl Disease/IMG_20250620_150109.jpg,Leaf Curl Disease,1339,train
+Leaf Curl Disease/IMG_20250620_150114.jpg,Leaf Curl Disease,1340,train
+Leaf Curl Disease/IMG_20250620_150117.jpg,Leaf Curl Disease,1341,val
+Leaf Curl Disease/IMG_20250620_150123.jpg,Leaf Curl Disease,1342,train
+Leaf Curl Disease/IMG_20250620_150129.jpg,Leaf Curl Disease,1343,train
+Leaf Curl Disease/IMG_20250620_150133.jpg,Leaf Curl Disease,1344,train
+Leaf Curl Disease/IMG_20250620_150137.jpg,Leaf Curl Disease,1345,train
+Leaf Curl Disease/IMG_20250620_150139.jpg,Leaf Curl Disease,1346,test
+Leaf Curl Disease/IMG_20250620_150146.jpg,Leaf Curl Disease,1347,test
+Leaf Curl Disease/IMG_20250620_150151.jpg,Leaf Curl Disease,1348,train
+Leaf Curl Disease/IMG_20250620_150153.jpg,Leaf Curl Disease,1349,train
+Leaf Curl Disease/IMG_20250620_150158.jpg,Leaf Curl Disease,1350,val
+Leaf Curl Disease/IMG_20250620_150204.jpg,Leaf Curl Disease,1351,train
+Leaf Curl Disease/IMG_20250620_150208.jpg,Leaf Curl Disease,1352,train
+Leaf Curl Disease/IMG_20250620_150212.jpg,Leaf Curl Disease,1353,train
+Leaf Curl Disease/IMG_20250620_150215.jpg,Leaf Curl Disease,1354,test
+Leaf Curl Disease/IMG_20250620_150219.jpg,Leaf Curl Disease,1355,train
+Leaf Curl Disease/IMG_20250620_150225.jpg,Leaf Curl Disease,1356,test
+Leaf Curl Disease/IMG_20250620_150227.jpg,Leaf Curl Disease,1357,train
+Leaf Curl Disease/IMG_20250620_150232.jpg,Leaf Curl Disease,1358,train
+Leaf Curl Disease/IMG_20250620_150235.jpg,Leaf Curl Disease,1359,val
+Leaf Curl Disease/IMG_20250620_150350.jpg,Leaf Curl Disease,1360,train
+Leaf Curl Disease/IMG_20250620_150355.jpg,Leaf Curl Disease,1361,train
+Leaf Curl Disease/IMG_20250620_150405.jpg,Leaf Curl Disease,1362,train
+Leaf Curl Disease/IMG_20250620_150407.jpg,Leaf Curl Disease,1363,test
+Leaf Curl Disease/IMG_20250620_150410.jpg,Leaf Curl Disease,1364,train
+Leaf Curl Disease/IMG_20250620_150413.jpg,Leaf Curl Disease,1365,val
+Leaf Curl Disease/IMG_20250620_150420.jpg,Leaf Curl Disease,1366,train
+Leaf Curl Disease/IMG_20250620_150423.jpg,Leaf Curl Disease,1367,train
+Leaf Curl Disease/IMG_20250620_150427.jpg,Leaf Curl Disease,1368,val
+Leaf Curl Disease/IMG_20250620_150433.jpg,Leaf Curl Disease,1369,test
+Leaf Curl Disease/IMG_20250620_150437.jpg,Leaf Curl Disease,1370,train
+Leaf Curl Disease/IMG_20250620_150456.jpg,Leaf Curl Disease,1371,train
+Leaf Curl Disease/IMG_20250620_150500.jpg,Leaf Curl Disease,1372,train
+Leaf Curl Disease/IMG_20250620_150504.jpg,Leaf Curl Disease,1373,train
+Leaf Curl Disease/IMG_20250620_150509.jpg,Leaf Curl Disease,1374,train
+Leaf Curl Disease/IMG_20250620_150511.jpg,Leaf Curl Disease,1375,train
+Leaf Curl Disease/IMG_20250620_150515.jpg,Leaf Curl Disease,1376,train
+Leaf Curl Disease/IMG_20250620_150519.jpg,Leaf Curl Disease,1377,test
+Leaf Curl Disease/IMG_20250620_150526.jpg,Leaf Curl Disease,1378,val
+Leaf Curl Disease/IMG_20250620_150528.jpg,Leaf Curl Disease,1379,train
+Leaf Curl Disease/IMG_20250620_150531.jpg,Leaf Curl Disease,1380,train
+Leaf Curl Disease/IMG_20250620_150553.jpg,Leaf Curl Disease,1381,train
+Leaf Curl Disease/IMG_20250620_150559.jpg,Leaf Curl Disease,1382,train
+Leaf Curl Disease/IMG_20250620_150603.jpg,Leaf Curl Disease,1383,val
+Leaf Curl Disease/IMG_20250620_150608.jpg,Leaf Curl Disease,1384,train
+Leaf Curl Disease/IMG_20250620_150611.jpg,Leaf Curl Disease,1385,test
+Leaf Curl Disease/IMG_20250620_150617.jpg,Leaf Curl Disease,1386,train
+Leaf Curl Disease/IMG_20250620_150620.jpg,Leaf Curl Disease,1387,train
+Leaf Curl Disease/IMG_20250620_150624.jpg,Leaf Curl Disease,1388,train
+Leaf Curl Disease/IMG_20250620_150630.jpg,Leaf Curl Disease,1389,train
+Leaf Curl Disease/IMG_20250620_150632.jpg,Leaf Curl Disease,1390,train
+Leaf Curl Disease/IMG_20250620_150635.jpg,Leaf Curl Disease,1391,train
+Leaf Curl Disease/IMG_20250620_150639.jpg,Leaf Curl Disease,1392,train
+Leaf Curl Disease/IMG_20250620_150645.jpg,Leaf Curl Disease,1393,test
+Leaf Curl Disease/IMG_20250620_150649.jpg,Leaf Curl Disease,1394,val
+Leaf Curl Disease/IMG_20250620_150656.jpg,Leaf Curl Disease,1395,train
+Leaf Curl Disease/IMG_20250620_150659.jpg,Leaf Curl Disease,1396,train
+Leaf Curl Disease/IMG_20250620_150702.jpg,Leaf Curl Disease,1397,train
+Leaf Curl Disease/IMG_20250620_150706.jpg,Leaf Curl Disease,1398,test
+Leaf Curl Disease/IMG_20250620_150714.jpg,Leaf Curl Disease,1399,val
+Leaf Curl Disease/IMG_20250620_150812.jpg,Leaf Curl Disease,1400,train
+Leaf Curl Disease/IMG_20250620_150819.jpg,Leaf Curl Disease,1401,train
+Leaf Curl Disease/IMG_20250620_151001.jpg,Leaf Curl Disease,1402,train
+Leaf Curl Disease/IMG_20250620_151109.jpg,Leaf Curl Disease,1403,train
+Leaf Curl Disease/IMG_20250620_151115.jpg,Leaf Curl Disease,1404,train
+Leaf Curl Disease/IMG_20250620_151119.jpg,Leaf Curl Disease,1405,train
+Leaf Curl Disease/IMG_20250620_151123.jpg,Leaf Curl Disease,1406,test
+Leaf Curl Disease/IMG_20250620_151127.jpg,Leaf Curl Disease,1407,train
+Leaf Curl Disease/IMG_20250620_151132.jpg,Leaf Curl Disease,1408,val
+Leaf Curl Disease/IMG_20250620_151137.jpg,Leaf Curl Disease,1409,train
+Leaf Curl Disease/IMG_20250620_151141.jpg,Leaf Curl Disease,1410,train
+Leaf Curl Disease/IMG_20250620_151144.jpg,Leaf Curl Disease,1411,train
+Leaf Curl Disease/IMG_20250620_151148.jpg,Leaf Curl Disease,1412,val
+Leaf Curl Disease/IMG_20250620_151153.jpg,Leaf Curl Disease,1413,train
+Leaf Curl Disease/IMG_20250620_151156.jpg,Leaf Curl Disease,1414,test
+Leaf Curl Disease/IMG_20250620_151158.jpg,Leaf Curl Disease,1415,train
+Leaf Curl Disease/IMG_20250620_151200.jpg,Leaf Curl Disease,1416,train
+Leaf Curl Disease/IMG_20250620_151203.jpg,Leaf Curl Disease,1417,train
+Leaf Curl Disease/IMG_20250620_151206.jpg,Leaf Curl Disease,1418,train
+Leaf Curl Disease/IMG_20250620_151211.jpg,Leaf Curl Disease,1419,train
+Leaf Curl Disease/IMG_20250620_151214.jpg,Leaf Curl Disease,1420,train
+Leaf Curl Disease/IMG_20250620_151217.jpg,Leaf Curl Disease,1421,train
+Leaf Curl Disease/IMG_20250620_151222.jpg,Leaf Curl Disease,1422,test
+Leaf Curl Disease/IMG_20250620_151225.jpg,Leaf Curl Disease,1423,val
+Leaf Curl Disease/IMG_20250620_151228.jpg,Leaf Curl Disease,1424,train
+Leaf Curl Disease/IMG_20250620_151232.jpg,Leaf Curl Disease,1425,train
+Leaf Curl Disease/IMG_20250620_151234.jpg,Leaf Curl Disease,1426,train
+Leaf Curl Disease/IMG_20250620_151238.jpg,Leaf Curl Disease,1427,train
+Leaf Curl Disease/IMG_20250620_151240.jpg,Leaf Curl Disease,1428,val
+Leaf Curl Disease/IMG_20250620_151244.jpg,Leaf Curl Disease,1429,val
+Leaf Curl Disease/IMG_20250620_151248.jpg,Leaf Curl Disease,1430,train
+Leaf Curl Disease/IMG_20250620_151251.jpg,Leaf Curl Disease,1431,test
+Leaf Curl Disease/IMG_20250620_151253.jpg,Leaf Curl Disease,1432,train
+Leaf Curl Disease/IMG_20250620_151258.jpg,Leaf Curl Disease,1433,test
+Leaf Curl Disease/IMG_20250620_151300.jpg,Leaf Curl Disease,1434,train
+Leaf Curl Disease/IMG_20250620_151303.jpg,Leaf Curl Disease,1435,val
+Leaf Curl Disease/IMG_20250620_151308.jpg,Leaf Curl Disease,1436,train
+Leaf Curl Disease/IMG_20250620_151313.jpg,Leaf Curl Disease,1437,train
+Leaf Curl Disease/IMG_20250620_151317.jpg,Leaf Curl Disease,1438,train
+Leaf Curl Disease/IMG_20250620_151321.jpg,Leaf Curl Disease,1439,train
+Leaf Curl Disease/IMG_20250620_151325.jpg,Leaf Curl Disease,1440,train
+Leaf Curl Disease/IMG_20250620_151328.jpg,Leaf Curl Disease,1441,train
+Leaf Curl Disease/IMG_20250620_151332.jpg,Leaf Curl Disease,1442,train

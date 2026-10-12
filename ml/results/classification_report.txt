@@ -1,0 +1,13 @@
+Test Accuracy: 94.15%
+Test Loss: 0.1676
+
+                      precision    recall  f1-score   support
+
+         Anthracnose     1.0000    0.7436    0.8529        39
+Cercospora Leaf Spot     0.8333    1.0000    0.9091        50
+          Fresh Leaf     0.9683    0.9839    0.9760        62
+   Leaf Curl Disease     1.0000    0.9815    0.9907        54
+
+            accuracy                         0.9415       205
+           macro avg     0.9504    0.9272    0.9322       205
+        weighted avg     0.9497    0.9415    0.9401       205

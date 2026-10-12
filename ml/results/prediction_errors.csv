@@ -1,0 +1,13 @@
+filename,actual,predicted,confidence
+IMG_20250615_160831_923.jpg,Anthracnose,Fresh Leaf,0.35892632603645325
+IMG_20250615_160853_933.jpg,Anthracnose,Fresh Leaf,0.755763828754425
+IMG_20250615_161128_465.jpg,Anthracnose,Cercospora Leaf Spot,0.5709260702133179
+IMG_20250615_161142_039.jpg,Anthracnose,Cercospora Leaf Spot,0.7430009245872498
+IMG_20250615_162131_580.jpg,Anthracnose,Cercospora Leaf Spot,0.7440676093101501
+IMG_20250615_162349_916.jpg,Anthracnose,Cercospora Leaf Spot,0.6125994324684143
+IMG_20250615_162907_098.jpg,Anthracnose,Cercospora Leaf Spot,0.5249679088592529
+IMG_20250615_163646_360.jpg,Anthracnose,Cercospora Leaf Spot,0.6983547806739807
+IMG_20250615_164050_647.jpg,Anthracnose,Cercospora Leaf Spot,0.9918198585510254
+IMG_20250615_164342_194.jpg,Anthracnose,Cercospora Leaf Spot,0.8628662824630737
+IMG_20250615_165649.jpg,Fresh Leaf,Cercospora Leaf Spot,0.5608093738555908
+IMG_20250620_144721.jpg,Leaf Curl Disease,Cercospora Leaf Spot,0.5067815780639648
