@@ -49,6 +49,17 @@
             android:textAllCaps="false"
             android:layout_marginTop="22dp"/>
 
+        <Button
+            android:id="@+id/btnTakePhoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ambil Foto dari Kamera"
+            android:textAllCaps="false"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#2E7D32"
+            android:textColor="#FFFFFF" />
+
+
         <ProgressBar
             android:id="@+id/progressPrediction"
             android:layout_width="44dp"
