@@ -102,19 +102,38 @@ val probabilities = outputBuffers[0].readFloat()
 
 The model output is used to determine the predicted class and confidence displayed in the application.
 
-### Image Processing
 
-The current Android implementation:
+### Training and Android Compatibility
 
-1. Loads the selected or captured image.
-2. Resizes it to fit a 224 × 224 canvas while maintaining its aspect ratio.
-3. Uses white padding when required.
-4. Extracts RGB channel values.
-5. Constructs a Float32 input array using RGB values in the 0–255 range.
-6. Sends the input data to LiteRT for inference.
-7. Reads model output scores and selects the highest-scoring class.
+The Android classifier follows the preprocessing design
+used during model training.
 
-The compatibility of Android preprocessing with the original training pipeline should be verified against the model export configuration.
+Verified from `ml/notebooks/chili_leaf_training.ipynb`:
+
+- Architecture: MobileNetV2.
+- Input size: 224 x 224 pixels.
+- Input format: RGB Float32.
+- Input range: 0-255.
+- Normalization: Rescaling(1/127.5, offset=-1)
+  is included inside the trained model.
+- Aspect ratio: preserved with white padding.
+- Output: four-class Softmax classification.
+
+The label order in the Android `labels.txt` matches
+the class order defined in the training notebook.
+
+The model was exported using TensorFlow Lite Converter
+from the trained Keras model.
+
+The Android implementation uses bitmap interpolation
+that may differ slightly from PIL Lanczos interpolation
+used during training.
+
+Model loading and real inference are implemented in
+`ChiliLeafClassifier.kt`.
+
+The predicted label, confidence, treatment guidance,
+and local history are handled by `MainActivity.kt`.
 
 ## Core Android Features
 
