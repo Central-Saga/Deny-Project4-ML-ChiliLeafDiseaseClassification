@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F8F4">
+
+    <!-- KONTEN HALAMAN PANDUAN -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <!-- HEADER -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="22dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="CHILILEAF AI"
+                        android:textSize="11sp"
+                        android:textStyle="bold"
+                        android:textColor="#63816B"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Panduan Tanaman"
+                        android:textSize="26sp"
+                        android:textStyle="bold"
+                        android:textColor="#234A33"
+                        android:layout_marginTop="6dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kenali gejala dan cara penanganannya"
+                        android:textSize="13sp"
+                        android:textColor="#788C7E"
+                        android:layout_marginTop="5dp"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/logo_chilileaf"
+                    android:scaleType="fitCenter"
+                    android:contentDescription="Logo ChiliLeaf AI"/>
+
+            </LinearLayout>
+
+            <!-- BANNER PANDUAN -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#E1EEE2"
+                android:padding="22dp"
+                android:layout_marginBottom="26dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PANDUAN KESEHATAN CABAI"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:textColor="#43835D"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kenali Lebih Awal,\nTangani Lebih Baik."
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="#245038"
+                    android:layout_marginTop="12dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pelajari kondisi daun cabai yang dapat dikenali oleh ChiliLeaf AI beserta langkah perawatan awal."
+                    android:textSize="13sp"
+                    android:textColor="#65806D"
+                    android:lineSpacingExtra="4dp"
+                    android:layout_marginTop="12dp"/>
+
+            </LinearLayout>
+
+            <!-- JUDUL BAGIAN -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kenali Kondisi Daun"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                android:textColor="#243E2C"
+                android:layout_marginBottom="7dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Empat kondisi yang dipelajari oleh model AI"
+                android:textSize="13sp"
+                android:textColor="#809084"
+                android:layout_marginBottom="20dp"/>
+
+            <!-- ============================ -->
+            <!-- KARTU 1: FRESH LEAF -->
+            <!-- ============================ -->
+            <LinearLayout
+                android:id="@+id/guideFreshCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FFFFFF"
+                android:elevation="2dp"
+                android:padding="18dp"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="KONDISI DAUN SEHAT"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    android:textColor="#43845B"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fresh Leaf"
+                    android:textSize="21sp"
+                    android:textStyle="bold"
+                    android:textColor="#254B34"
+                    android:layout_marginTop="8dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    android:layout_marginTop="14dp"
+                    android:src="@drawable/guide_fresh_leaf"
+                    android:scaleType="fitCenter"
+                    android:contentDescription="Ilustrasi daun cabai sehat"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Daun yang tampak sehat umumnya memiliki jaringan utuh dan tidak menunjukkan gejala kerusakan yang jelas."
+                    android:textSize="13sp"
+                    android:textColor="#738477"
+                    android:lineSpacingExtra="4dp"
+                    android:layout_marginTop="12dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#E9EFE8"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginBottom="16dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Perawatan Rutin"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#2D6342"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Siram tanaman sesuai kebutuhan.\n\n2. Pastikan tanaman mendapat cahaya matahari yang cukup.\n\n3. Jaga kondisi tanah dan drainase.\n\n4. Bersihkan daun gugur dan gulma.\n\n5. Periksa kondisi daun secara berkala."
+                    android:textSize="13sp"
+                    android:textColor="#506557"
+                    android:lineSpacingExtra="3dp"
+                    android:layout_marginTop="12dp"/>
+
+            </LinearLayout>
+
+            <!-- ============================ -->
+            <!-- KARTU 2: LEAF CURL -->
+            <!-- ============================ -->
+            <LinearLayout
+                android:id="@+id/guideCurlCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FFFFFF"
+                android:elevation="2dp"
+                android:padding="18dp"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PERUBAHAN BENTUK DAUN"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    android:textColor="#8C773D"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Leaf Curl Disease"
+                    android:textSize="21sp"
+                    android:textStyle="bold"
+                    android:textColor="#254B34"
+                    android:layout_marginTop="8dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    android:layout_marginTop="14dp"
+                    android:src="@drawable/guide_leaf_curl"
+                    android:scaleType="fitCenter"
+                    android:contentDescription="Ilustrasi daun cabai keriting"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Daun dapat terlihat keriting, menggulung, atau berubah bentuk. Kondisi ini dapat berkaitan dengan hama, virus, atau stres lingkungan."
+                    android:textSize="13sp"
+                    android:textColor="#738477"
+                    android:lineSpacingExtra="4dp"
+                    android:layout_marginTop="12dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#E9EFE8"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginBottom="16dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Penanganan Awal"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#2D6342"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Periksa bagian bawah daun untuk menemukan hama pengisap.\n\n2. Periksa pola penyiraman tanaman.\n\n3. Pantau pertumbuhan daun muda.\n\n4. Bersihkan gulma di sekitar tanaman.\n\n5. Konsultasikan dengan petugas pertanian jika gejala terus meluas."
+                    android:textSize="13sp"
+                    android:textColor="#506557"
+                    android:lineSpacingExtra="3dp"
+                    android:layout_marginTop="12dp"/>
+
+            </LinearLayout>
+
+            <!-- ============================ -->
+            <!-- KARTU 3: CERCOSPORA -->
+            <!-- ============================ -->
+            <LinearLayout
+                android:id="@+id/guideCercosporaCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FFFFFF"
+                android:elevation="2dp"
+                android:padding="18dp"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BERCAK PADA DAUN"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    android:textColor="#A07740"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cercospora Leaf Spot"
+                    android:textSize="21sp"
+                    android:textStyle="bold"
+                    android:textColor="#254B34"
+                    android:layout_marginTop="8dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    android:layout_marginTop="14dp"
+                    android:src="@drawable/guide_cercospora"
+                    android:scaleType="fitCenter"
+                    android:contentDescription="Ilustrasi bercak daun Cercospora"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cercospora Leaf Spot dapat ditandai dengan bercak pada daun, yang terkadang memiliki bagian tengah lebih pucat dan tepi lebih gelap."
+                    android:textSize="13sp"
+                    android:textColor="#738477"
+                    android:lineSpacingExtra="4dp"
+                    android:layout_marginTop="12dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#E9EFE8"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginBottom="16dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Penanganan Awal"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#2D6342"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Periksa penyebaran bercak pada daun lain.\n\n2. Singkirkan daun yang rusak berat.\n\n3. Hindari penyiraman yang terlalu sering membasahi daun.\n\n4. Tingkatkan sirkulasi udara.\n\n5. Jaga kebersihan lingkungan dan peralatan kebun."
+                    android:textSize="13sp"
+                    android:textColor="#506557"
+                    android:lineSpacingExtra="3dp"
+                    android:layout_marginTop="12dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Informasi Penting"
+                    android:textColor="#315A3E"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <!-- ============================ -->
+            <!-- KARTU 4: ANTHRACNOSE -->
+            <!-- ============================ -->
+            <LinearLayout
+                android:id="@+id/guideAnthracnoseCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FFFFFF"
+                android:elevation="2dp"
+                android:padding="18dp"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="KERUSAKAN JARINGAN"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    android:textColor="#A66D53"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Anthracnose"
+                    android:textSize="21sp"
+                    android:textStyle="bold"
+                    android:textColor="#254B34"
+                    android:layout_marginTop="8dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    android:layout_marginTop="14dp"
+                    android:src="@drawable/guide_anthracnose"
+                    android:scaleType="fitCenter"
+                    android:contentDescription="Ilustrasi antraknosa pada daun cabai"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Antraknosa dapat menyebabkan kerusakan jaringan tanaman. Pada cabai, penyakit ini juga dapat menyerang buah."
+                    android:textSize="13sp"
+                    android:textColor="#738477"
+                    android:lineSpacingExtra="4dp"
+                    android:layout_marginTop="12dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#E9EFE8"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginBottom="16dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Penanganan Awal"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#2D6342"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Periksa kondisi daun, batang, dan buah.\n\n2. Singkirkan bagian tanaman yang rusak berat atau diduga terinfeksi.\n\n3. Bersihkan sisa tanaman sakit.\n\n4. Hindari kelembapan berlebih dan perbaiki sirkulasi udara.\n\n5. Konsultasikan dengan petugas pertanian jika gejala terus menyebar."
+                    android:textSize="13sp"
+                    android:textColor="#506557"
+                    android:lineSpacingExtra="3dp"
+                    android:layout_marginTop="12dp"/>
+
+            </LinearLayout>
+
+            <!-- CATATAN -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#EAF1E9"
+                android:padding="18dp"
+                android:layout_marginBottom="18dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gambar merupakan ilustrasi buatan AI untuk tujuan edukasi, bukan foto diagnostik yang telah diverifikasi. Hasil klasifikasi merupakan prediksi, bukan diagnosis pasti. Periksa kondisi tanaman secara langsung."
+                    android:textSize="12sp"
+                    android:textColor="#6F8273"
+                    android:lineSpacingExtra="4dp"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!-- BOTTOM NAVIGATION -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="#FFFFFF"
+        android:elevation="10dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp">
+
+        <!-- BERANDA -->
+        <LinearLayout
+            android:id="@+id/navHome"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:src="@android:drawable/ic_menu_view"
+                app:tint="#87968B"
+                android:contentDescription="Beranda"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Beranda"
+                android:textSize="11sp"
+                android:textColor="#87968B"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+        <!-- DETEKSI -->
+        <LinearLayout
+            android:id="@+id/navDetect"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:src="@android:drawable/ic_menu_camera"
+                app:tint="#87968B"
+                android:contentDescription="Deteksi"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deteksi"
+                android:textSize="11sp"
+                android:textColor="#87968B"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+        <!-- RIWAYAT -->
+        <LinearLayout
+            android:id="@+id/navHistory"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:src="@android:drawable/ic_menu_recent_history"
+                app:tint="#87968B"
+                android:contentDescription="Riwayat"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Riwayat"
+                android:textSize="11sp"
+                android:textColor="#87968B"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+        <!-- PANDUAN AKTIF -->
+        <LinearLayout
+            android:id="@+id/navGuide"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:src="@android:drawable/ic_menu_info_details"
+                app:tint="#2B704B"
+                android:contentDescription="Panduan"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Panduan"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:textColor="#2B704B"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

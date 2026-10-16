@@ -11,16 +11,35 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ChiliLeafDisease">
+
+        <!-- HALAMAN UTAMA: BERANDA -->
         <activity
-            android:name=".MainActivity"
+            android:name=".HomeActivity"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
 
+        <!-- HALAMAN DETEKSI -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <!-- HALAMAN RIWAYAT -->
+        <activity
+            android:name=".HistoryActivity"
+            android:exported="false" />
+
+        <!-- HALAMAN PANDUAN -->
+        <activity
+            android:name=".GuideActivity"
+            android:exported="false" />
+
+        <!-- FILE PROVIDER UNTUK KAMERA -->
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="${applicationId}.fileprovider"

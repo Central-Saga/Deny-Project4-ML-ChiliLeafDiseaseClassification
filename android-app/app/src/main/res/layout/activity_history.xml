@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F8F4">
+
+    <!-- KONTEN RIWAYAT -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <!-- HEADER -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="24dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CHILILEAF AI"
+                        android:textColor="#63816B"
+                        android:textSize="11sp"
+                        android:textStyle="bold"
+                        android:letterSpacing="0.08"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Riwayat Deteksi"
+                        android:textColor="#234A33"
+                        android:textSize="26sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="5dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pantau hasil analisis daun sebelumnya"
+                        android:textColor="#788C7E"
+                        android:textSize="13sp"
+                        android:layout_marginTop="5dp"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:src="@android:drawable/ic_menu_recent_history"
+                    app:tint="#2B704B"
+                    android:background="#E1EEE2"
+                    android:padding="10dp"
+                    android:contentDescription="Ikon riwayat"/>
+
+            </LinearLayout>
+
+            <!-- KARTU TOTAL PEMERIKSAAN -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FFFFFF"
+                android:elevation="2dp"
+                android:padding="20dp"
+                android:layout_marginBottom="26dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TOTAL PEMERIKSAAN"
+                    android:textColor="#728978"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    android:letterSpacing="0.06"/>
+
+                <TextView
+                    android:id="@+id/txtHistoryCount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="#245C3C"
+                    android:textStyle="bold"
+                    android:textSize="34sp"
+                    android:layout_marginTop="8dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hasil analisis yang tersimpan di perangkat"
+                    android:textColor="#839486"
+                    android:textSize="12sp"
+                    android:layout_marginTop="4dp"/>
+
+            </LinearLayout>
+
+            <!-- JUDUL LIST -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Deteksi Terbaru"
+                    android:textColor="#243E2C"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Offline"
+                    android:textColor="#34734B"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    android:background="#E1EFE3"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp"
+                    android:paddingTop="7dp"
+                    android:paddingBottom="7dp"/>
+
+            </LinearLayout>
+
+            <!-- TAMPILAN KETIKA RIWAYAT KOSONG -->
+            <LinearLayout
+                android:id="@+id/layoutHistoryEmpty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="#FFFFFF"
+                android:padding="28dp"
+                android:layout_marginBottom="18dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@android:drawable/ic_menu_gallery"
+                    app:tint="#6B9679"
+                    android:background="#EAF3E9"
+                    android:padding="16dp"
+                    android:contentDescription="Riwayat masih kosong"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Belum Ada Riwayat"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#31543C"
+                    android:gravity="center"
+                    android:layout_marginTop="18dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hasil deteksi daun cabai yang kamu lakukan akan muncul di sini."
+                    android:textSize="13sp"
+                    android:textColor="#87968B"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="3dp"/>
+
+                <Button
+                    android:id="@+id/btnHistoryStartDetect"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:layout_marginTop="22dp"
+                    android:text="Mulai Deteksi"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:backgroundTint="#2B704B"/>
+
+            </LinearLayout>
+
+            <!-- DAFTAR HASIL DETEKSI -->
+            <!-- Diisi melalui HistoryActivity.kt -->
+            <LinearLayout
+                android:id="@+id/historyListContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- HAPUS RIWAYAT -->
+            <Button
+                android:id="@+id/btnClearHistory"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="Hapus Semua Riwayat"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textColor="#A13A36"
+                android:backgroundTint="#F5E9E8"
+                android:visibility="gone"
+                android:layout_marginBottom="20dp"/>
+
+            <!-- CATATAN -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Riwayat disimpan secara lokal. Hasil AI merupakan prediksi dan bukan diagnosis pasti."
+                android:textSize="12sp"
+                android:textColor="#87968A"
+                android:gravity="center"
+                android:lineSpacingExtra="3dp"
+                android:layout_marginBottom="16dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!-- BOTTOM NAVIGATION -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="#FFFFFF"
+        android:elevation="10dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp">
+
+        <!-- BERANDA -->
+        <LinearLayout
+            android:id="@+id/navHome"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:clickable="true"
+            android:focusable="true"
+            android:contentDescription="Menu Beranda">
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:src="@android:drawable/ic_menu_view"
+                app:tint="#87968B"
+                android:contentDescription="Beranda"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Beranda"
+                android:textSize="11sp"
+                android:textColor="#87968B"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+        <!-- DETEKSI -->
+        <LinearLayout
+            android:id="@+id/navDetect"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:clickable="true"
+            android:focusable="true"
+            android:contentDescription="Menu Deteksi">
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:src="@android:drawable/ic_menu_camera"
+                app:tint="#87968B"
+                android:contentDescription="Deteksi"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deteksi"
+                android:textSize="11sp"
+                android:textColor="#87968B"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+        <!-- RIWAYAT AKTIF -->
+        <LinearLayout
+            android:id="@+id/navHistory"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:clickable="true"
+            android:focusable="true"
+            android:contentDescription="Menu Riwayat">
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:src="@android:drawable/ic_menu_recent_history"
+                app:tint="#2B704B"
+                android:contentDescription="Riwayat"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Riwayat"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:textColor="#2B704B"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+        <!-- PANDUAN -->
+        <LinearLayout
+            android:id="@+id/navGuide"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:clickable="true"
+            android:focusable="true"
+            android:contentDescription="Menu Panduan">
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:src="@android:drawable/ic_menu_info_details"
+                app:tint="#87968B"
+                android:contentDescription="Panduan"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Panduan"
+                android:textSize="11sp"
+                android:textColor="#87968B"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
