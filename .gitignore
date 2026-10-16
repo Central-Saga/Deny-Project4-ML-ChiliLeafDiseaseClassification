@@ -242,3 +242,9 @@ Thumbs.db
 
 # Allow final TensorFlow Lite model
 !ml/models/mobilenetv2_chili_float32.tflite
+
+
+# Android generated artifacts
+.kotlin/
+*.apk
+*.aab
