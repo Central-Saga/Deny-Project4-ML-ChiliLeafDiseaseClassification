@@ -245,3 +245,200 @@ Model accuracy, calibration, preprocessing consistency, and class-index alignmen
 This project may be expanded into undergraduate thesis research using chili leaf images collected under real agricultural field conditions.
 
 Future work may include more extensive external validation, model optimization, dataset expansion, and improved disease detection performance.
+
+## Application Screenshots
+
+The following screenshots were captured from the ChiliLeaf AI Android application running on a physical Samsung smartphone.
+
+### 1. Home Screen
+
+![ChiliLeaf AI Home](docs/screenshots/01-home.jpeg)
+
+### 2. Detection and Classification
+
+![ChiliLeaf AI Detection](docs/screenshots/02-detection.jpeg)
+
+### 3. Detection History
+
+![ChiliLeaf AI History](docs/screenshots/03-history.jpeg)
+
+### 4. Disease Guide
+
+![ChiliLeaf AI Disease Guide](docs/screenshots/04-guide.jpeg)
+
+
+## Dataset and Model Evaluation
+
+ChiliLeaf AI uses a dataset of 1,548 chili leaf images divided into four classes.
+
+### Dataset Distribution
+
+| Class | Images |
+|---|---:|
+| Anthracnose | 352 |
+| Cercospora Leaf Spot | 372 |
+| Fresh Leaf | 440 |
+| Leaf Curl Disease | 384 |
+| **Total** | **1,548** |
+
+### Dataset Split
+
+| Split | Images |
+|---|---:|
+| Training | 1,136 |
+| Validation | 207 |
+| Testing | 205 |
+| **Total** | **1,548** |
+
+Dataset split source:
+`ml/results/dataset_split_manifest_v2.csv`
+
+### Model Evaluation Results
+
+The MobileNetV2 model was evaluated on 205 test images.
+
+| Metric | Result |
+|---|---|
+| Test Accuracy | 94.15% |
+| Test Loss | 0.1676 |
+| Macro Precision | 95.04% |
+| Macro Recall | 92.72% |
+| Macro F1-score | 93.22% |
+| Weighted F1-score | 94.01% |
+
+### Per-Class Performance
+
+| Class | Precision | Recall | F1-score |
+|---|---:|---:|---:|
+| Anthracnose | 1.0000 | 0.7436 | 0.8529 |
+| Cercospora Leaf Spot | 0.8333 | 1.0000 | 0.9091 |
+| Fresh Leaf | 0.9683 | 0.9839 | 0.9760 |
+| Leaf Curl Disease | 1.0000 | 0.9815 | 0.9907 |
+
+Evaluation artifacts:
+
+- `ml/results/classification_report.txt`
+- `ml/results/confusion_matrix.png`
+- `ml/results/prediction_errors.csv`
+- `ml/results/prediction_errors.png`
+
+The reported test accuracy does not guarantee the same
+performance on new images captured in real agricultural
+conditions.
+
+## Running the Android Application
+
+### Requirements
+
+- Android Studio
+- Android SDK
+- Compatible JDK
+- Android smartphone or emulator
+- USB debugging enabled when using a physical smartphone
+
+### Build and Run
+
+1. Clone this repository.
+2. Open the `android-app` folder in Android Studio.
+3. Wait for Gradle synchronization to finish.
+4. Configure the Android SDK if necessary.
+5. Connect an Android device or start an emulator.
+6. Select the target device.
+7. Click **Run** to install and launch ChiliLeaf AI.
+
+Alternatively, build the debug APK from PowerShell:
+
+```powershell
+cd android-app
+.\gradlew.bat assembleDebug
+```
+
+Generated APK:
+
+`android-app/app/build/outputs/apk/debug/app-debug.apk`
+
+Internet access may be necessary for the initial dependency
+download. Once installed, the bundled ML classification
+workflow operates offline.
+
+## Demo Scenario - 17 October 2026
+
+**Project:** ChiliLeaf AI
+**Date:** Saturday, 17 October 2026
+**Time:** 13:00 WITA
+**Device:** Physical Android smartphone
+
+### 1. Introduction
+
+Introduce ChiliLeaf AI as a native Android application
+for chili leaf disease classification.
+
+Explain that the application uses MobileNetV2 and
+LiteRT for offline Machine Learning inference.
+
+### 2. Home Screen
+
+Open the application and introduce the dashboard
+and four supported classes.
+
+### 3. Detection Feature
+
+Navigate to the Detection screen.
+
+Select a chili leaf image from the gallery or capture
+a photo using the smartphone camera.
+
+### 4. Machine Learning Inference
+
+Demonstrate the loading indicator while the image
+is processed by the bundled model.
+
+### 5. Classification Result
+
+Explain the displayed:
+
+- Predicted disease or leaf condition
+- Confidence score
+- Class probabilities
+- Initial treatment recommendations
+
+### 6. Detection History
+
+Navigate to History.
+
+Show the saved classification result,
+confidence score, timestamp, and scanned photo.
+
+### 7. Disease Guide
+
+Open the Guide screen and explain the available
+information about supported chili leaf conditions.
+
+### 8. Offline Demonstration
+
+Enable Airplane Mode.
+
+Select a locally stored image and perform detection
+to demonstrate offline inference.
+
+### 9. Error Handling
+
+Open the gallery and cancel image selection.
+
+Repeat using the camera.
+
+Show that the application remains open and displays
+cancellation feedback.
+
+### 10. Closing
+
+Summarize the results:
+
+- Dataset: 1,548 images
+- Model: MobileNetV2
+- Test accuracy: 94.15%
+- Test images: 205
+- Android inference: Offline using LiteRT
+
+Explain that predictions are not definitive
+agricultural diagnoses.
