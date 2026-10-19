@@ -1,0 +1,54 @@
+{
+    "model": "MobileNetV2",
+    "python_version": "3.13.15",
+    "tensorflow_version": "2.21.0",
+    "random_seed": 42,
+    "dataset": {
+        "total": 1548,
+        "train": 1136,
+        "validation": 207,
+        "test": 205,
+        "classes": [
+            "Anthracnose",
+            "Cercospora Leaf Spot",
+            "Fresh Leaf",
+            "Leaf Curl Disease"
+        ]
+    },
+    "evaluation": {
+        "test_accuracy": 0.9415,
+        "test_accuracy_percent": 94.15,
+        "test_loss": 0.1676,
+        "macro_precision": 0.9504,
+        "macro_recall": 0.9272,
+        "macro_f1_score": 0.9322,
+        "weighted_f1_score": 0.9401,
+        "test_samples": 205
+    },
+    "per_class": {
+        "Anthracnose": {
+            "precision": 1.0,
+            "recall": 0.7436,
+            "f1_score": 0.8529,
+            "support": 39
+        },
+        "Cercospora Leaf Spot": {
+            "precision": 0.8333,
+            "recall": 1.0,
+            "f1_score": 0.9091,
+            "support": 50
+        },
+        "Fresh Leaf": {
+            "precision": 0.9683,
+            "recall": 0.9839,
+            "f1_score": 0.976,
+            "support": 62
+        },
+        "Leaf Curl Disease": {
+            "precision": 1.0,
+            "recall": 0.9815,
+            "f1_score": 0.9907,
+            "support": 54
+        }
+    }
+}
