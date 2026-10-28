@@ -3,7 +3,7 @@
 ## Project Information
 
 - **Project:** ChiliLeaf AI — Chili Leaf Disease Classification
-- **Issue:** #16 — `[Quality] Foto kamera tidak dikoreksi orientasi EXIF sebelum inferensi — paritas preprocessing dengan Python putus`
+- **Issue:** #15 & #16 — `[Quality] Foto kamera tidak dikoreksi orientasi EXIF sebelum inferensi — paritas preprocessing dengan Python putus`
 - **Fix Date:** 28 October 2026
 - **Platform:** Native Android Application (Kotlin, API 26–36) & TensorFlow Lite (`MobileNetV2`)
 
@@ -66,4 +66,7 @@ Tested on `mobilenetv2_chili_float32.tflite` comparing upright portrait (`600x80
 
 - `./gradlew testDebugUnitTest assembleDebug` executes all unit test classes (`ExifOrientationTest`, `PreprocessingParityTest`, `ExampleUnitTest`) and builds `app-debug.apk`.
 
+Closes #15
 Closes #16
+
+
