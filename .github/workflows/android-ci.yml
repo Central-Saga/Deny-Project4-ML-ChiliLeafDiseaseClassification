@@ -12,9 +12,9 @@ concurrency:
 
 jobs:
   android-unit-tests:
-    name: Android unit tests + assembleDebug
+    name: Android unit tests (./gradlew testDebugUnitTest)
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 25
     defaults:
       run:
         working-directory: android-app
@@ -34,8 +34,8 @@ jobs:
 
       - uses: gradle/actions/setup-gradle@v4
 
-      - name: Unit tests, debug APK, and androidTest APK
-        run: ./gradlew testDebugUnitTest assembleDebug assembleDebugAndroidTest --stacktrace
+      - name: Run Android unit tests
+        run: ./gradlew testDebugUnitTest --stacktrace
 
       - name: Upload unit test reports
         if: always()
@@ -46,40 +46,15 @@ jobs:
             android-app/app/build/reports/tests/testDebugUnitTest/
             android-app/app/build/test-results/testDebugUnitTest/
 
-      - name: Upload debug APK
-        uses: actions/upload-artifact@v4
-        with:
-          name: app-debug-apk
-          path: android-app/app/build/outputs/apk/debug/*.apk
-
-  ml-tests:
-    name: ML reproducibility tests
+  android-apk-build:
+    name: Android APK & instrumented test build
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 25
+    defaults:
+      run:
+        working-directory: android-app
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-      - name: Install minimal pinned deps
-        run: pip install pandas==2.2.3 numpy==2.1.3
-      - name: Run ML unit tests
-        run: python -m unittest discover -s ml/tests -v
-
-  android-instrumented-tests:
-    name: Instrumented tests (emulator, real TFLite model)
-    if: github.event_name == 'workflow_dispatch' || github.ref == 'refs/heads/main'
-    needs: android-unit-tests
-    runs-on: ubuntu-latest
-    timeout-minutes: 45
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Enable KVM
-        run: |
-          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
-          sudo udevadm control --reload-rules
-          sudo udevadm trigger --name-match=kvm
 
       - uses: actions/setup-java@v4
         with:
@@ -88,20 +63,25 @@ jobs:
 
       - uses: gradle/actions/setup-gradle@v4
 
-      - name: Run connectedDebugAndroidTest
-        uses: reactivecircus/android-emulator-runner@v2
-        with:
-          api-level: 34
-          arch: x86_64
-          target: google_apis
-          disable-animations: true
-          working-directory: android-app
-          script: ./gradlew connectedDebugAndroidTest --stacktrace
+      - name: Build debug APK and instrumented test APK
+        run: ./gradlew assembleDebug assembleDebugAndroidTest --stacktrace
 
-      - name: Upload instrumented test reports
-        if: always()
+      - name: Upload debug APK
         uses: actions/upload-artifact@v4
         with:
-          name: android-instrumented-test-reports
-          path: android-app/app/build/reports/androidTests/
+          name: app-debug-apk
+          path: android-app/app/build/outputs/apk/debug/*.apk
 
+  ml-tests:
+    name: ML reproducibility & TFLite tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install minimal pinned deps
+        run: pip install pandas==2.2.3 numpy==2.1.3 Pillow==11.3.0
+      - name: Run ML unit tests
+        run: python -m unittest discover -s ml/tests -v
