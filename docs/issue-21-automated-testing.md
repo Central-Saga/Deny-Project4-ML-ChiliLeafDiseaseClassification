@@ -1,12 +1,13 @@
-# Issue #21 — Test Nyata Android + CI
+# Issue #21 & #22 — Test Nyata Android + CI
 
-Bukti penyelesaian **Issue #21**: `[Quality] Tidak ada satu pun test nyata — ExampleUnitTest masih assertEquals(4, 2 + 2)` (`Closes #21`).
+Bukti penyelesaian **Issue #21** & **Issue #22**: `[Quality] Tidak ada satu pun test nyata — ExampleUnitTest masih assertEquals(4, 2 + 2)` (`Closes #21`, `Closes #22`).
 
 ## 1. Perubahan
 
 | Item | Perubahan |
 | :--- | :--- |
 | `ExampleUnitTest.kt` (`assertEquals(4, 2 + 2)`) | **Dihapus.** |
+| `ExampleInstrumentedTest.kt` (`useAppContext`) | **Dihapus & digantikan** oleh `ExifOrientationInstrumentedTest.kt` dan `ChiliLeafClassifierInstrumentedTest.kt`. |
 | `ChiliLeafClassifier.kt` | Logika murni diekstrak ke `companion object` agar bisa diuji tanpa model: `parseLabels`, `validateLabels` (tepat 4 label, tidak kosong/duplikat), `buildPrediction` (argmax → label + skor), `computeLetterboxRect`, `pixelsToInputTensor`. `preprocessImage` menjadi `internal` agar bisa diuji di instrumented test. Perilaku inferensi tidak berubah. |
 | `ChiliLeafClassifierLogicTest.kt` (JVM, 10 test) | Validasi label, pemetaan label→confidence dengan array probabilitas buatan, geometri letterbox 1×1 / 100×50 / 50×100, tensor 224×224×3 dengan nilai 0..255 + padding putih. |
 | `PredictionErrorsContractTest.kt` (JVM, 1 test) | `ml/results/prediction_errors.csv` hanya memakai label yang ada di `assets/labels.txt`, confidence ∈ [0,1]. |
@@ -43,3 +44,4 @@ Total: 24 unit test, 0 gagal
 ```
 
 Instrumented test sudah dikompilasi (`assembleDebugAndroidTest`) tetapi belum dijalankan di perangkat lokal (tidak ada emulator/device di mesin build); eksekusinya dilakukan job `android-instrumented-tests` di CI.
+
