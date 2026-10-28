@@ -50,4 +50,6 @@ $ python -m jupyter nbconvert --to notebook --execute --inplace ml/notebooks/chi
 
 Closes #11
 Closes #17
+Closes #18
+
 
