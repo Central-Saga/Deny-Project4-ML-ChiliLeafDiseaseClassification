@@ -3,7 +3,7 @@
 ## Project Information
 
 - **Project:** ChiliLeaf AI — Chili Leaf Disease Classification
-- **Issue:** #11 — `[ML] Reproducibility: requirements pinned + notebook output & metrik final`
+- **Issue:** #11 & #17 — `[ML] Reproducibility` & `[Quality] Notebook training bergantung pada Google Drive & sel eksplorasi ganda`
 - **Audit Round 2 Fix Date:** 28 October 2026
 - **Notebook:** `ml/notebooks/chili_leaf_training.ipynb`
 - **Dependencies:** `requirements.txt` (pinned)
@@ -49,3 +49,5 @@ $ python -m jupyter nbconvert --to notebook --execute --inplace ml/notebooks/chi
 | **Test Samples** | **205** |
 
 Closes #11
+Closes #17
+

@@ -238,7 +238,8 @@ captures/
 **/captures/
 
 # Machine Learning datasets and generated artifacts
-ml/data/
+ml/data/*
+!ml/data/README.md
 ml/models/*.keras
 ml/models/*.h5
 ml/models/*.tflite
