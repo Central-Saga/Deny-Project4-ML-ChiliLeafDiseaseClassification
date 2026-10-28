@@ -88,3 +88,5 @@ BUILD SUCCESSFUL in 1m 26s
 - **Repository Artifact Hygiene:** All build outputs (`build/`, `.gradle/`, `local.properties`, `app-debug.apk`) remain ignored by Git.
 
 Closes #1
+Closes #13
+

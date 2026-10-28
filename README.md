@@ -14,7 +14,7 @@ The application also includes a dashboard, detection history, and a disease info
 
 - Python
 - TensorFlow / Keras
-- Google Colab
+- Google Colab / Jupyter
 - MobileNetV2
 - TensorFlow Lite (.tflite)
 - LiteRT for Android
@@ -174,7 +174,14 @@ Provides information about the four supported chili leaf conditions and initial 
 
 ### Build Debug APK
 
-From the repository root, open PowerShell:
+From the repository root using Linux, macOS, or Git Bash (`android-app/gradlew` is tracked with mode `100755` and `eol=lf` via `.gitattributes`):
+
+```bash
+cd android-app
+./gradlew assembleDebug
+```
+
+Or on Windows PowerShell:
 
 ```powershell
 cd android-app
@@ -230,8 +237,8 @@ Model accuracy, calibration, preprocessing consistency, and class-index alignmen
 - [x] Verify debug APK generation
 - [x] Audit repository structure and `.gitignore`
 - [x] Document the deployed model artifact
-- [ ] Complete the documented cross-check of training preprocessing and output label ordering
-- [ ] Confirm and document the formal training model version and evaluation metrics
+- [x] Complete the documented cross-check of training preprocessing and output label ordering
+- [x] Confirm and document the formal training model version and evaluation metrics
 
 ## Limitations
 
@@ -317,8 +324,10 @@ The MobileNetV2 model was evaluated on 205 test images.
 
 Evaluation artifacts:
 
+- `ml/results/metrics.json`
 - `ml/results/classification_report.txt`
 - `ml/results/confusion_matrix.png`
+- `ml/results/training_curves.png`
 - `ml/results/prediction_errors.csv`
 - `ml/results/prediction_errors.png`
 
@@ -346,7 +355,14 @@ conditions.
 6. Select the target device.
 7. Click **Run** to install and launch ChiliLeaf AI.
 
-Alternatively, build the debug APK from PowerShell:
+Alternatively, build the debug APK from the command line (Linux / macOS / Git Bash):
+
+```bash
+cd android-app
+./gradlew assembleDebug
+```
+
+Or on Windows PowerShell:
 
 ```powershell
 cd android-app
