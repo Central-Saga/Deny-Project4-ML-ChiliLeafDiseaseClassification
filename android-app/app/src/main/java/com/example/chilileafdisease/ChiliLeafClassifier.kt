@@ -7,6 +7,7 @@ import android.graphics.Canvas
 import android.graphics.Color
 import android.graphics.Paint
 import android.graphics.RectF
+import android.media.ExifInterface
 import com.google.ai.edge.litert.CompiledModel
 import kotlin.math.min
 
@@ -51,8 +52,21 @@ class ChiliLeafClassifier(context: Context) : AutoCloseable {
     }
 
     @Synchronized
-    fun classify(bitmap: Bitmap): PredictionResult {
-        val input = preprocessImage(bitmap)
+    fun classify(
+        bitmap: Bitmap,
+        exifOrientation: Int = ExifInterface.ORIENTATION_NORMAL
+    ): PredictionResult {
+        val orientedBitmap = ExifOrientationHelper.applyExifOrientation(
+            bitmap,
+            exifOrientation
+        )
+        val input = try {
+            preprocessImage(orientedBitmap)
+        } finally {
+            if (orientedBitmap !== bitmap) {
+                orientedBitmap.recycle()
+            }
+        }
 
         inputBuffers[0].writeFloat(input)
         model.run(inputBuffers, outputBuffers)

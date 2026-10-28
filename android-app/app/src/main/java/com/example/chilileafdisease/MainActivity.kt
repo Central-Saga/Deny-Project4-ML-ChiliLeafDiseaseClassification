@@ -6,10 +6,10 @@ import android.content.res.ColorStateList
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.graphics.Color
-import android.graphics.ImageDecoder
+import android.graphics.Matrix
 import android.graphics.Typeface
+import android.media.ExifInterface
 import android.net.Uri
-import android.os.Build
 import android.os.Bundle
 import android.view.View
 import android.view.ViewGroup
@@ -695,44 +695,21 @@ class MainActivity : AppCompatActivity() {
     }
 
     // ============================================
-    // MEMBACA GAMBAR DARI GALERI / KAMERA
+    // MEMBACA GAMBAR DARI GALERI / KAMERA + KOREKSI EXIF
     // ============================================
 
     private fun loadBitmap(uri: Uri): Bitmap {
 
-        if (
-            Build.VERSION.SDK_INT >=
-            Build.VERSION_CODES.P
-        ) {
-
-            val source = ImageDecoder.createSource(
-                contentResolver,
-                uri
+        // 1. Baca orientasi EXIF (TAG_ORIENTATION) dari stream gambar (kamera maupun galeri)
+        val exifOrientation = contentResolver.openInputStream(uri)?.use { stream ->
+            val exif = ExifInterface(stream)
+            exif.getAttributeInt(
+                ExifInterface.TAG_ORIENTATION,
+                ExifInterface.ORIENTATION_NORMAL
             )
+        } ?: ExifInterface.ORIENTATION_NORMAL
 
-            return ImageDecoder.decodeBitmap(
-                source
-            ) { decoder, info, _ ->
-
-                val longestSide = maxOf(
-                    info.size.width,
-                    info.size.height
-                )
-
-                if (longestSide > 1024) {
-
-                    decoder.setTargetSampleSize(
-                        (longestSide + 1023) / 1024
-                    )
-                }
-
-                decoder.allocator =
-                    ImageDecoder.ALLOCATOR_SOFTWARE
-            }
-        }
-
-        // Untuk Android versi lama
-
+        // 2. Baca ukuran dimensi asli gambar tanpa mengalokasikan piksel penuh
         val bounds = BitmapFactory.Options().apply {
             inJustDecodeBounds = true
         }
@@ -765,9 +742,11 @@ class MainActivity : AppCompatActivity() {
 
         val options = BitmapFactory.Options().apply {
             inSampleSize = sampleSize
+            inPreferredConfig = Bitmap.Config.ARGB_8888
         }
 
-        return contentResolver.openInputStream(uri)?.use {
+        // 3. Decode bitmap mentah
+        val decodedBitmap = contentResolver.openInputStream(uri)?.use {
 
             BitmapFactory.decodeStream(
                 it,
@@ -776,6 +755,13 @@ class MainActivity : AppCompatActivity() {
             )
 
         } ?: error("Gagal membaca gambar.")
+
+        // 4. Terapkan koreksi orientasi EXIF (bitmap.copy + Matrix.postRotate/postScale)
+        //    agar paritas dengan ImageOps.exif_transpose di Python terjaga untuk kamera & galeri
+        return ExifOrientationHelper.applyExifOrientation(
+            decodedBitmap,
+            exifOrientation
+        )
     }
 
     // ============================================
