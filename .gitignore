@@ -222,12 +222,20 @@ __marimo__/
 
 # Android Studio / Kotlin
 .gradle/
+**/.gradle/
 .idea/
+**/.idea/
+build/
 **/build/
 local.properties
+**/local.properties
 *.iml
 .externalNativeBuild/
+**/.externalNativeBuild/
 .cxx/
+**/.cxx/
+captures/
+**/captures/
 
 # Machine Learning datasets and generated artifacts
 ml/data/
@@ -243,8 +251,17 @@ Thumbs.db
 # Allow final TensorFlow Lite model
 !ml/models/mobilenetv2_chili_float32.tflite
 
-
-# Android generated artifacts
+# Android generated artifacts & foreign binaries
 .kotlin/
+**/.kotlin/
 *.apk
 *.aab
+*.ap_
+*.dex
+*.aar
+*.jar
+!android-app/gradle/wrapper/gradle-wrapper.jar
+!**/gradle/wrapper/gradle-wrapper.jar
+output-metadata.json
+*.jks
+*.keystore
