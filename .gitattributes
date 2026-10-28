@@ -20,6 +20,7 @@ gradlew.bat text eol=crlf
 *.toml text eol=lf
 *.pro text eol=lf
 *.py text eol=lf
+*.ipynb text eol=lf
 *.md text eol=lf
 *.json text eol=lf
 *.txt text eol=lf
