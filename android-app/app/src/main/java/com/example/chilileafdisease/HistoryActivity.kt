@@ -17,7 +17,6 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import org.json.JSONArray
 import java.io.File
 import java.text.SimpleDateFormat
 import java.util.Date
@@ -39,10 +38,9 @@ class HistoryActivity : AppCompatActivity() {
     private val titleColor = Color.parseColor("#294C35")
     private val secondaryColor = Color.parseColor("#829184")
 
-    private val historyPrefs by lazy {
-        getSharedPreferences("chilileaf_history", MODE_PRIVATE)
+    private val historyRepository by lazy {
+        HistoryRepository.create(this)
     }
-    private val historyKey = "detections"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -102,17 +100,12 @@ class HistoryActivity : AppCompatActivity() {
         finish()
     }
 
-    private fun readHistory(): JSONArray {
-        val raw = historyPrefs.getString(historyKey, "[]") ?: "[]"
-        return try { JSONArray(raw) } catch (_: Exception) { JSONArray() }
-    }
-
     private fun displayHistory() {
-        val history = readHistory()
+        val history = historyRepository.getHistory()
         historyListContainer.removeAllViews()
-        txtHistoryCount.text = history.length().toString()
+        txtHistoryCount.text = history.size.toString()
 
-        if (history.length() == 0) {
+        if (history.isEmpty()) {
             layoutHistoryEmpty.visibility = View.VISIBLE
             historyListContainer.visibility = View.GONE
             btnClearHistory.visibility = View.GONE
@@ -127,39 +120,32 @@ class HistoryActivity : AppCompatActivity() {
             "dd MMM yyyy, HH:mm", Locale.forLanguageTag("id-ID")
         )
 
-        for (index in 0 until history.length()) {
-            val record = history.optJSONObject(index) ?: continue
-            val label = record.optString("label", "Tidak diketahui")
-            val confidenceValue = record.optDouble("confidence", 0.0)
-            val confidence = if (confidenceValue.isFinite()) {
-                confidenceValue.coerceIn(0.0, 1.0)
-            } else {
-                0.0
-            }
+        for (record in history) {
             val confidenceText = String.format(
-                Locale.getDefault(), "%.2f%%", confidence * 100
+                Locale.getDefault(), "%.2f%%", record.confidence * 100
             )
-            val timestamp = record.optLong("timestamp", 0L)
-            val date = if (timestamp > 0L) {
-                dateFormat.format(Date(timestamp))
+            val date = if (record.timestamp > 0L) {
+                dateFormat.format(Date(record.timestamp))
             } else {
                 "Tanggal tidak tersedia"
             }
 
-            // Riwayat lama dapat tidak memiliki photo_file.
-            val photoFileName = record.optString("photo_file", "")
             historyListContainer.addView(
-                createHistoryCard(label, confidenceText, date, photoFileName)
+                createHistoryCard(
+                    record = record,
+                    confidenceText = confidenceText,
+                    date = date
+                )
             )
         }
     }
 
     private fun createHistoryCard(
-        label: String,
-        confidence: String,
-        date: String,
-        photoFileName: String
+        record: HistoryRecord,
+        confidenceText: String,
+        date: String
     ): LinearLayout {
+        val label = record.label
         val card = LinearLayout(this).apply {
             orientation = LinearLayout.VERTICAL
             background = roundedBackground("#FFFFFF", 16)
@@ -167,7 +153,7 @@ class HistoryActivity : AppCompatActivity() {
             setPadding(dp(14), dp(14), dp(14), dp(14))
             isClickable = true
             isFocusable = true
-            contentDescription = "Hasil deteksi $label, confidence $confidence"
+            contentDescription = "Hasil deteksi $label, confidence $confidenceText"
         }
         card.layoutParams = LinearLayout.LayoutParams(
             LinearLayout.LayoutParams.MATCH_PARENT,
@@ -179,7 +165,6 @@ class HistoryActivity : AppCompatActivity() {
             gravity = Gravity.CENTER_VERTICAL
         }
 
-        // FOTO ASLI YANG DIPINDAI, bukan gambar penyakit dari drawable.
         val photoView = ImageView(this).apply {
             layoutParams = LinearLayout.LayoutParams(dp(84), dp(84))
             scaleType = ImageView.ScaleType.CENTER_CROP
@@ -187,21 +172,13 @@ class HistoryActivity : AppCompatActivity() {
             clipToOutline = true
         }
 
-        val photoFile = if (photoFileName.isNotBlank()) {
-            File(File(filesDir, "history_photos"), File(photoFileName).name)
-        } else {
-            null
-        }
-
-        val scannedPhoto = photoFile?.takeIf { it.isFile }?.let {
-            loadThumbnail(it)
-        }
+        val photoFile = historyRepository.resolvePhotoFile(record.photoFileName)
+        val scannedPhoto = photoFile?.let { loadThumbnail(it) }
 
         if (scannedPhoto != null) {
             photoView.setImageBitmap(scannedPhoto)
             photoView.contentDescription = "Foto daun hasil scan $label"
         } else {
-            // JANGAN menampilkan ilustrasi penyakit seolah itu foto scan.
             photoView.setImageResource(android.R.drawable.ic_menu_gallery)
             photoView.scaleType = ImageView.ScaleType.CENTER_INSIDE
             photoView.setPadding(dp(19), dp(19), dp(19), dp(19))
@@ -248,11 +225,11 @@ class HistoryActivity : AppCompatActivity() {
         ), LinearLayout.LayoutParams(
             0, LinearLayout.LayoutParams.WRAP_CONTENT, 1f
         ))
-        confidenceRow.addView(createText(confidence, 13f, primaryGreen, true))
+        confidenceRow.addView(createText(confidenceText, 13f, primaryGreen, true))
         card.addView(confidenceRow)
 
         val detailText = createText(
-            getShortTreatmentAdvice(label), 13f, titleColor
+            TreatmentAdvisor.getShortAdvice(label), 13f, titleColor
         ).apply {
             background = roundedBackground("#EDF5EB", 12)
             setPadding(dp(14), dp(14), dp(14), dp(14))
@@ -287,58 +264,13 @@ class HistoryActivity : AppCompatActivity() {
         }
     }
 
-    private fun getShortTreatmentAdvice(label: String): String {
-        val normalized = label.lowercase(Locale.ROOT)
-            .replace("_", " ").replace("-", " ")
-        val text = when {
-            "fresh" in normalized -> """
-                PERAWATAN DAUN SEHAT
-
-                1. Siram sesuai kebutuhan.
-                2. Pastikan pencahayaan cukup.
-                3. Jaga kebersihan kebun.
-                4. Periksa daun secara rutin.
-            """.trimIndent()
-            "leaf curl" in normalized -> """
-                PENANGANAN AWAL DAUN KERITING
-
-                1. Periksa hama pengisap pada bagian bawah daun.
-                2. Periksa kondisi air dan lingkungan.
-                3. Pantau daun muda.
-                4. Konsultasikan jika gejala meluas.
-            """.trimIndent()
-            "cercospora" in normalized -> """
-                PENANGANAN AWAL BERCAK DAUN
-
-                1. Pantau bercak pada daun lain.
-                2. Singkirkan daun rusak berat.
-                3. Hindari membasahi daun berlebihan.
-                4. Perbaiki sirkulasi udara tanaman.
-            """.trimIndent()
-            "anthracnose" in normalized -> """
-                PENANGANAN AWAL ANTRAKNOSA
-
-                1. Periksa daun, batang, dan buah.
-                2. Singkirkan bagian rusak berat.
-                3. Jaga sanitasi kebun dan peralatan.
-                4. Konsultasikan jika gejala meluas.
-            """.trimIndent()
-            else -> "Panduan belum tersedia untuk kelas ini."
-        }
-        return "$text\n\nCatatan: Hasil AI adalah prediksi, bukan diagnosis pasti."
-    }
-
     private fun confirmClearHistory() {
         AlertDialog.Builder(this)
             .setTitle("Hapus Semua Riwayat?")
             .setMessage("Semua catatan beserta foto hasil scan yang disimpan aplikasi akan dihapus. Tindakan ini tidak dapat dibatalkan.")
             .setNegativeButton("Batal", null)
             .setPositiveButton("Hapus") { _, _ ->
-                val cleared = historyPrefs.edit().remove(historyKey).commit()
-                if (cleared) {
-                    // Hanya foto di folder khusus riwayat yang dihapus.
-                    val photoDirectory = File(filesDir, "history_photos")
-                    photoDirectory.listFiles()?.forEach { if (it.isFile) it.delete() }
+                if (historyRepository.clearHistory()) {
                     displayHistory()
                     Toast.makeText(this, "Riwayat berhasil dihapus", Toast.LENGTH_SHORT).show()
                 } else {
