@@ -1,6 +1,8 @@
-# Issue #21 & #22 — Test Nyata Android + CI
+# Issue #21, #22, & #23 — Test Nyata Android (Unit + Instrumented Emulator) + CI
 
-Bukti penyelesaian **Issue #21** & **Issue #22**: `[Quality] Tidak ada satu pun test nyata — ExampleUnitTest masih assertEquals(4, 2 + 2)` (`Closes #21`, `Closes #22`).
+Bukti penyelesaian:
+- **Issue #21** & **Issue #22**: `[Quality] Tidak ada satu pun test nyata — ExampleUnitTest masih assertEquals(4, 2 + 2)` (`Closes #21`, `Closes #22`)
+- **Issue #23**: `[Quality] Instrumented test hanya di-BUILD, tidak pernah dijalankan — 2 file androidTest tidak pernah dieksekusi` (`Closes #23`)
 
 ## 1. Perubahan
 
@@ -13,7 +15,8 @@ Bukti penyelesaian **Issue #21** & **Issue #22**: `[Quality] Tidak ada satu pun 
 | `PredictionErrorsContractTest.kt` (JVM, 1 test) | `ml/results/prediction_errors.csv` hanya memakai label yang ada di `assets/labels.txt`, confidence ∈ [0,1]. |
 | `ChiliLeafClassifierInstrumentedTest.kt` (perangkat/emulator, 4 test) | Memuat `mobilenetv2_chili_float32.tflite` asli via LiteRT: preprocessing `Bitmap`/`Canvas` nyata (1×1, 100×50, 50×100), prediksi `guide_fresh_leaf` → *Fresh Leaf* dan `guide_cercospora` → *Cercospora Leaf Spot*, serta sampel `IMG_20250615_160853_933.jpg` dari `prediction_errors.csv` (→ *Fresh Leaf*). |
 | `ExifOrientationInstrumentedTest.kt` (perangkat/emulator, 2 test) | Menguji `applyExifOrientation` dengan `Bitmap`/`Matrix` asli dan paritas hasil prediksi model pada rotasi EXIF. |
-| `.github/workflows/android-ci.yml` | 3 job CI di setiap push & PR (0 skipped): `android-unit-tests` (`./gradlew testDebugUnitTest`), `android-apk-build` (`./gradlew assembleDebug assembleDebugAndroidTest`), dan `ml-tests` (`python -m unittest discover -s ml/tests -v`). |
+| `.github/workflows/android-ci.yml` | 3 job CI (`unit`, `instrumented`, `ml`): job `instrumented` menjalankan emulator headless (`reactivecircus/android-emulator-runner@v2`, `api-level: 30`, `target: google_apis`, `arch: x86_64`) dengan `./gradlew connectedDebugAndroidTest --stacktrace` dan mengunggah laporan HTML `app/build/reports/androidTests/connected/` sebagai artifact. |
+| `README.md` | Menambahkan badge CI dan tabel 3 job verifikasi (`unit`, `instrumented`, `ml`) pada bagian **Testing and Verification**. |
 
 ## 2. Nilai acuan instrumented test
 

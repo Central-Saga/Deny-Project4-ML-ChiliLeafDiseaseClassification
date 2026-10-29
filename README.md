@@ -204,7 +204,17 @@ Build outputs, local SDK configuration, APK files, and Gradle caches are exclude
 
 ## Testing and Verification
 
-The application has been exercised on a physical Samsung Android device.
+[![Android & ML CI](https://github.com/Central-Saga/Deny-Project4-ML-ChiliLeafDiseaseClassification/actions/workflows/android-ci.yml/badge.svg?branch=main)](https://github.com/Central-Saga/Deny-Project4-ML-ChiliLeafDiseaseClassification/actions/workflows/android-ci.yml)
+
+Continuous Integration (`.github/workflows/android-ci.yml`) automatically executes three verification jobs on GitHub Actions:
+
+| CI Job | Command Executed | Scope & Verification |
+|---|---|---|
+| **`unit`** (`Android unit tests`) | `./gradlew testDebugUnitTest assembleDebug` | 24 JVM unit tests across 6 test classes (`ChiliLeafClassifierLogicTest`, `ExifOrientationTest`, `PreprocessingParityTest`, `HistoryRepositoryTest`, `InspectionViewModelTest`, `PredictionErrorsContractTest`) + debug APK build |
+| **`instrumented`** (`Instrumented tests`) | `./gradlew connectedDebugAndroidTest` *(API 30 `google_apis` `x86_64` headless emulator)* | 6 on-device instrumented tests across 2 classes (`ChiliLeafClassifierInstrumentedTest`, `ExifOrientationInstrumentedTest`) executing real LiteRT `.tflite` inference (`mobilenetv2_chili_float32.tflite`) and `Bitmap`/`Matrix` EXIF orientation parity, uploading `app/build/reports/androidTests/connected/` HTML reports |
+| **`ml`** (`ML reproducibility tests`) | `python -m unittest discover -s ml/tests -v` | 7 Python tests (`test_notebook_structure.py`, `test_ml_reproducibility.py`) verifying notebook cell outputs, zero data leakage, metrics consistency, and SHA-256 model parity |
+
+The application has also been exercised on a physical Samsung Android device.
 
 The following functionality has been tested during development:
 
