@@ -47,13 +47,26 @@ The application also includes a dashboard, detection history, and a disease info
 | Execution backend | CPU |
 | Execution mode | Offline |
 
-**Bundled model location:**
+**Single-source model location:**
 
-`android-app/app/src/main/assets/mobilenetv2_chili_float32.tflite`
+`ml/models/mobilenetv2_chili_float32.tflite`
+
+During Android builds, the Gradle `syncModelArtifacts` task automatically verifies the SHA-256 checksum and synchronizes the model into `android-app/app/src/main/assets/mobilenetv2_chili_float32.tflite`, eliminating duplicate binary tracking in Git.
 
 **Labels location:**
 
-`android-app/app/src/main/assets/labels.txt`
+`ml/models/labels.txt` (and `android-app/app/src/main/assets/labels.txt`)
+
+### Model Origin and Regeneration
+
+The deployed TFLite model is trained and exported using the reproducible pipeline in `ml/notebooks/chili_leaf_training.ipynb`:
+
+1. **Training & Architecture**: MobileNetV2 pretrained on ImageNet, fine-tuned on the annotated chili leaf dataset (4 classes: Anthracnose, Cercospora Leaf Spot, Fresh Leaf, Leaf Curl Disease).
+2. **Export to TFLite**: Converted using `tf.lite.TFLiteConverter.from_keras_model(model)` with standard Float32 inference.
+3. **How to Regenerate**:
+   - Install requirements: `pip install -r requirements.txt`
+   - Execute notebook: `python -m jupyter nbconvert --to notebook --execute ml/notebooks/chili_leaf_training.ipynb`
+   - The notebook exports the regenerated `.tflite` model directly into `ml/models/mobilenetv2_chili_float32.tflite` and records final metrics in `ml/results/metrics.json`.
 
 ### Model Identity
 
@@ -486,3 +499,8 @@ Summarize the results:
 
 Explain that predictions are not definitive
 agricultural diagnoses.
+
+## License
+
+This project is open-source software licensed under the [MIT License](LICENSE).
+

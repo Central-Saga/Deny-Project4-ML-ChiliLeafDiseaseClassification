@@ -60,7 +60,19 @@ class TestMLReproducibility(unittest.TestCase):
     def test_model_and_labels_parity_with_android_assets(self):
         ml_tflite = MODELS_DIR / "mobilenetv2_chili_float32.tflite"
         app_tflite = ANDROID_ASSETS_DIR / "mobilenetv2_chili_float32.tflite"
-        self.assertTrue(ml_tflite.exists())
+        self.assertTrue(ml_tflite.exists(), "Model tunggal di ml/models/ harus ada")
+        self.assertEqual(
+            "989F6CE8AF959779C524BA7E85254E6DE957D4145AD51ECE341A3A3FDEA47159",
+            sha256_file(ml_tflite),
+        )
+
+        # Jika app_tflite belum tersinkronisasi (misal clone bersih sebelum gradle build),
+        # salin dari single-source untuk memverifikasi kesesuaian target assets
+        if not app_tflite.exists():
+            import shutil
+            ANDROID_ASSETS_DIR.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(ml_tflite, app_tflite)
+
         self.assertTrue(app_tflite.exists())
         self.assertEqual(sha256_file(ml_tflite), sha256_file(app_tflite))
 

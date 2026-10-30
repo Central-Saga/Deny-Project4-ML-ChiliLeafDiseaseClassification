@@ -21,5 +21,6 @@ keystore.properties
 **/keystore.properties
 !keystore.properties.example
 !**/keystore.properties.example
+app/src/main/assets/*.tflite
 output-metadata.json
 

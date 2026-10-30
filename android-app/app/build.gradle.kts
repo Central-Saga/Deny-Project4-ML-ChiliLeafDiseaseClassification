@@ -1,3 +1,6 @@
+import java.io.File
+import java.security.MessageDigest
+import java.util.Locale
 import java.util.Properties
 
 plugins {
@@ -81,4 +84,44 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation(libs.litert)
+}
+
+val syncModelArtifacts = tasks.register("syncModelArtifacts") {
+    description = "Syncs single-source ML model artifact from ml/models into assets with SHA-256 verification"
+    val sourceModel = rootProject.file("../ml/models/mobilenetv2_chili_float32.tflite")
+    val targetDir = file("src/main/assets")
+    val targetModel = File(targetDir, "mobilenetv2_chili_float32.tflite")
+    val expectedSha256 = "989F6CE8AF959779C524BA7E85254E6DE957D4145AD51ECE341A3A3FDEA47159"
+
+    inputs.file(sourceModel)
+    outputs.file(targetModel)
+
+    doLast {
+        if (!sourceModel.exists()) {
+            throw GradleException("Single-source model artifact not found at ${sourceModel.absolutePath}")
+        }
+        val digest = MessageDigest.getInstance("SHA-256")
+        sourceModel.inputStream().use { input ->
+            val buf = ByteArray(65536)
+            var r: Int
+            while (input.read(buf).also { r = it } > 0) {
+                digest.update(buf, 0, r)
+            }
+        }
+        val actualSha256 = digest.digest().joinToString("") { b ->
+            String.format(Locale.US, "%02X", b)
+        }
+        if (actualSha256 != expectedSha256) {
+            throw GradleException("Checksum mismatch for ${sourceModel.name}! Expected $expectedSha256 but got $actualSha256")
+        }
+        targetDir.mkdirs()
+        if (!targetModel.exists() || targetModel.length() != sourceModel.length()) {
+            sourceModel.copyTo(targetModel, overwrite = true)
+            logger.lifecycle("Synchronized single-source ${sourceModel.name} to assets (SHA-256: $actualSha256)")
+        }
+    }
+}
+
+tasks.named("preBuild").configure {
+    dependsOn(syncModelArtifacts)
 }

@@ -249,8 +249,9 @@ ml/models/checkpoints/
 .DS_Store
 Thumbs.db
 
-# Allow final TensorFlow Lite model
+# Allow final TensorFlow Lite model (single source in ml/models/)
 !ml/models/mobilenetv2_chili_float32.tflite
+android-app/app/src/main/assets/*.tflite
 
 # Android generated artifacts & foreign binaries
 .kotlin/
