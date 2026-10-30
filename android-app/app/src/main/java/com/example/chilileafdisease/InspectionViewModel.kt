@@ -11,6 +11,7 @@ import androidx.lifecycle.AndroidViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import java.io.ByteArrayInputStream
 import java.io.File
 import java.util.concurrent.Executor
 import java.util.concurrent.ExecutorService
@@ -117,10 +118,13 @@ class InspectionViewModel @JvmOverloads constructor(
                 statusMessage = statusMessage,
                 historySaved = historySaved
             )
-        } catch (_: Exception) {
+        } catch (e: Exception) {
+            runCatching {
+                android.util.Log.e("InspectionViewModel", "Classification pipeline error", e)
+            }
             _uiState.value = InspectionUiState.Error(
                 statusMessage = "Gagal melakukan prediksi",
-                detailMessage = "Gambar tidak dapat diproses. Pastikan file gambar valid dan coba kembali."
+                detailMessage = "Gambar tidak dapat diproses: ${e.message ?: e.javaClass.simpleName}"
             )
         }
     }
@@ -191,20 +195,25 @@ class InspectionViewModel @JvmOverloads constructor(
     private fun loadBitmapFromUri(uri: Uri): Bitmap {
         val resolver = getApplication<Application>().contentResolver
 
-        val exifOrientation = resolver.openInputStream(uri)?.use { stream ->
-            val exif = ExifInterface(stream)
-            exif.getAttributeInt(
-                ExifInterface.TAG_ORIENTATION,
-                ExifInterface.ORIENTATION_NORMAL
-            )
-        } ?: ExifInterface.ORIENTATION_NORMAL
+        val bytes = resolver.openInputStream(uri)?.use { it.readBytes() }
+            ?: error("Tidak dapat membuka file gambar.")
+
+        val exifOrientation = try {
+            ByteArrayInputStream(bytes).use { stream ->
+                val exif = ExifInterface(stream)
+                exif.getAttributeInt(
+                    ExifInterface.TAG_ORIENTATION,
+                    ExifInterface.ORIENTATION_NORMAL
+                )
+            }
+        } catch (_: Exception) {
+            ExifInterface.ORIENTATION_NORMAL
+        }
 
         val bounds = BitmapFactory.Options().apply {
             inJustDecodeBounds = true
         }
-        resolver.openInputStream(uri)?.use {
-            BitmapFactory.decodeStream(it, null, bounds)
-        } ?: error("Tidak dapat membuka gambar.")
+        BitmapFactory.decodeByteArray(bytes, 0, bytes.size, bounds)
 
         require(bounds.outWidth > 0 && bounds.outHeight > 0) {
             "Format gambar tidak didukung."
@@ -220,9 +229,8 @@ class InspectionViewModel @JvmOverloads constructor(
             inPreferredConfig = Bitmap.Config.ARGB_8888
         }
 
-        val decodedBitmap = resolver.openInputStream(uri)?.use {
-            BitmapFactory.decodeStream(it, null, options)
-        } ?: error("Gagal membaca gambar.")
+        val decodedBitmap = BitmapFactory.decodeByteArray(bytes, 0, bytes.size, options)
+            ?: error("Gagal membaca piksel gambar.")
 
         return ExifOrientationHelper.applyExifOrientation(
             decodedBitmap,
