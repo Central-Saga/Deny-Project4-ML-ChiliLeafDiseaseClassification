@@ -200,6 +200,24 @@ Generated APK:
 
 `android-app/app/build/outputs/apk/debug/app-debug.apk`
 
+### Build Signed Release APK
+
+1. Copy `android-app/keystore.properties.example` to `android-app/keystore.properties`.
+2. Configure your keystore path, alias, and passwords (files are excluded from git tracking).
+3. If `keystore.properties` is absent, the build system gracefully falls back to the debug key so CI and clean builds remain functional.
+
+Execute from `android-app`:
+
+```bash
+./gradlew assembleRelease
+```
+
+Generated APK:
+
+`android-app/app/build/outputs/apk/release/app-release.apk`
+
+Release builds have R8 code minification (`isMinifyEnabled = true`) and resource shrinking (`isShrinkResources = true`) enabled with dedicated keep rules in `proguard-rules.pro`.
+
 Build outputs, local SDK configuration, APK files, and Gradle caches are excluded from Git tracking through `.gitignore`.
 
 ## Testing and Verification

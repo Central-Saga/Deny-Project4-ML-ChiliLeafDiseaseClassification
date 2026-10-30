@@ -17,5 +17,9 @@ build/
 *.dex
 *.jks
 *.keystore
+keystore.properties
+**/keystore.properties
+!keystore.properties.example
+!**/keystore.properties.example
 output-metadata.json
 

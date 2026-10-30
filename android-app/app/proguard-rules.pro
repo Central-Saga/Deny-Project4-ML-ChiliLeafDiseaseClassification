@@ -1,21 +1,25 @@
-# Add project specific ProGuard rules here.
-# You can control the set of applied configuration files using the
-# proguardFiles setting in build.gradle.
-#
-# For more details, see
-#   http://developer.android.com/guide/developing/tools/proguard.html
+# Project specific ProGuard rules for ChiliLeaf AI
 
-# If your project uses WebView with JS, uncomment the following
-# and specify the fully qualified class name to the JavaScript interface
-# class:
-#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
-#   public *;
-#}
+# Keep line numbers and file names for debuggable stack traces in release builds
+-keepattributes SourceFile,LineNumberTable
+-renamesourcefileattribute SourceFile
 
-# Uncomment this to preserve the line number information for
-# debugging stack traces.
-#-keepattributes SourceFile,LineNumberTable
+# LiteRT (TensorFlow Lite) runtime classes and JNI interfaces
+-keep class com.google.ai.edge.litert.** { *; }
+-dontwarn com.google.ai.edge.litert.**
 
-# If you keep the line number information, uncomment this to
-# hide the original source file name.
-#-renamesourcefileattribute SourceFile
+# Native methods called via JNI
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+
+# Domain models, classifier, and state data classes
+-keep class com.example.chilileafdisease.ChiliLeafClassifier** { *; }
+-keep class com.example.chilileafdisease.HistoryRecord { *; }
+-keep class com.example.chilileafdisease.InspectionUiState** { *; }
+-keep class com.example.chilileafdisease.ExifOrientationHelper** { *; }
+-keep class com.example.chilileafdisease.TreatmentAdvisor** { *; }
+
+# AndroidX Lifecycle / ViewModel preservation
+-keep class * extends androidx.lifecycle.ViewModel { *; }
+-keep class * extends androidx.lifecycle.AndroidViewModel { *; }
