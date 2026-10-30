@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="#F5F8F4">
+    android:background="@color/surface_background"
+    android:orientation="vertical">
 
     <!-- ===================================== -->
-    <!-- KONTEN UTAMA HALAMAN DETEKSI -->
+    <!-- SCROLLABLE DETECTION CONTENT          -->
     <!-- ===================================== -->
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:fillViewport="true"
         android:clipToPadding="false"
+        android:fillViewport="true"
         android:scrollbars="none">
 
         <LinearLayout
@@ -24,614 +22,585 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:paddingStart="20dp"
+            android:paddingTop="20dp"
             android:paddingEnd="20dp"
-            android:paddingTop="22dp"
-            android:paddingBottom="24dp">
+            android:paddingBottom="28dp">
 
-            <!-- ================================= -->
-            <!-- HEADER CHILILEAF AI -->
-            <!-- ================================= -->
-
+            <!-- ===================================== -->
+            <!-- TOP BRANDING ROW                     -->
+            <!-- ===================================== -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
+                android:layout_marginBottom="20dp"
                 android:gravity="center_vertical"
-                android:layout_marginBottom="24dp">
+                android:orientation="horizontal">
 
-                <!-- LOGO APLIKASI -->
                 <ImageView
                     android:id="@+id/imgAppLogo"
-                    android:layout_width="54dp"
-                    android:layout_height="54dp"
-                    android:background="#DFEDE1"
-                    android:src="@drawable/logo_chilileaf"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/bg_logo_container"
+                    android:contentDescription="Logo ChiliLeaf AI"
+                    android:padding="6dp"
                     android:scaleType="fitCenter"
-                    android:padding="4dp"
-                    android:contentDescription="Logo ChiliLeaf AI" />
+                    android:src="@drawable/logo_chilileaf" />
 
-                <!-- NAMA APLIKASI -->
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
                     android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:layout_marginStart="12dp">
+                    android:orientation="vertical">
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="ChiliLeaf AI"
+                        android:textColor="@color/text_primary"
                         android:textSize="22sp"
-                        android:textStyle="bold"
-                        android:textColor="#214A32" />
+                        android:textStyle="bold" />
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Smart Plant Diagnosis"
-                        android:textSize="12sp"
-                        android:textColor="#768B7B" />
-
+                        android:textColor="@color/text_tertiary"
+                        android:textSize="12sp" />
                 </LinearLayout>
 
-                <!-- LABEL AI -->
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="AI"
-                    android:textSize="13sp"
-                    android:textStyle="bold"
-                    android:textColor="#286443"
-                    android:background="#DFEDE1"
-                    android:paddingStart="15dp"
-                    android:paddingEnd="15dp"
-                    android:paddingTop="9dp"
-                    android:paddingBottom="9dp" />
-
-            </LinearLayout>
-
-            <!-- ================================= -->
-            <!-- BANNER UTAMA -->
-            <!-- ================================= -->
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:background="#E0EEE1"
-                android:elevation="2dp"
-                android:padding="22dp"
-                android:layout_marginBottom="24dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="ASISTEN TANAMAN CABAI"
-                    android:textColor="#477B59"
+                    android:background="@drawable/bg_pill_badge"
+                    android:paddingStart="12dp"
+                    android:paddingTop="6dp"
+                    android:paddingEnd="12dp"
+                    android:paddingBottom="6dp"
+                    android:text="✦ AI Detector"
+                    android:textColor="@color/brand_primary"
                     android:textSize="11sp"
-                    android:textStyle="bold"
-                    android:letterSpacing="0.08" />
+                    android:textStyle="bold" />
+            </LinearLayout>
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Tanaman sehat,\npanen lebih hebat."
-                    android:textSize="27sp"
-                    android:textStyle="bold"
-                    android:textColor="#214A32"
-                    android:layout_marginTop="10dp"
-                    android:lineSpacingExtra="3dp" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Kenali kondisi daun cabai dengan bantuan kecerdasan buatan."
-                    android:textColor="#63836C"
-                    android:textSize="13sp"
-                    android:layout_marginTop="12dp"
-                    android:lineSpacingExtra="3dp" />
+            <!-- ===================================== -->
+            <!-- BANNER PROMPT                         -->
+            <!-- ===================================== -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="22dp"
+                android:background="@drawable/bg_hero_gradient"
+                android:elevation="2dp"
+                android:orientation="vertical"
+                android:padding="20dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="✦ Deteksi berbasis AI • Offline"
-                    android:textColor="#2D6949"
-                    android:textStyle="bold"
-                    android:textSize="12sp"
-                    android:layout_marginTop="20dp" />
-
-            </LinearLayout>
-
-            <!-- ================================= -->
-            <!-- JUDUL DETEKSI -->
-            <!-- ================================= -->
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Deteksi Kondisi Daun"
-                android:textSize="21sp"
-                android:textStyle="bold"
-                android:textColor="#243E2C" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Ambil foto atau pilih gambar daun cabai untuk dianalisis."
-                android:textSize="13sp"
-                android:textColor="#748579"
-                android:layout_marginTop="6dp"
-                android:layout_marginBottom="18dp" />
-
-            <!-- ================================= -->
-            <!-- KARTU DETEKSI -->
-            <!-- ================================= -->
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:background="#FFFFFF"
-                android:elevation="3dp"
-                android:padding="16dp"
-                android:layout_marginBottom="22dp">
+                    android:background="@drawable/bg_pill_badge"
+                    android:paddingStart="10dp"
+                    android:paddingTop="4dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="4dp"
+                    android:text="DIAGNOSIS MANDIRI"
+                    android:textColor="@color/brand_primary"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Foto Daun Cabai"
-                    android:textStyle="bold"
-                    android:textSize="15sp"
-                    android:textColor="#294F36"
-                    android:layout_marginBottom="12dp" />
+                    android:layout_marginTop="10dp"
+                    android:text="Deteksi Kondisi Daun"
+                    android:textColor="@color/brand_primary_dark"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
-                <!-- PREVIEW FOTO HASIL PILIHAN -->
-                <ImageView
-                    android:id="@+id/imgLeafPreview"
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:lineSpacingExtra="3dp"
+                    android:text="Ambil foto atau pilih gambar daun cabai untuk dianalisis oleh model kecerdasan buatan."
+                    android:textColor="@color/text_secondary"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <!-- ===================================== -->
+            <!-- MODERN DETECTION CARD                 -->
+            <!-- ===================================== -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/bg_card_modern"
+                android:elevation="2dp"
+                android:orientation="vertical"
+                android:padding="18dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="14dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Foto Daun Cabai"
+                        android:textColor="@color/text_primary"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_pill_badge"
+                        android:paddingStart="8dp"
+                        android:paddingTop="3dp"
+                        android:paddingEnd="8dp"
+                        android:paddingBottom="3dp"
+                        android:text="Offline"
+                        android:textColor="@color/brand_primary"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <!-- PREVIEW CONTAINER -->
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="240dp"
-                    android:background="#EAF2E9"
-                    android:contentDescription="Preview gambar daun cabai"
-                    android:scaleType="fitCenter"
-                    android:padding="10dp" />
+                    android:background="@drawable/bg_preview_container"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgLeafPreview"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:contentDescription="Preview gambar daun cabai"
+                        android:padding="8dp"
+                        android:scaleType="fitCenter" />
+                </LinearLayout>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Gunakan foto daun yang jelas dengan pencahayaan cukup."
-                    android:textSize="12sp"
-                    android:textColor="#829184"
-                    android:gravity="center"
                     android:layout_marginTop="12dp"
-                    android:layout_marginBottom="16dp" />
+                    android:layout_marginBottom="16dp"
+                    android:gravity="center"
+                    android:text="Gunakan foto daun tunggal yang jelas dengan pencahayaan cukup."
+                    android:textColor="@color/text_tertiary"
+                    android:textSize="12sp" />
 
-                <!-- TOMBOL GALERI DAN KAMERA -->
+                <!-- DUAL ACTION BUTTONS (GALLERY & CAMERA) -->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
-                    <!-- GALERI -->
+                    <!-- BUTTON SELECT GALLERY -->
                     <Button
                         android:id="@+id/btnSelectImage"
                         android:layout_width="0dp"
-                        android:layout_height="54dp"
-                        android:layout_weight="1"
+                        android:layout_height="52dp"
                         android:layout_marginEnd="6dp"
-                        android:text="Galeri"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_button_tonal"
+                        android:elevation="1dp"
+                        android:stateListAnimator="@null"
+                        android:text="Pilih Galeri"
                         android:textAllCaps="false"
+                        android:textColor="@color/brand_primary"
                         android:textSize="14sp"
-                        android:textStyle="bold"
-                        android:backgroundTint="#E2F0E5"
-                        android:textColor="#276544" />
+                        android:textStyle="bold" />
 
-                    <!-- KAMERA -->
+                    <!-- BUTTON TAKE CAMERA -->
                     <Button
                         android:id="@+id/btnTakePhoto"
                         android:layout_width="0dp"
-                        android:layout_height="54dp"
-                        android:layout_weight="1"
+                        android:layout_height="52dp"
                         android:layout_marginStart="6dp"
-                        android:text="Kamera"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_button_primary"
+                        android:elevation="2.5dp"
+                        android:stateListAnimator="@null"
+                        android:text="Buka Kamera"
                         android:textAllCaps="false"
+                        android:textColor="@color/text_on_primary"
                         android:textSize="14sp"
-                        android:textStyle="bold"
-                        android:backgroundTint="#2B704B"
-                        android:textColor="#FFFFFF" />
-
+                        android:textStyle="bold" />
                 </LinearLayout>
 
-                <!-- LOADING PREDIKSI -->
+                <!-- LOADING PROGRESS -->
                 <ProgressBar
                     android:id="@+id/progressPrediction"
-                    android:layout_width="42dp"
-                    android:layout_height="42dp"
+                    android:layout_width="38dp"
+                    android:layout_height="38dp"
                     android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="18dp"
-                    android:indeterminateTint="#2B704B"
+                    android:layout_marginTop="16dp"
+                    android:indeterminateTint="@color/brand_primary"
                     android:visibility="gone" />
 
-                <!-- STATUS DETEKSI -->
+                <!-- STATUS TEXT -->
                 <TextView
                     android:id="@+id/txtStatus"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Silakan pilih gambar daun cabai."
-                    android:textSize="13sp"
-                    android:textColor="#718273"
-                    android:gravity="center"
                     android:layout_marginTop="14dp"
-                    android:layout_marginBottom="6dp" />
-
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center"
+                    android:text="Silakan pilih gambar atau ambil foto daun cabai."
+                    android:textColor="@color/text_secondary"
+                    android:textSize="13sp" />
             </LinearLayout>
 
-            <!-- ================================= -->
-            <!-- HASIL ANALISIS -->
-            <!-- ================================= -->
-
+            <!-- ===================================== -->
+            <!-- HASIL ANALISIS SECTION                -->
+            <!-- ===================================== -->
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
                 android:text="Hasil Analisis"
+                android:textColor="@color/text_primary"
                 android:textSize="20sp"
-                android:textStyle="bold"
-                android:textColor="#243E2C"
-                android:layout_marginBottom="12dp" />
+                android:textStyle="bold" />
 
-            <!-- KARTU HASIL ANALISIS -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:background="#FFFFFF"
+                android:layout_marginBottom="26dp"
+                android:background="@drawable/bg_card_modern"
                 android:elevation="2dp"
-                android:padding="18dp"
-                android:layout_marginBottom="24dp">
+                android:orientation="vertical"
+                android:padding="20dp">
 
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="HASIL DETEKSI AI"
+                    android:background="@drawable/bg_pill_badge"
+                    android:paddingStart="10dp"
+                    android:paddingTop="4dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="4dp"
+                    android:text="HASIL KLASIFIKASI MODEL"
+                    android:textColor="@color/brand_primary"
                     android:textSize="11sp"
-                    android:textStyle="bold"
-                    android:textColor="#6B9074"
-                    android:letterSpacing="0.06" />
+                    android:textStyle="bold" />
 
-                <!-- HASIL MODEL MACHINE LEARNING -->
                 <TextView
                     android:id="@+id/txtPredictionResult"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Hasil analisis akan ditampilkan di sini."
+                    android:layout_marginTop="14dp"
+                    android:lineSpacingExtra="5dp"
+                    android:text="Hasil analisis akan ditampilkan di sini setelah foto dipilih."
+                    android:textColor="@color/brand_primary"
                     android:textSize="16sp"
-                    android:textColor="#245B3C"
-                    android:textStyle="bold"
-                    android:layout_marginTop="12dp"
-                    android:lineSpacingExtra="5dp" />
+                    android:textStyle="bold" />
 
-                <!-- CATATAN HASIL -->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="14dp"
+                    android:background="@color/divider_color" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Prediksi AI dapat memiliki kesalahan. Periksa juga kondisi tanaman secara langsung."
-                    android:textSize="12sp"
-                    android:textColor="#849187"
-                    android:layout_marginTop="14dp"
-                    android:lineSpacingExtra="3dp" />
-
+                    android:lineSpacingExtra="3dp"
+                    android:text="Prediksi AI merupakan panduan awal. Lakukan konfirmasi langsung di lapangan untuk keputusan budidaya."
+                    android:textColor="@color/text_tertiary"
+                    android:textSize="12sp" />
             </LinearLayout>
 
-            <!-- ================================= -->
-            <!-- EMPAT KONDISI DAUN CABAI -->
-            <!-- ================================= -->
-
+            <!-- ===================================== -->
+            <!-- REFERENCE: 4 DISEASE CLASSES         -->
+            <!-- ===================================== -->
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Kenali Kondisi Daun"
+                android:textColor="@color/text_primary"
                 android:textSize="20sp"
-                android:textStyle="bold"
-                android:textColor="#243E2C"
-                android:layout_marginBottom="7dp" />
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="16dp"
                 android:text="Empat kelas yang dikenali ChiliLeaf AI"
-                android:textSize="13sp"
-                android:textColor="#748579"
-                android:layout_marginBottom="14dp" />
+                android:textColor="@color/text_secondary"
+                android:textSize="13sp" />
 
-            <!-- ================================= -->
-            <!-- BARIS PERTAMA GAMBAR -->
-            <!-- ================================= -->
-
+            <!-- GRID ROW 1 -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginBottom="12dp">
+                android:layout_marginBottom="12dp"
+                android:orientation="horizontal">
 
-                <!-- FRESH LEAF -->
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="6dp"
                     android:layout_weight="1"
+                    android:background="@drawable/bg_disease_card"
+                    android:elevation="1.5dp"
                     android:orientation="vertical"
-                    android:background="#FFFFFF"
-                    android:padding="8dp"
-                    android:elevation="2dp"
-                    android:layout_marginEnd="6dp">
+                    android:padding="10dp">
 
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="135dp"
-                        android:src="@drawable/guide_fresh_leaf"
+                        android:layout_height="125dp"
+                        android:contentDescription="Ilustrasi Fresh Leaf"
                         android:scaleType="fitCenter"
-                        android:contentDescription="Ilustrasi Fresh Leaf" />
+                        android:src="@drawable/guide_fresh_leaf" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center"
                         android:text="Fresh Leaf"
-                        android:textColor="#294F36"
-                        android:textStyle="bold"
-                        android:gravity="center"
-                        android:textSize="12sp"
-                        android:layout_marginTop="8dp" />
-
+                        android:textColor="@color/text_primary"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
-                <!-- LEAF CURL -->
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
                     android:layout_weight="1"
+                    android:background="@drawable/bg_disease_card"
+                    android:elevation="1.5dp"
                     android:orientation="vertical"
-                    android:background="#FFFFFF"
-                    android:padding="8dp"
-                    android:elevation="2dp"
-                    android:layout_marginStart="6dp">
+                    android:padding="10dp">
 
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="135dp"
-                        android:src="@drawable/guide_leaf_curl"
+                        android:layout_height="125dp"
+                        android:contentDescription="Ilustrasi Leaf Curl Disease"
                         android:scaleType="fitCenter"
-                        android:contentDescription="Ilustrasi Leaf Curl Disease" />
+                        android:src="@drawable/guide_leaf_curl" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Leaf Curl Disease"
-                        android:textColor="#294F36"
-                        android:textStyle="bold"
+                        android:layout_marginTop="8dp"
                         android:gravity="center"
-                        android:textSize="12sp"
-                        android:layout_marginTop="8dp" />
-
+                        android:text="Leaf Curl Disease"
+                        android:textColor="@color/text_primary"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
                 </LinearLayout>
-
             </LinearLayout>
 
-            <!-- ================================= -->
-            <!-- BARIS KEDUA GAMBAR -->
-            <!-- ================================= -->
-
+            <!-- GRID ROW 2 -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginBottom="12dp">
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal">
 
-                <!-- CERCOSPORA -->
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="6dp"
                     android:layout_weight="1"
+                    android:background="@drawable/bg_disease_card"
+                    android:elevation="1.5dp"
                     android:orientation="vertical"
-                    android:background="#FFFFFF"
-                    android:padding="8dp"
-                    android:elevation="2dp"
-                    android:layout_marginEnd="6dp">
+                    android:padding="10dp">
 
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="135dp"
-                        android:src="@drawable/guide_cercospora"
+                        android:layout_height="125dp"
+                        android:contentDescription="Ilustrasi Cercospora Leaf Spot"
                         android:scaleType="fitCenter"
-                        android:contentDescription="Ilustrasi Cercospora Leaf Spot" />
+                        android:src="@drawable/guide_cercospora" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Cercospora Leaf Spot"
-                        android:textColor="#294F36"
-                        android:textStyle="bold"
+                        android:layout_marginTop="8dp"
                         android:gravity="center"
-                        android:textSize="12sp"
-                        android:layout_marginTop="8dp" />
-
+                        android:text="Cercospora Spot"
+                        android:textColor="@color/text_primary"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
-                <!-- ANTHRACNOSE -->
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
                     android:layout_weight="1"
+                    android:background="@drawable/bg_disease_card"
+                    android:elevation="1.5dp"
                     android:orientation="vertical"
-                    android:background="#FFFFFF"
-                    android:padding="8dp"
-                    android:elevation="2dp"
-                    android:layout_marginStart="6dp">
+                    android:padding="10dp">
 
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="135dp"
-                        android:src="@drawable/guide_anthracnose"
+                        android:layout_height="125dp"
+                        android:contentDescription="Ilustrasi Anthracnose"
                         android:scaleType="fitCenter"
-                        android:contentDescription="Ilustrasi Anthracnose" />
+                        android:src="@drawable/guide_anthracnose" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center"
                         android:text="Anthracnose"
-                        android:textColor="#294F36"
-                        android:textStyle="bold"
-                        android:gravity="center"
-                        android:textSize="12sp"
-                        android:layout_marginTop="8dp" />
-
+                        android:textColor="@color/text_primary"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
                 </LinearLayout>
-
             </LinearLayout>
 
-            <!-- KETERANGAN ILUSTRASI -->
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Gambar di atas merupakan ilustrasi AI, bukan hasil foto pemeriksaan."
-                android:textColor="#849187"
-                android:textSize="11sp"
                 android:gravity="center"
-                android:layout_marginTop="2dp" />
-
+                android:text="Gambar di atas merupakan ilustrasi AI untuk referensi edukasi visual."
+                android:textColor="@color/text_tertiary"
+                android:textSize="11sp" />
         </LinearLayout>
-
     </ScrollView>
 
     <!-- ===================================== -->
-    <!-- BOTTOM NAVIGATION -->
+    <!-- MODERN BOTTOM NAVIGATION BAR          -->
     <!-- ===================================== -->
-
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="68dp"
-        android:orientation="horizontal"
+        android:layout_height="72dp"
+        android:background="@drawable/bg_bottom_navigation"
+        android:elevation="12dp"
         android:gravity="center_vertical"
-        android:background="#FFFFFF"
-        android:elevation="10dp"
-        android:paddingStart="10dp"
-        android:paddingEnd="10dp">
+        android:orientation="horizontal"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp">
 
-        <!-- MENU BERANDA -->
+        <!-- BERANDA -->
         <LinearLayout
             android:id="@+id/navHome"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="vertical"
-            android:contentDescription="Menu Beranda"
             android:clickable="true"
-            android:focusable="true">
+            android:contentDescription="Beranda"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical">
 
             <ImageView
                 android:layout_width="22dp"
                 android:layout_height="22dp"
-                android:src="@android:drawable/ic_menu_view"
-                app:tint="#87968B"
-                android:contentDescription="Beranda" />
+                android:contentDescription="Beranda"
+                android:src="@drawable/ic_nav_home_modern"
+                app:tint="@color/text_tertiary" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
                 android:text="Beranda"
-                android:textSize="11sp"
-                android:textColor="#87968B"
-                android:layout_marginTop="5dp" />
-
+                android:textColor="@color/text_tertiary"
+                android:textSize="11sp" />
         </LinearLayout>
 
-        <!-- MENU DETEKSI AKTIF -->
+        <!-- DETEKSI (AKTIF) -->
         <LinearLayout
             android:id="@+id/navDetect"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="vertical"
-            android:contentDescription="Menu Deteksi"
             android:clickable="true"
-            android:focusable="true">
+            android:contentDescription="Deteksi"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical">
 
             <ImageView
                 android:layout_width="22dp"
                 android:layout_height="22dp"
-                android:src="@android:drawable/ic_menu_camera"
-                app:tint="#2B704B"
-                android:contentDescription="Deteksi" />
+                android:contentDescription="Deteksi"
+                android:src="@drawable/ic_nav_detect_modern"
+                app:tint="@color/brand_primary" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
                 android:text="Deteksi"
+                android:textColor="@color/brand_primary"
                 android:textSize="11sp"
-                android:textStyle="bold"
-                android:textColor="#2B704B"
-                android:layout_marginTop="5dp" />
-
+                android:textStyle="bold" />
         </LinearLayout>
 
-        <!-- MENU RIWAYAT -->
+        <!-- RIWAYAT -->
         <LinearLayout
             android:id="@+id/navHistory"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="vertical"
-            android:contentDescription="Menu Riwayat"
             android:clickable="true"
-            android:focusable="true">
+            android:contentDescription="Riwayat"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical">
 
             <ImageView
                 android:layout_width="22dp"
                 android:layout_height="22dp"
-                android:src="@android:drawable/ic_menu_recent_history"
-                app:tint="#87968B"
-                android:contentDescription="Riwayat" />
+                android:contentDescription="Riwayat"
+                android:src="@drawable/ic_nav_history_modern"
+                app:tint="@color/text_tertiary" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
                 android:text="Riwayat"
-                android:textSize="11sp"
-                android:textColor="#87968B"
-                android:layout_marginTop="5dp" />
-
+                android:textColor="@color/text_tertiary"
+                android:textSize="11sp" />
         </LinearLayout>
 
-        <!-- MENU PANDUAN -->
+        <!-- PANDUAN -->
         <LinearLayout
             android:id="@+id/navGuide"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="vertical"
-            android:contentDescription="Menu Panduan"
             android:clickable="true"
-            android:focusable="true">
+            android:contentDescription="Panduan"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical">
 
             <ImageView
                 android:layout_width="22dp"
                 android:layout_height="22dp"
-                android:src="@android:drawable/ic_menu_info_details"
-                app:tint="#87968B"
-                android:contentDescription="Panduan" />
+                android:contentDescription="Panduan"
+                android:src="@drawable/ic_nav_guide_modern"
+                app:tint="@color/text_tertiary" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
                 android:text="Panduan"
-                android:textSize="11sp"
-                android:textColor="#87968B"
-                android:layout_marginTop="5dp" />
-
+                android:textColor="@color/text_tertiary"
+                android:textSize="11sp" />
         </LinearLayout>
-
     </LinearLayout>
-
 </LinearLayout>

@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="#F5F8F4">
+    android:background="@color/surface_background"
+    android:orientation="vertical">
 
-    <!-- KONTEN RIWAYAT -->
+    <!-- ===================================== -->
+    <!-- SCROLLABLE HISTORY CONTENT            -->
+    <!-- ===================================== -->
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:clipToPadding="false"
         android:fillViewport="true"
         android:scrollbars="none">
 
@@ -19,15 +21,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="20dp">
+            android:paddingStart="20dp"
+            android:paddingTop="20dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="28dp">
 
-            <!-- HEADER -->
+            <!-- HEADER BRANDING -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
+                android:layout_marginBottom="22dp"
                 android:gravity="center_vertical"
-                android:layout_marginBottom="24dp">
+                android:orientation="horizontal">
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -38,212 +43,219 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="CHILILEAF AI"
-                        android:textColor="#63816B"
-                        android:textSize="11sp"
-                        android:textStyle="bold"
-                        android:letterSpacing="0.08"/>
+                        android:background="@drawable/bg_pill_badge"
+                        android:paddingStart="10dp"
+                        android:paddingTop="4dp"
+                        android:paddingEnd="10dp"
+                        android:paddingBottom="4dp"
+                        android:text="CATATAN DIAGNOSIS"
+                        android:textColor="@color/brand_primary"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
                         android:text="Riwayat Deteksi"
-                        android:textColor="#234A33"
+                        android:textColor="@color/text_primary"
                         android:textSize="26sp"
-                        android:textStyle="bold"
-                        android:layout_marginTop="5dp"/>
+                        android:textStyle="bold" />
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Pantau hasil analisis daun sebelumnya"
-                        android:textColor="#788C7E"
-                        android:textSize="13sp"
-                        android:layout_marginTop="5dp"/>
-
+                        android:layout_marginTop="4dp"
+                        android:text="Pantau seluruh hasil analisis daun sebelumnya"
+                        android:textColor="@color/text_secondary"
+                        android:textSize="13sp" />
                 </LinearLayout>
 
                 <ImageView
-                    android:layout_width="42dp"
-                    android:layout_height="42dp"
-                    android:src="@android:drawable/ic_menu_recent_history"
-                    app:tint="#2B704B"
-                    android:background="#E1EEE2"
-                    android:padding="10dp"
-                    android:contentDescription="Ikon riwayat"/>
-
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/bg_icon_container"
+                    android:contentDescription="Ikon Riwayat"
+                    android:padding="12dp"
+                    android:src="@drawable/ic_nav_history_modern"
+                    app:tint="@color/brand_primary" />
             </LinearLayout>
 
-            <!-- KARTU TOTAL PEMERIKSAAN -->
+            <!-- STAT SUMMARY CARD -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:background="#FFFFFF"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/bg_hero_gradient"
                 android:elevation="2dp"
-                android:padding="20dp"
-                android:layout_marginBottom="26dp">
+                android:orientation="vertical"
+                android:padding="20dp">
 
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/bg_pill_badge"
+                    android:paddingStart="10dp"
+                    android:paddingTop="3dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="3dp"
                     android:text="TOTAL PEMERIKSAAN"
-                    android:textColor="#728978"
-                    android:textSize="11sp"
-                    android:textStyle="bold"
-                    android:letterSpacing="0.06"/>
+                    android:textColor="@color/brand_primary"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/txtHistoryCount"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
                     android:text="0"
-                    android:textColor="#245C3C"
-                    android:textStyle="bold"
-                    android:textSize="34sp"
-                    android:layout_marginTop="8dp"/>
+                    android:textColor="@color/brand_primary_dark"
+                    android:textSize="36sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Hasil analisis yang tersimpan di perangkat"
-                    android:textColor="#839486"
-                    android:textSize="12sp"
-                    android:layout_marginTop="4dp"/>
-
+                    android:layout_marginTop="4dp"
+                    android:text="Hasil analisis yang tersimpan secara lokal di perangkat"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="12sp" />
             </LinearLayout>
 
-            <!-- JUDUL LIST -->
+            <!-- SECTION TITLE ROW -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
+                android:layout_marginBottom="16dp"
                 android:gravity="center_vertical"
-                android:layout_marginBottom="16dp">
+                android:orientation="horizontal">
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Deteksi Terbaru"
-                    android:textColor="#243E2C"
+                    android:textColor="@color/text_primary"
                     android:textSize="20sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Offline"
-                    android:textColor="#34734B"
-                    android:textSize="11sp"
-                    android:textStyle="bold"
-                    android:background="#E1EFE3"
-                    android:paddingStart="12dp"
-                    android:paddingEnd="12dp"
-                    android:paddingTop="7dp"
-                    android:paddingBottom="7dp"/>
-
+                    android:background="@drawable/bg_pill_badge"
+                    android:paddingStart="10dp"
+                    android:paddingTop="4dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="4dp"
+                    android:text="Penyimpanan Lokal"
+                    android:textColor="@color/brand_primary"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
             </LinearLayout>
 
-            <!-- TAMPILAN KETIKA RIWAYAT KOSONG -->
+            <!-- EMPTY STATE LAYOUT -->
             <LinearLayout
                 android:id="@+id/layoutHistoryEmpty"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/bg_card_modern"
+                android:elevation="2dp"
                 android:gravity="center"
-                android:background="#FFFFFF"
-                android:padding="28dp"
-                android:layout_marginBottom="18dp">
+                android:orientation="vertical"
+                android:padding="28dp">
 
                 <ImageView
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
-                    android:src="@android:drawable/ic_menu_gallery"
-                    app:tint="#6B9679"
-                    android:background="#EAF3E9"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/bg_icon_container"
+                    android:contentDescription="Riwayat Kosong"
                     android:padding="16dp"
-                    android:contentDescription="Riwayat masih kosong"/>
+                    android:src="@drawable/ic_nav_history_modern"
+                    app:tint="@color/brand_primary" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"
                     android:text="Belum Ada Riwayat"
+                    android:textColor="@color/text_primary"
                     android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:textColor="#31543C"
-                    android:gravity="center"
-                    android:layout_marginTop="18dp"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Hasil deteksi daun cabai yang kamu lakukan akan muncul di sini."
-                    android:textSize="13sp"
-                    android:textColor="#87968B"
+                    android:layout_marginTop="8dp"
                     android:gravity="center"
-                    android:layout_marginTop="10dp"
-                    android:lineSpacingExtra="3dp"/>
+                    android:lineSpacingExtra="3dp"
+                    android:text="Hasil deteksi daun cabai yang kamu lakukan akan tersimpan rapi di sini."
+                    android:textColor="@color/text_secondary"
+                    android:textSize="13sp" />
 
                 <Button
                     android:id="@+id/btnHistoryStartDetect"
                     android:layout_width="match_parent"
-                    android:layout_height="52dp"
+                    android:layout_height="50dp"
                     android:layout_marginTop="22dp"
-                    android:text="Mulai Deteksi"
+                    android:background="@drawable/bg_button_primary"
+                    android:elevation="2.5dp"
+                    android:stateListAnimator="@null"
+                    android:text="Mulai Deteksi Pertama"
                     android:textAllCaps="false"
-                    android:textStyle="bold"
-                    android:textColor="#FFFFFF"
-                    android:backgroundTint="#2B704B"/>
-
+                    android:textColor="@color/text_on_primary"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
             </LinearLayout>
 
-            <!-- DAFTAR HASIL DETEKSI -->
-            <!-- Diisi melalui HistoryActivity.kt -->
+            <!-- LIST CONTAINER FOR DYNAMIC HISTORY CARDS -->
             <LinearLayout
                 android:id="@+id/historyListContainer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
                 android:orientation="vertical"
-                android:visibility="gone"
-                android:layout_marginBottom="16dp"/>
+                android:visibility="gone" />
 
-            <!-- HAPUS RIWAYAT -->
+            <!-- CLEAR ALL HISTORY BUTTON -->
             <Button
                 android:id="@+id/btnClearHistory"
                 android:layout_width="match_parent"
-                android:layout_height="52dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/bg_button_danger_tonal"
+                android:elevation="1dp"
+                android:stateListAnimator="@null"
                 android:text="Hapus Semua Riwayat"
                 android:textAllCaps="false"
+                android:textColor="@color/status_danger"
+                android:textSize="14sp"
                 android:textStyle="bold"
-                android:textColor="#A13A36"
-                android:backgroundTint="#F5E9E8"
-                android:visibility="gone"
-                android:layout_marginBottom="20dp"/>
+                android:visibility="gone" />
 
-            <!-- CATATAN -->
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Riwayat disimpan secara lokal. Hasil AI merupakan prediksi dan bukan diagnosis pasti."
-                android:textSize="12sp"
-                android:textColor="#87968A"
                 android:gravity="center"
                 android:lineSpacingExtra="3dp"
-                android:layout_marginBottom="16dp"/>
-
+                android:text="Riwayat disimpan lokal pada penyimpanan internal. Hasil AI merupakan prediksi dan bukan diagnosis absolut."
+                android:textColor="@color/text_tertiary"
+                android:textSize="11sp" />
         </LinearLayout>
-
     </ScrollView>
 
-    <!-- BOTTOM NAVIGATION -->
+    <!-- ===================================== -->
+    <!-- MODERN BOTTOM NAVIGATION BAR          -->
+    <!-- ===================================== -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="68dp"
-        android:orientation="horizontal"
+        android:layout_height="72dp"
+        android:background="@drawable/bg_bottom_navigation"
+        android:elevation="12dp"
         android:gravity="center_vertical"
-        android:background="#FFFFFF"
-        android:elevation="10dp"
+        android:orientation="horizontal"
         android:paddingStart="8dp"
         android:paddingEnd="8dp">
 
@@ -253,27 +265,26 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="vertical"
             android:clickable="true"
+            android:contentDescription="Menu Beranda"
             android:focusable="true"
-            android:contentDescription="Menu Beranda">
+            android:gravity="center"
+            android:orientation="vertical">
 
             <ImageView
-                android:layout_width="23dp"
-                android:layout_height="23dp"
-                android:src="@android:drawable/ic_menu_view"
-                app:tint="#87968B"
-                android:contentDescription="Beranda"/>
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:contentDescription="Beranda"
+                android:src="@drawable/ic_nav_home_modern"
+                app:tint="@color/text_tertiary" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
                 android:text="Beranda"
-                android:textSize="11sp"
-                android:textColor="#87968B"
-                android:layout_marginTop="5dp"/>
-
+                android:textColor="@color/text_tertiary"
+                android:textSize="11sp" />
         </LinearLayout>
 
         <!-- DETEKSI -->
@@ -282,57 +293,55 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="vertical"
             android:clickable="true"
+            android:contentDescription="Menu Deteksi"
             android:focusable="true"
-            android:contentDescription="Menu Deteksi">
+            android:gravity="center"
+            android:orientation="vertical">
 
             <ImageView
-                android:layout_width="23dp"
-                android:layout_height="23dp"
-                android:src="@android:drawable/ic_menu_camera"
-                app:tint="#87968B"
-                android:contentDescription="Deteksi"/>
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:contentDescription="Deteksi"
+                android:src="@drawable/ic_nav_detect_modern"
+                app:tint="@color/text_tertiary" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
                 android:text="Deteksi"
-                android:textSize="11sp"
-                android:textColor="#87968B"
-                android:layout_marginTop="5dp"/>
-
+                android:textColor="@color/text_tertiary"
+                android:textSize="11sp" />
         </LinearLayout>
 
-        <!-- RIWAYAT AKTIF -->
+        <!-- RIWAYAT (AKTIF) -->
         <LinearLayout
             android:id="@+id/navHistory"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="vertical"
             android:clickable="true"
+            android:contentDescription="Menu Riwayat"
             android:focusable="true"
-            android:contentDescription="Menu Riwayat">
+            android:gravity="center"
+            android:orientation="vertical">
 
             <ImageView
-                android:layout_width="23dp"
-                android:layout_height="23dp"
-                android:src="@android:drawable/ic_menu_recent_history"
-                app:tint="#2B704B"
-                android:contentDescription="Riwayat"/>
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:contentDescription="Riwayat"
+                android:src="@drawable/ic_nav_history_modern"
+                app:tint="@color/brand_primary" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
                 android:text="Riwayat"
+                android:textColor="@color/brand_primary"
                 android:textSize="11sp"
-                android:textStyle="bold"
-                android:textColor="#2B704B"
-                android:layout_marginTop="5dp"/>
-
+                android:textStyle="bold" />
         </LinearLayout>
 
         <!-- PANDUAN -->
@@ -341,29 +350,26 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="vertical"
             android:clickable="true"
+            android:contentDescription="Menu Panduan"
             android:focusable="true"
-            android:contentDescription="Menu Panduan">
+            android:gravity="center"
+            android:orientation="vertical">
 
             <ImageView
-                android:layout_width="23dp"
-                android:layout_height="23dp"
-                android:src="@android:drawable/ic_menu_info_details"
-                app:tint="#87968B"
-                android:contentDescription="Panduan"/>
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:contentDescription="Panduan"
+                android:src="@drawable/ic_nav_guide_modern"
+                app:tint="@color/text_tertiary" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
                 android:text="Panduan"
-                android:textSize="11sp"
-                android:textColor="#87968B"
-                android:layout_marginTop="5dp"/>
-
+                android:textColor="@color/text_tertiary"
+                android:textSize="11sp" />
         </LinearLayout>
-
     </LinearLayout>
-
 </LinearLayout>

@@ -34,9 +34,9 @@ class HistoryActivity : AppCompatActivity() {
     private lateinit var navHistory: LinearLayout
     private lateinit var navGuide: LinearLayout
 
-    private val primaryGreen = Color.parseColor("#2B704B")
-    private val titleColor = Color.parseColor("#294C35")
-    private val secondaryColor = Color.parseColor("#829184")
+    private val primaryGreen = Color.parseColor("#1E6B42")
+    private val titleColor = Color.parseColor("#17281D")
+    private val secondaryColor = Color.parseColor("#526558")
 
     private val historyRepository by lazy {
         HistoryRepository.create(this)
@@ -148,9 +148,9 @@ class HistoryActivity : AppCompatActivity() {
         val label = record.label
         val card = LinearLayout(this).apply {
             orientation = LinearLayout.VERTICAL
-            background = roundedBackground("#FFFFFF", 16)
+            background = roundedBackground("#FFFFFF", 18, "#E2ECE4", 1)
             elevation = dp(2).toFloat()
-            setPadding(dp(14), dp(14), dp(14), dp(14))
+            setPadding(dp(16), dp(16), dp(16), dp(16))
             isClickable = true
             isFocusable = true
             contentDescription = "Hasil deteksi $label, confidence $confidenceText"
@@ -168,7 +168,7 @@ class HistoryActivity : AppCompatActivity() {
         val photoView = ImageView(this).apply {
             layoutParams = LinearLayout.LayoutParams(dp(84), dp(84))
             scaleType = ImageView.ScaleType.CENTER_CROP
-            background = roundedBackground("#E7F2E7", 12)
+            background = roundedBackground("#EAF5EE", 14)
             clipToOutline = true
         }
 
@@ -208,7 +208,7 @@ class HistoryActivity : AppCompatActivity() {
         card.addView(headerRow)
 
         val divider = View(this).apply {
-            setBackgroundColor(Color.parseColor("#EAF0E9"))
+            setBackgroundColor(Color.parseColor("#E6EEE8"))
         }
         card.addView(divider, LinearLayout.LayoutParams(
             LinearLayout.LayoutParams.MATCH_PARENT, dp(1)
@@ -231,7 +231,7 @@ class HistoryActivity : AppCompatActivity() {
         val detailText = createText(
             TreatmentAdvisor.getShortAdvice(label), 13f, titleColor
         ).apply {
-            background = roundedBackground("#EDF5EB", 12)
+            background = roundedBackground("#EEF6F0", 12)
             setPadding(dp(14), dp(14), dp(14), dp(14))
             visibility = View.GONE
         }
@@ -289,11 +289,14 @@ class HistoryActivity : AppCompatActivity() {
         }
     }
 
-    private fun roundedBackground(color: String, radius: Int): GradientDrawable {
+    private fun roundedBackground(color: String, radius: Int, strokeColor: String? = null, strokeWidthDp: Int = 0): GradientDrawable {
         return GradientDrawable().apply {
             shape = GradientDrawable.RECTANGLE
             setColor(Color.parseColor(color))
             cornerRadius = dp(radius).toFloat()
+            if (strokeColor != null && strokeWidthDp > 0) {
+                setStroke(dp(strokeWidthDp), Color.parseColor(strokeColor))
+            }
         }
     }
 

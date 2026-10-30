@@ -185,8 +185,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setActiveNavigation(active: View) {
-        val activeColor = Color.parseColor("#2B704B")
-        val inactiveColor = Color.parseColor("#87968B")
+        val activeColor = Color.parseColor("#1E6B42")
+        val inactiveColor = Color.parseColor("#7F9386")
         for (item in listOf(navHome, navDetect, navHistory, navGuide)) {
             val selected = item === active
             val color = if (selected) activeColor else inactiveColor
